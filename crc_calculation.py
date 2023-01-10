@@ -1,12 +1,12 @@
 import math      
 
 POLYNOMIAL_BITSTRING = '10001000000100001'
+# POLYNOMIAL_BITSTRING = '10010'
 POLYNOMIAL_BITSTRING_32 = '100000100110000010001110110110111'
 
 def xor(a, b):
     result = []
-    # Traverse all bits, if bits are same, then XOR is 0, else 1
-    for i in range(1, len(b)):
+    for i in range(0, len(b)):
         if a[i] == b[i]:
             result.append('0')
         else:
@@ -14,36 +14,20 @@ def xor(a, b):
  
     return ''.join(result)
 
-
-def mod2div(dividend, divisor):
-    # Number of bits to be XORed at a time.
-    pick = len(divisor)
-    # Slicing the dividend to appropriate length for particular step
-    tmp = dividend[0 : pick]
-    while pick < len(dividend):
-        if tmp[0] == '1':
-            # replace the dividend by the result of XOR and pull 1 bit down
-            tmp = xor(divisor, tmp) + dividend[pick]
-        else: # If leftmost bit is '0'
-            tmp = xor('0' * pick, tmp) + dividend[pick]
-        pick += 1
-    if tmp[0] == '1':
-        tmp = xor(divisor, tmp)
-    else:
-        tmp = xor('0' * pick, tmp)
-    checkword = tmp
-    return checkword
-
-def encodeData(hex_data, key = "10001000000100001"):
-    data = hextobin(hex_data)
-    l_key = len(key)
-    appended_data = data + '0'*(l_key - 1)
-    remainder = mod2div(appended_data, key)
-    codeword = data + remainder
-    return bintohex(remainder)
-
 def hextobin(ini_string):
-    res = "{0:016b}".format(int(ini_string, 16))
+    ini_string_len = len(ini_string) - 2
+    digits = 4 * ini_string_len
+    match digits:
+        case 4:
+            res = "{0:04b}".format(int(ini_string, 16))
+        case 8:
+            res = "{0:08b}".format(int(ini_string, 16))
+        case 16:
+            res = "{0:016b}".format(int(ini_string, 16))
+        case 32:
+            res = "{0:032b}".format(int(ini_string, 16))
+        case default:
+            res = "{0:064b}".format(int(ini_string, 16))
     return res
 
 def bintohex(n):
@@ -52,18 +36,18 @@ def bintohex(n):
     return(hex_num)
 
 def crc_remainder(input_bitstring, initial_filler = '0'):
-    """Calculate the CRC remainder of a string of bits using a chosen polynomial.
-    initial_filler should be '1' or '0'.
-    """
+    input_bitstring = hextobin(input_bitstring)
     polynomial_bitstring = POLYNOMIAL_BITSTRING.lstrip('0')
     len_input = len(input_bitstring)
     initial_padding = (len(polynomial_bitstring) - 1) * initial_filler
     input_padded_array = list(input_bitstring + initial_padding)
+    # print(input_padded_array)
     while '1' in input_padded_array[:len_input]:
         cur_shift = input_padded_array.index('1')
         for i in range(len(polynomial_bitstring)):
             input_padded_array[cur_shift + i] \
             = str(int(polynomial_bitstring[i] != input_padded_array[cur_shift + i]))
+            # print(''.join(input_padded_array))
     return bintohex(''.join(input_padded_array)[len_input:])
 
 def crc_check(input_bitstring, check_value):
@@ -79,47 +63,47 @@ def crc_check(input_bitstring, check_value):
             = str(int(polynomial_bitstring[i] != input_padded_array[cur_shift + i]))
     return ('1' not in ''.join(input_padded_array)[len_input:])
 
-def crc32(data: bytes, poly = 0x04C11DB7):
-    '''
-    CRC-16-CCITT Algorithm
-    '''
-    data = bytearray(data)
-    crc = 0xFFFFFFFF
-    for b in data:
-        cur_byte = 0xFF & b
-        for _ in range(0, 8):
-            if (crc & 0x0001) ^ (cur_byte & 0x0001):
-                crc = (crc >> 1) ^ poly
-            else:
-                crc >>= 1
-            cur_byte >>= 1
-    crc = (~crc & 0xFFFFFFFF)
-    crc = (crc << 8) | ((crc >> 8) & 0xFF)
-    
-    return crc & 0xFFFFFFFF
+def get_crc_error_code(input_bitstring, check_value):
+    crc_real = crc_remainder(input_bitstring)
+    return xor(hextobin(crc_real), hextobin(check_value))
 
-def crc16(data: bytes, poly=0x1021):
-    '''
-    CRC-16-CCITT Algorithm
-    '''
-    data = bytearray(data)
-    crc = 0xFFFF
-    for b in data:
-        cur_byte = 0xFF & b
-        for _ in range(0, 8):
-            if (crc & 0x0001) ^ (cur_byte & 0x0001):
-                crc = (crc >> 1) ^ poly
-            else:
-                crc >>= 1
-            cur_byte >>= 1
-    crc = (~crc & 0xFFFF)
-    crc = (crc << 8) | ((crc >> 8) & 0xFF)
-    return crc & 0xFFFF
+def crc_error_correct(input_bitstring, check_value):
+    crc_error_code = bintohex(get_crc_error_code(input_bitstring, check_value))
+    # print("CRC error code: " + crc_error_code)
+    input_bitstring = hextobin(input_bitstring)
+    len_input = len(input_bitstring)
+    a = "1"
+    crc_table = {}
+    while(len(a) <= len_input):
+        single_bitstring = a.zfill(len_input)
+        single_bitstring_crc = crc_remainder(bintohex(single_bitstring))
+        # print(single_bitstring_crc)
+        list_single_bitstring = []
+        if single_bitstring_crc in crc_table.keys():
+            list_single_bitstring = crc_table[single_bitstring_crc]  
+        list_single_bitstring.append(single_bitstring)
+        crc_table[single_bitstring_crc] = list_single_bitstring
+        # print(crc_table)
+        a += "0"
+    ans = []
+    for correct_single_bitstring in crc_table.get(crc_error_code):
+        candidate_correction = input_bitstring
+        for index in range (0, len_input):
+            bit = correct_single_bitstring[index]
+            if (bit == '1'):
+                if (candidate_correction[index] == '1'):
+                    candidate_correction = candidate_correction[:index] + "0" + candidate_correction[index + 1:]
+                else:
+                    candidate_correction = candidate_correction[:index] + "1" + candidate_correction[index + 1:]
+        ans.append(bintohex(candidate_correction))
+    return ans
 
-print(encodeData("deadbeaf"))
-# print(hextobin('0x1021'))
-print(crc_remainder(hextobin("deadbeaf")))
-print(hex(crc32(b'deadbeaf')))
-print(hex(crc16(b'deadbeaf')))
-print(bintohex(xor(hextobin(encodeData("deadbe")), hextobin("ef"))))
+origin_input_string = "0xdeadbeef"
+corrupt_input_string = "0xdeadbeff"
+print("CRC encode of: " + origin_input_string + " is: " + crc_remainder(origin_input_string))
+print("CRC encode of: " + corrupt_input_string + " is: " + crc_remainder(corrupt_input_string))
+print("Correct input strings from CRC signle bit correction could be: ")
+print(crc_error_correct(corrupt_input_string, "0xc457"))
+# print(crc_error_correct("0x28", "0xe"))
+# print(xor("0011010011100010", "1010010101101010"))
 
