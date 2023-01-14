@@ -4,7 +4,7 @@ POLYNOMIAL_BITSTRING = '10001000000100001'
 # POLYNOMIAL_BITSTRING = '10010'
 POLYNOMIAL_BITSTRING_32 = '100000100110000010001110110110111'
 
-bit_string = {}
+dict_bit_string = {}
 
 def xor(a, b):
     result = []
@@ -69,34 +69,56 @@ def get_crc_error_code(input_bitstring, check_value):
     crc_real = crc_remainder(input_bitstring)
     return xor(hextobin(crc_real), hextobin(check_value))
 
-def crc_error_correct(input_bitstring, check_value):
+def construct_bit_string(input_bitstring, dist):
+    input_bitstring = hextobin(input_bitstring)
+    len_input = len(input_bitstring)
+    if dist == 1:
+        a = "1"
+        while(len(a) <= len_input):
+            single_bitstring = a.zfill(len_input)
+            list_bit_string = []
+            if 1 in dict_bit_string.keys():
+                list_bit_string = dict_bit_string[1]
+            list_bit_string.append(single_bitstring)
+            dict_bit_string[1] = list_bit_string
+            a += "0"
+    elif dist < len_input:
+        list_multi_string = []
+        for prev_bitstring in dict_bit_string[dist - 1]:
+            last_one_position = prev_bitstring.rindex("1")
+            for index in range (last_one_position + 1, len_input):
+                new_bitstring = prev_bitstring[:index] + "1" + prev_bitstring[index + 1:]
+                list_multi_string.append(new_bitstring)
+        dict_bit_string[dist] = list_multi_string
+
+
+
+def crc_error_correct(input_bitstring, check_value, dist):
     crc_error_code = bintohex(get_crc_error_code(input_bitstring, check_value))
+    for num_bits in range (1, dist + 1):
+        construct_bit_string(input_bitstring, num_bits)
     # print("CRC error code: " + crc_error_code)
     input_bitstring = hextobin(input_bitstring)
     len_input = len(input_bitstring)
-    a = "1"
+    # a = "1"
     crc_table = {}
-    while(len(a) <= len_input):
-        single_bitstring = a.zfill(len_input)
-        list_bit_string = []
-        if 1 in bit_string.keys():
-            list_bit_string = bit_string[1]
-        list_bit_string.append(single_bitstring)
-        bit_string[1] = list_bit_string
-        single_bitstring_crc = crc_remainder(bintohex(single_bitstring))
-        # print(single_bitstring_crc)
-        list_single_bitstring = []
-        if single_bitstring_crc in crc_table.keys():
-            list_single_bitstring = crc_table[single_bitstring_crc]  
-        list_single_bitstring.append(single_bitstring)
-        crc_table[single_bitstring_crc] = list_single_bitstring
-        # print(crc_table)
-        a += "0"
+    for num_bits in range (1, dist + 1):
+        for bit_string in dict_bit_string[num_bits]:
+            bit_string_crc = crc_remainder(bintohex(bit_string))
+            list_bitstring_for_crc = []
+            if bit_string_crc in crc_table.keys():
+                list_bitstring_for_crc = crc_table[bit_string_crc]  
+            list_bitstring_for_crc.append(bit_string)
+            crc_table[bit_string_crc] = list_bitstring_for_crc
+    # print(crc_table)
+    if crc_error_code not in crc_table.keys():
+        print("No candidate correction found within the given number of bit errors")
+        return ""
     ans = []
-    for correct_single_bitstring in crc_table.get(crc_error_code):
+    for correct_bitstring in crc_table.get(crc_error_code):
         candidate_correction = input_bitstring
         for index in range (0, len_input):
-            bit = correct_single_bitstring[index]
+            bit = correct_bitstring[index]
             if (bit == '1'):
                 if (candidate_correction[index] == '1'):
                     candidate_correction = candidate_correction[:index] + "0" + candidate_correction[index + 1:]
@@ -105,12 +127,18 @@ def crc_error_correct(input_bitstring, check_value):
         ans.append(bintohex(candidate_correction))
     return ans
 
+# TEST CASE
 origin_input_string = "0xdeadbeef"
-corrupt_input_string = "0xdeadbeff"
+# single bit error
+# corrupt_input_string = "0xdeadbeff"
+# double bit crc_error
+# corrupt_input_string = "0xdeadbfff"
+# three bits error
+corrupt_input_string = "0xdeadbe0f"
+
+
 print("CRC encode of: " + origin_input_string + " is: " + crc_remainder(origin_input_string))
 print("CRC encode of: " + corrupt_input_string + " is: " + crc_remainder(corrupt_input_string))
 print("Correct input strings from CRC signle bit correction could be: ")
-print(crc_error_correct(corrupt_input_string, "0xc457"))
-# print(crc_error_correct("0x28", "0xe"))
-# print(xor("0011010011100010", "1010010101101010"))
+print(crc_error_correct(corrupt_input_string, "0xc457", 3))
 
