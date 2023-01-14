@@ -4,6 +4,8 @@ POLYNOMIAL_BITSTRING = '10001000000100001'
 # POLYNOMIAL_BITSTRING = '10010'
 POLYNOMIAL_BITSTRING_32 = '100000100110000010001110110110111'
 
+bit_string = {}
+
 def xor(a, b):
     result = []
     for i in range(0, len(b)):
@@ -76,6 +78,11 @@ def crc_error_correct(input_bitstring, check_value):
     crc_table = {}
     while(len(a) <= len_input):
         single_bitstring = a.zfill(len_input)
+        list_bit_string = []
+        if 1 in bit_string.keys():
+            list_bit_string = bit_string[1]
+        list_bit_string.append(single_bitstring)
+        bit_string[1] = list_bit_string
         single_bitstring_crc = crc_remainder(bintohex(single_bitstring))
         # print(single_bitstring_crc)
         list_single_bitstring = []
