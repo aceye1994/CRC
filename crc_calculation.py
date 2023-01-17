@@ -1,4 +1,5 @@
-import math      
+import math
+import json   
 
 POLYNOMIAL_BITSTRING = '10001000000100001'
 # POLYNOMIAL_BITSTRING = '10010'
@@ -95,21 +96,22 @@ def construct_bit_string(input_bitstring, dist):
 
 def crc_error_correct(input_bitstring, check_value, dist):
     crc_error_code = bintohex(get_crc_error_code(input_bitstring, check_value))
-    for num_bits in range (1, dist + 1):
-        construct_bit_string(input_bitstring, num_bits)
-    # print("CRC error code: " + crc_error_code)
+    # for num_bits in range (1, dist + 1):
+    #     construct_bit_string(input_bitstring, num_bits)
+    # # print("CRC error code: " + crc_error_code)
     input_bitstring = hextobin(input_bitstring)
     len_input = len(input_bitstring)
-    # a = "1"
     crc_table = {}
-    for num_bits in range (1, dist + 1):
-        for bit_string in dict_bit_string[num_bits]:
-            bit_string_crc = crc_remainder(bintohex(bit_string))
-            list_bitstring_for_crc = []
-            if bit_string_crc in crc_table.keys():
-                list_bitstring_for_crc = crc_table[bit_string_crc]  
-            list_bitstring_for_crc.append(bit_string)
-            crc_table[bit_string_crc] = list_bitstring_for_crc
+    with open('crc_table.json') as json_file:
+        crc_table = json.load(json_file)
+    # for num_bits in range (1, dist + 1):
+    #     for bit_string in dict_bit_string[num_bits]:
+    #         bit_string_crc = crc_remainder(bintohex(bit_string))
+    #         list_bitstring_for_crc = []
+    #         if bit_string_crc in crc_table.keys():
+    #             list_bitstring_for_crc = crc_table[bit_string_crc]  
+    #         list_bitstring_for_crc.append(bit_string)
+    #         crc_table[bit_string_crc] = list_bitstring_for_crc
     # print(crc_table)
     if crc_error_code not in crc_table.keys():
         print("No candidate correction found within the given number of bit errors")
@@ -127,18 +129,5 @@ def crc_error_correct(input_bitstring, check_value, dist):
         ans.append(bintohex(candidate_correction))
     return ans
 
-# TEST CASE
-origin_input_string = "0xdeadbeef"
-# single bit error
-# corrupt_input_string = "0xdeadbeff"
-# double bit crc_error
-# corrupt_input_string = "0xdeadbfff"
-# three bits error
-corrupt_input_string = "0xdeadbe0f"
 
-
-print("CRC encode of: " + origin_input_string + " is: " + crc_remainder(origin_input_string))
-print("CRC encode of: " + corrupt_input_string + " is: " + crc_remainder(corrupt_input_string))
-print("Correct input strings from CRC signle bit correction could be: ")
-print(crc_error_correct(corrupt_input_string, "0xc457", 3))
 
