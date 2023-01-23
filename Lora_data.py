@@ -74,12 +74,18 @@ class Lora_data:
 				initial_candidate_correction += self.symbol_list[i][2:]
 		# print(initial_candidate_correction)
 		self.crc_error_code = bintohex(get_crc_error_code(initial_candidate_correction, self.frame_check_seq))
-		bit_string = ""
-		result = []
-		self.dfs(0, bit_string, result)
-		recover_data_word = display_correction(initial_candidate_correction, result)
-		print("CRC recover of this data word is: ")
-		print(recover_data_word)
+		if self.crc_error_code == '0x0':
+			recover_data_word = [initial_candidate_correction]
+			# print("CRC recover of this data word is: ")
+			# print(recover_data_word)
+			# return recover_data_word
+		else:
+			bit_string = ""
+			result = []
+			self.dfs(0, bit_string, result)
+			recover_data_word = display_correction(initial_candidate_correction, result)
+		# print("CRC recover of this data word is: ")
+		# print(recover_data_word)
 		return recover_data_word
 
 	def dfs(self, index, path_string, result):

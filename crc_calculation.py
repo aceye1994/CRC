@@ -29,6 +29,7 @@ def hextobin(ini_string):
             res = "{0:016b}".format(int(ini_string, 16))
         case 32:
             res = "{0:032b}".format(int(ini_string, 16))
+        # TODO, how to deal with 0 padding
         case default:
             res = "{0:0160b}".format(int(ini_string, 16))
     return res
