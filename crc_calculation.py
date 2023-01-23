@@ -30,7 +30,7 @@ def hextobin(ini_string):
         case 32:
             res = "{0:032b}".format(int(ini_string, 16))
         case default:
-            res = "{0:064b}".format(int(ini_string, 16))
+            res = "{0:0160b}".format(int(ini_string, 16))
     return res
 
 def bintohex(n):
@@ -55,8 +55,10 @@ def crc_remainder(input_bitstring, initial_filler = '0'):
 
 def crc_check(input_bitstring, check_value):
     """Calculate the CRC check of a string of bits using a chosen polynomial."""
+    input_bitstring = hextobin(input_bitstring)
     polynomial_bitstring = POLYNOMIAL_BITSTRING.lstrip('0')
     len_input = len(input_bitstring)
+    check_value = hextobin(check_value)
     initial_padding = check_value
     input_padded_array = list(input_bitstring + initial_padding)
     while '1' in input_padded_array[:len_input]:
@@ -118,6 +120,22 @@ def crc_error_correct(input_bitstring, check_value, dist):
         return ""
     ans = []
     for correct_bitstring in crc_table.get(crc_error_code):
+        candidate_correction = input_bitstring
+        for index in range (0, len_input):
+            bit = correct_bitstring[index]
+            if (bit == '1'):
+                if (candidate_correction[index] == '1'):
+                    candidate_correction = candidate_correction[:index] + "0" + candidate_correction[index + 1:]
+                else:
+                    candidate_correction = candidate_correction[:index] + "1" + candidate_correction[index + 1:]
+        ans.append(bintohex(candidate_correction))
+    return ans
+
+def display_correction(input_bitstring, bit_string_list):
+    input_bitstring = hextobin(input_bitstring)
+    len_input = len(input_bitstring)
+    ans = []
+    for correct_bitstring in bit_string_list:
         candidate_correction = input_bitstring
         for index in range (0, len_input):
             bit = correct_bitstring[index]
