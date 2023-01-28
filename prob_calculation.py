@@ -20,7 +20,7 @@ def prob_no_CRC_pass():
 	return ((1 - p0**(M + m))**3)
 
 def at_least_one_correct_CRC():
-	return 1 - (1 - p0**m)**3
+	return 1 - (1 - p0	**m)**3
 
 def major_correct_symbol():
 	return 3 * p0**2 *(1-p0) + p0**3
@@ -32,13 +32,13 @@ def major_incorrect_symbol():
 	return 1 - major_correct_symbol() - no_major_symbol()
 
 def fail_all_major_correct():
-	return major_correct_symbol()**M 
-	
+	return major_correct_symbol()**M * at_least_one_correct_CRC() - prob_CRC_pass()
+
 def fail_one_symbol_lookup():
-	return M * major_correct_symbol()**(M-1) * no_major_symbol() * at_least_one_correct_CRC() * prob_no_CRC_pass()
+	return M * major_correct_symbol()**(M-1) * no_major_symbol() * at_least_one_correct_CRC()
 
 def fail_two_symbol_lookup():
-	return M * (M - 1) / 2 * major_correct_symbol()**(M-2) * (no_major_symbol())**2 * at_least_one_correct_CRC() * prob_no_CRC_pass()
+	return M * (M - 1) / 2 * major_correct_symbol()**(M-2) * (no_major_symbol())**2 * at_least_one_correct_CRC()
 
 def unrecover():
 	return  1 - at_least_one_correct_CRC() + major_incorrect_symbol()
