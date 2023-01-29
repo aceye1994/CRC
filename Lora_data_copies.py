@@ -6,6 +6,11 @@ class Lora_data_copies:
 		self.copies = input_data_copies
 		self.num_copies = len(input_data_copies)
 		self.recover_dict = {}
+		self.recover_type = -1
+
+	def display(self):
+		for i in range(0, self.num_copies):
+			self.copies[i].display()
 
 	def crcCheckAll(self):
 		for i in range(0, self.num_copies):
@@ -16,6 +21,7 @@ class Lora_data_copies:
 
 	def crcRecover(self):
 		if (self.crcCheckAll()):
+			self.recover_type = 0
 			return
 		for i in range(0, self.num_copies):
 			# print("Recover based on " + str(i + 1) + " data copy and its FCS")
@@ -23,6 +29,7 @@ class Lora_data_copies:
 			crc_recover_list = lora_data.crcRecover(self.copies[:i] + self.copies[i+1:])
 			# print(crc_recover_list)
 			self.recover_dict[i] = crc_recover_list
+			self.recover_type = lora_data.getRecoverType()
 		# print("xxxxxxxx Recover completed xxxxxxxxxxx")
 
 	def getRecoverAns(self):

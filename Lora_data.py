@@ -25,6 +25,9 @@ class Lora_data:
 			self.symbol_list.append(bintohex(binary_data_word[i * SF: i * SF + SF]))
 		# print(self.symbol_list)
 
+	def display(self):
+		print(self.data_word + " " + self.frame_check_seq)
+
 	def recoverCopies(self, lora_copies):
 		recover_symbol_list = {}
 		list_size = len(lora_copies)
@@ -60,6 +63,12 @@ class Lora_data:
 				self.need_crc_set.add(i)
 		# print(recover_symbol_list)
 		return recover_symbol_list
+
+	def getRecoverType(self):
+		if self.is_correct:
+			return 0
+		else: 
+			return len(self.need_crc_set) + 1
 
 	def crcRecover(self, lora_copies):
 		if self.is_correct:

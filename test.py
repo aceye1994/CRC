@@ -5,6 +5,13 @@ from CRC_table import *
 from Lora_data import *
 from Lora_data_copies import *
 from utility import *
+from simulator import *
+
+def test_crc_calculation(origin_input_string):
+	crc_code = crc_remainder(origin_input_string)
+	real_crc_code = crc_remainder("0x54686973206973204C6F5261206D657373616765")
+	lora=Lora_data(origin_input_string, real_crc_code)
+	print(lora.display())
 
 # Construct CRC_TABLE in advance
 def test_generate_crc_table():
@@ -100,6 +107,7 @@ def test_time_major_correct():
 	st = time.time()
 	origin_input_string = "0x54686973206973204C6F5261206D657373616765"
 	crc_code = crc_remainder(origin_input_string)
+	# print(crc_code)
 	# "Thit is LoRa message"
 	corrupt_input_string_1 = "0x54686974206973204C6F5261206D657373616765"
 	# "This it LoRa message"
@@ -151,7 +159,14 @@ def test_time_two_symbol():
 # test_pure_crc_recover()
 # test_crc_copies_recover()
 # test_crc_copies_recover_long()
-test_time_crc_pass()
-test_time_major_correct()
-test_time_one_symbol()
-test_time_two_symbol()
+# test_time_crc_pass()
+# test_time_major_correct()
+# test_time_one_symbol()
+# test_time_two_symbol()
+# lora_data_example = buildLoraCopies()
+# lora_data_example.crcRecover()
+# lora_data_example.getRecoverAns()
+# print(lora_data_example.recover_type)
+# test_crc_calculation("0x54686973056973204C6F5261206D657373616765")
+simulateLoraNtimes(100)
+

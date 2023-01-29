@@ -9,6 +9,10 @@ dict_bit_string = {}
 
 def xor(a, b):
     result = []
+    if(len(a) < len(b)):
+        c = "0"
+        c = c.zfill(len(b) - len(a))
+        a = c + a
     for i in range(0, len(b)):
         if a[i] == b[i]:
             result.append('0')
@@ -71,6 +75,7 @@ def crc_check(input_bitstring, check_value):
 
 def get_crc_error_code(input_bitstring, check_value):
     crc_real = crc_remainder(input_bitstring)
+    # print(crc_real + " " + check_value)
     return xor(hextobin(crc_real), hextobin(check_value))
 
 def construct_bit_string(input_bitstring, dist):
