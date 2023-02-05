@@ -7,7 +7,7 @@ from Lora_data_copies import *
 from utility import *
 
 origin_data_word = "0x54686973206973204C6F5261206D657373616765"
-origin_fcs = crc_remainder(origin_data_word)
+origin_fcs = crc16(origin_data_word)
 c = 3
 p0 = 0.95
 hex_list = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F']

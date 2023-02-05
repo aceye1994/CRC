@@ -39,11 +39,16 @@ def hextobin(ini_string):
     return res
 
 def bintohex(n):
+    size = len(n) / 4
     num = int(n, 2)
     hex_num = hex(num)
-    return(hex_num)
+    # print(hex_num)
+    while len(hex_num[2:]) < size:
+        hex_num = "0x" + "0" + hex_num[2:]
+    return hex_num
 
 def crc_remainder(input_bitstring, initial_filler = '0'):
+    # print(input_bitstring)
     input_bitstring = hextobin(input_bitstring)
     polynomial_bitstring = POLYNOMIAL_BITSTRING.lstrip('0')
     len_input = len(input_bitstring)
@@ -58,25 +63,50 @@ def crc_remainder(input_bitstring, initial_filler = '0'):
             # print(''.join(input_padded_array))
     return bintohex(''.join(input_padded_array)[len_input:])
 
+def crc16(origin_string):
+    # print(origin_string)
+    if origin_string.find("0x") != -1:
+        origin_string = origin_string[2:]
+    # print(origin_string)
+    data = bytearray.fromhex(origin_string)
+    len1 = len(data)
+    crc = 0x0000
+    for i in range(len1 - 2):
+        newByte = data[i]
+        for j in range(8):
+            if ((crc & 0x8000) >> 8) ^ (newByte & 0x80):
+                crc = (crc << 1) ^ 0x1021
+            else:
+                crc = (crc << 1)
+            newByte <<= 1
+        # print(hex(crc))
+    result = crc ^ data[len1 - 1] ^ (data[len1 - 2] << 8)
+    return hex(result & 0xffff)
+
 def crc_check(input_bitstring, check_value):
     """Calculate the CRC check of a string of bits using a chosen polynomial."""
-    input_bitstring = hextobin(input_bitstring)
-    polynomial_bitstring = POLYNOMIAL_BITSTRING.lstrip('0')
-    len_input = len(input_bitstring)
-    check_value = hextobin(check_value)
-    initial_padding = check_value
-    input_padded_array = list(input_bitstring + initial_padding)
-    while '1' in input_padded_array[:len_input]:
-        cur_shift = input_padded_array.index('1')
-        for i in range(len(polynomial_bitstring)):
-            input_padded_array[cur_shift + i] \
-            = str(int(polynomial_bitstring[i] != input_padded_array[cur_shift + i]))
-    return ('1' not in ''.join(input_padded_array)[len_input:])
+    # input_bitstring = hextobin(input_bitstring)
+    # polynomial_bitstring = POLYNOMIAL_BITSTRING.lstrip('0')
+    # len_input = len(input_bitstring)
+    # check_value = hextobin(check_value)
+    # initial_padding = check_value
+    # input_padded_array = list(input_bitstring + initial_padding)
+    # while '1' in input_padded_array[:len_input]:
+    #     cur_shift = input_padded_array.index('1')
+    #     for i in range(len(polynomial_bitstring)):
+    #         input_padded_array[cur_shift + i] \
+    #         = str(int(polynomial_bitstring[i] != input_padded_array[cur_shift + i]))
+    # return ('1' not in ''.join(input_padded_array)[len_input:])
+    return crc16(input_bitstring) == check_value
 
 def get_crc_error_code(input_bitstring, check_value):
-    crc_real = crc_remainder(input_bitstring)
+    crc_real = crc16(input_bitstring)
     # print(crc_real + " " + check_value)
-    return xor(hextobin(crc_real), hextobin(check_value))
+    int_val1 = int(crc_real, 16)
+    int_val2 = int(check_value, 16)
+    xor_result = int_val1 ^ int_val2
+    hex_result = hex(xor_result)
+    return hex_result
 
 def construct_bit_string(input_bitstring, dist):
     input_bitstring = hextobin(input_bitstring)
@@ -101,9 +131,9 @@ def construct_bit_string(input_bitstring, dist):
         dict_bit_string[dist] = list_multi_string
 
 
-
+# function not in use and crc_table.json is generated with outdated crc16 algorithm
 def crc_error_correct(input_bitstring, check_value, dist):
-    crc_error_code = bintohex(get_crc_error_code(input_bitstring, check_value))
+    crc_error_code = get_crc_error_code(input_bitstring, check_value)
     # for num_bits in range (1, dist + 1):
     #     construct_bit_string(input_bitstring, num_bits)
     # # print("CRC error code: " + crc_error_code)

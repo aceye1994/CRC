@@ -6,12 +6,16 @@ from Lora_data import *
 from Lora_data_copies import *
 from utility import *
 from simulator import *
+from processLog import *
 
 def test_crc_calculation(origin_input_string):
-	crc_code = crc_remainder(origin_input_string)
-	real_crc_code = crc_remainder("0x54686973206973204C6F5261206D657373616765")
-	lora=Lora_data(origin_input_string, real_crc_code)
-	print(lora.display())
+	data = bytearray.fromhex(origin_input_string)
+	crc_code = crc16(data, len(data))
+	real_crc_code = crc16("0x48656c6c6f20776f726c643a203632")
+	# real_crc_code = crc_remainder("0x54686973206973204C6F5261206D657373616765")
+	# lora=Lora_data(origin_input_string, real_crc_code)
+	# print(lora.display())
+	print(hex(crc_code))
 
 # Construct CRC_TABLE in advance
 def test_generate_crc_table():
@@ -35,8 +39,8 @@ def test_pure_crc_recover():
 	# corrupt_input_string = "0xdeadbfff"
 	# three bits error
 	corrupt_input_string = "0xdeadbe0f"
-	print("CRC encode of: " + origin_input_string + " is: " + crc_remainder(origin_input_string))
-	print("CRC encode of: " + corrupt_input_string + " is: " + crc_remainder(corrupt_input_string))
+	print("CRC encode of: " + origin_input_string + " is: " + crc16(origin_input_string))
+	print("CRC encode of: " + corrupt_input_string + " is: " + crc16(corrupt_input_string))
 	print("Correct input strings from CRC signle bit correction could be: ")
 	print(crc_error_correct(corrupt_input_string, "0xc457", 3))
 
@@ -44,9 +48,10 @@ def test_crc_copies_recover():
 	print('\n')
 	print("****************************************************")
 	print("TEST SHORTER CRC MUTILPLE COPIES RECOVERRY")
-	lora_data = Lora_data("0xdeadbeff", "0xc457")
+	crc_code = crc16("0xdeadbeef")
+	lora_data = Lora_data("0xdeadbeff", crc_code)
 	# # lora_data.getDataBySymbol()
-	lora_data_copies = [Lora_data("0xdeadbeee", "0xc457"), Lora_data("0xdeadb00f", "0xc457")]
+	lora_data_copies = [Lora_data("0xdeadbeee", crc_code), Lora_data("0xdeadb00f", crc_code)]
 	# lora_data.recoverCopies(lora_data_copies)
 	print("CRC recover of this data word is: ")
 	print(lora_data.crcRecover(lora_data_copies))
@@ -62,7 +67,7 @@ def test_crc_copies_recover_long():
 	print("TEST LONGER CRC MUTILPLE COPIES RECOVERRY")
 	# Original data "This is LoRa message"
 	origin_input_string = "0x54686973206973204C6F5261206D657373616765"
-	crc_code = crc_remainder(origin_input_string)
+	crc_code = crc16(origin_input_string)
 	print("CRC encode of: " + origin_input_string + " is: " + crc_code)
 
 	# 3 copies all corrupted
@@ -88,9 +93,12 @@ def test_crc_copies_recover_long():
 	lora_data_copies.getRecoverAns()
 
 def test_time_crc_pass():
+	print('\n')
+	print("****************************************************")
+	print("TEST LORA COPIES WITH ONE CRC CHECK VALID")
 	st = time.time()
 	origin_input_string = "0x54686973206973204C6F5261206D657373616765"
-	crc_code = crc_remainder(origin_input_string)
+	crc_code = crc16(origin_input_string)
 	# "Thit is LoRa messaga"
 	corrupt_input_string_1 = "0x54686974206973204C6F5261206D657373616761"
 	corrupt_input_string_2 = origin_input_string
@@ -104,9 +112,12 @@ def test_time_crc_pass():
 	print('Execution for one CRC pass:', elapsed_time, 'seconds')
 
 def test_time_major_correct():
+	print('\n')
+	print("****************************************************")
+	print("TEST LORA COPIES WITH MAJOR VOTES CORRECT")
 	st = time.time()
 	origin_input_string = "0x54686973206973204C6F5261206D657373616765"
-	crc_code = crc_remainder(origin_input_string)
+	crc_code = crc16(origin_input_string)
 	# print(crc_code)
 	# "Thit is LoRa message"
 	corrupt_input_string_1 = "0x54686974206973204C6F5261206D657373616765"
@@ -124,7 +135,7 @@ def test_time_major_correct():
 def test_time_one_symbol():
 	st = time.time()
 	origin_input_string = "0x54686973206973204C6F5261206D657373616765"
-	crc_code = crc_remainder(origin_input_string)
+	crc_code = crc16(origin_input_string)
 	# "Thit is LoRa messaga"
 	corrupt_input_string_1 = "0x54686974206973204C6F5261206D657373616761"
 	# "This it LoRa message"
@@ -132,8 +143,9 @@ def test_time_one_symbol():
 	# "This is LoRa messagi"
 	corrupt_input_string_3 = "0x54686973206973204C6F5261206D657373616769"
 	lora_data_copies = Lora_data_copies([Lora_data(corrupt_input_string_1, crc_code), Lora_data(corrupt_input_string_2, crc_code), Lora_data(corrupt_input_string_3, crc_code)])
+	# lora_data_copies.display()
 	lora_data_copies.crcRecover()
-	# lora_data_copies.getRecoverAns()
+	lora_data_copies.getRecoverAns()
 	et = time.time()
 	elapsed_time = et - st
 	print('Execution for one sysmbol:', elapsed_time, 'seconds')
@@ -141,7 +153,7 @@ def test_time_one_symbol():
 def test_time_two_symbol():
 	st = time.time()
 	origin_input_string = "0x54686973206973204C6F5261206D657373616765"
-	crc_code = crc_remainder(origin_input_string)
+	crc_code = crc16(origin_input_string)
 	# "Thit is LoRa messaga"
 	corrupt_input_string_1 = "0x54686974206973204C6F5261206D657373616761"
 	# "This it LoRe message"
@@ -157,16 +169,16 @@ def test_time_two_symbol():
 
 # test_generate_crc_table()
 # test_pure_crc_recover()
-# test_crc_copies_recover()
-# test_crc_copies_recover_long()
-# test_time_crc_pass()
-# test_time_major_correct()
-# test_time_one_symbol()
-# test_time_two_symbol()
-# lora_data_example = buildLoraCopies()
-# lora_data_example.crcRecover()
-# lora_data_example.getRecoverAns()
-# print(lora_data_example.recover_type)
+test_crc_copies_recover()
+test_crc_copies_recover_long()
+test_time_crc_pass()
+test_time_major_correct()
+test_time_one_symbol()
+test_time_two_symbol()
 # test_crc_calculation("0x54686973056973204C6F5261206D657373616765")
-simulateLoraNtimes(100)
+# simulateLoraNtimes(100)
+
+
+# readFile()
+
 

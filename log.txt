@@ -1,0 +1,911 @@
+--------Header--------
+Payload length: 14
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+
+--------Header--------
+Payload length: 14
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+Raw 4c656c6c6f20777e707d743b20303832
+Calculated 9307
+Got 3238
+rx msg: Lello w~p}t; 0
+
+CRC invalid
+
+Raw 48656c6c6f20776f726c643a2031b0ba
+Calculated bab0
+Got bab0
+rx msg: Hello world: 1
+
+CRC valid!
+
+
+--------Header--------
+Payload length: 14
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+Raw 48656c6c6f2077677a64643a2032b3ba
+Calculated 94fc
+Got bab3
+rx msg: Hello wgzdd: 2
+
+CRC invalid
+
+
+--------Header--------
+Payload length: 14
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+Raw 48656cec678754f526c643a2032b3ba
+Calculated 523a
+Got bab3
+rx msg: Hel�uORld: 2
+
+CRC invalid
+
+
+--------Header--------
+Payload length: 14
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+Raw 48656c6c6f20776f726c643a2033b2ba
+Calculated bab2
+Got bab2
+rx msg: Hello world: 3
+
+CRC valid!
+
+
+--------Header--------
+Payload length: 14
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+Raw 4c216c686f20776f726c643a2035b4ba
+Calculated 3e1d
+Got bab4
+rx msg: L!lho world: 5
+
+CRC invalid
+
+
+--------Header--------
+Payload length: 14
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+Raw 48656c6c6f20776f726c643a2037b6ba
+Calculated bab6
+Got bab6
+rx msg: Hello world: 7
+
+CRC valid!
+
+
+--------Header--------
+Payload length: 14
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+Raw 48656c6c6f20776f726c643a223bb8ba
+Calculated b8ba
+Got bab8
+rx msg: Hello world:";
+
+CRC invalid
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+Raw 48656c6c6f20776f726c643a203120a1b4
+Calculated b6b1
+Got b4a1
+rx msg: Hello world: 1 
+
+CRC invalid
+
+Raw 48656c6c6f20776f726c643a203130293e
+Calculated b6a1
+Got 3e29
+rx msg: Hello world: 10
+
+CRC invalid
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+Raw 4a676c6e6f20776f726c643a203131a0b6
+Calculated e406
+Got b6a0
+rx msg: Jglno world: 11
+
+CRC invalid
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+Raw 48656c6c6f20776f726c643a203132a3b6
+Calculated b6a3
+Got b6a3
+rx msg: Hello world: 12
+
+CRC valid!
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+Raw 48656c6c6f2077ff7afd643a203134a5b6
+Calculated ca07
+Got b6a5
+rx msg: Hello w�z�d: 14
+
+CRC invalid
+
+Raw 48656c2c6f20376f726c643a203134a5b6
+Calculated 1953
+Got b6a5
+rx msg: Hel,o 7orld: 14
+
+CRC invalid
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+Raw 48656c6c6f31666f726cf4a3a82135a4b6
+Calculated 9913
+Got b6a4
+rx msg: Hello1forl���!5
+
+CRC invalid
+
+Raw 48656c6c6f20772b362c643a203135a4b6
+Calculated 2ce7
+Got b6a4
+rx msg: Hello w+6,d: 15
+
+CRC invalid
+
+Raw 48656c6c6f20776f726c643a203135a4b6
+Calculated b6a4
+Got b6a4
+rx msg: Hello world: 15
+
+CRC valid!
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+Raw 48656c6c6720f76f726c643a203137a6b6
+Calculated 34a0
+Got b6a6
+rx msg: Hellg �orld: 17
+
+CRC invalid
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+Raw 48656c6c6f20776f726c643a203139a8b6
+Calculated b6a8
+Got b6a8
+rx msg: Hello world: 19
+
+CRC valid!
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+Raw 48656c6c6f20776f726c643a203230a1b5
+Calculated b5a1
+Got b5a1
+rx msg: Hello world: 20
+
+CRC valid!
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+Raw 48656c6c6728f76f726c643a203231a0b5
+Calculated 297c
+Got b5a0
+rx msg: Hellg(�orld: 21
+
+CRC invalid
+
+Raw 48656c2c2b20336f726c643a203231a0b5
+Calculated 18a6
+Got b5a0
+rx msg: Hel,+ 3orld: 21
+
+CRC invalid
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+Raw 861686c6f20772f722c603a203232a3b5
+Calculated 6bac
+Got b5a3
+rx msg:ahlo w/r,`: 22
+
+CRC invalid
+
+Raw 975384c65af56f727c653a203232a3b5
+Calculated 6e3
+Got b5a3
+rx msg: 	u8Le
+�or|e: 22
+
+CRC invalid
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+Raw 48656c6c6f20776f726c643a203234a7b5
+Calculated b5a5
+Got b5a7
+rx msg: Hello world: 24
+
+CRC invalid
+
+Raw 48656c6c6f20776f726c643a203234a5b5
+Calculated b5a5
+Got b5a5
+rx msg: Hello world: 24
+
+CRC valid!
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+Raw 48656c6c6f20776f726c643e603236a7b5
+Calculated 31a7
+Got b5a7
+rx msg: Hello world>`26
+
+CRC invalid
+
+Raw 48656c4c6f0556f726c643a203236a7b5
+Calculated f9d7
+Got b5a7
+rx msg: HelLoUorld: 26
+
+CRC invalid
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+Raw 48656cece7a0ff6d706c64b2281037a6b5
+Calculated fcf0
+Got b5a6
+rx msg: Hel���mpld�(7
+
+CRC invalid
+
+Raw 48656c6c6e20666f726c64ba203237a6b5
+Calculated ca07
+Got b5a6
+rx msg: Helln forld� 27
+
+CRC invalid
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+Raw 48656c6c6f20776f726c643a203238a9b5
+Calculated b5a9
+Got b5a9
+rx msg: Hello world: 28
+
+CRC valid!
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+Raw 48656c6c6f20776f726c647e203731a0b4
+Calculated 71a8
+Got b4a0
+rx msg: Hello world~ 71
+
+CRC invalid
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+Raw 48656c6c6f20776f726c643a203333a2b4
+Calculated b4a2
+Got b4a2
+rx msg: Hello world: 33
+
+CRC valid!
+
+Raw c86564646f20776f726c643a203333a2b4
+Calculated e9c7
+Got b4a2
+rx msg: �eddo world: 33
+
+CRC invalid
+
+Raw 48656c6c6f20776f726c643a2033338294
+Calculated b4a2
+Got 9482
+rx msg: Hello world: 33
+
+CRC invalid
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+Raw 48656c6c6f20776f726c643a203336a7b4
+Calculated b4a7
+Got b4a7
+rx msg: Hello world: 36
+
+CRC valid!
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+Raw 4c652c6c6f20776f726c643a203337aeb4
+Calculated f5de
+Got b4ae
+rx msg: Le,lo world: 37
+
+CRC invalid
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+Raw 48656c6c6f20776f726c643a203338a9b4
+Calculated b4a9
+Got b4a9
+rx msg: Hello world: 38
+
+CRC valid!
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+Raw 48656c6c6f257e7fa64643a203339a8b4
+Calculated 52cc
+Got b4a8
+rx msg: HelloW��dd: 39
+
+CRC invalid
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+Raw c656c2c6b24736f726c643a203430a1b3
+Calculated cc82
+Got b3a1
+rx msg: 
+        el,k$sorld: 40
+
+CRC invalid
+
+Raw 48656c2c6f60336f726c643a203430a1b3
+Calculated 2b41
+Got b3a1
+rx msg: Hel,o`3orld: 40
+
+CRC invalid
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+Raw 48656c6c6f20776f726c643a203432a3b3
+Calculated b3a3
+Got b3a3
+rx msg: Hello world: 42
+
+CRC valid!
+
+Raw 48656c6c6f20776f726c643a2034b2ab33
+Calculated b323
+Got 33ab
+rx msg: Hello world: 4�
+
+CRC invalid
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+Raw 48656c6c6f20776f726c643a203435a4b3
+Calculated b3a4
+Got b3a4
+rx msg: Hello world: 45
+
+CRC valid!
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+Raw 48656c6c6f20776d504c643a2034b0a933
+Calculated 4318
+Got 33a9
+rx msg: Hello wmPLd: 4�
+
+CRC invalid
+
+Raw 48656c6c6f20776f726c647a2474b021b3
+Calculated be69
+Got b321
+rx msg: Hello worldz$t�
+
+CRC invalid
+
+Raw 48656c6c6f20776f726c643a203438a9b3
+Calculated b3a9
+Got b3a9
+rx msg: Hello world: 48
+
+CRC valid!
+
+
+--------Header--------
+Payload length: 175
+CRC presence:   1
+Coding rate:    0
+Header checksum invalid!
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+Raw 48656c6c6f20776f726c643a2035b829ba
+Calculated b229
+Got ba29
+rx msg: Hello world: 5�
+
+CRC invalid
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+Raw 48656c6c6f20776f726c643a203532a3b2
+Calculated b2a3
+Got b2a3
+rx msg: Hello world: 52
+
+CRC valid!
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+Raw 48656c6ce7207f6f726c643a203533a2b2
+Calculated b742
+Got b2a2
+rx msg: Hell� orld: 53
+
+CRC invalid
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+Raw c06de46c6f20776f726c643a203534a5b2
+Calculated 3cd3
+Got b2a5
+rx msg: �m�lo world: 54
+
+CRC invalid
+
+Raw 48656c6c6f20776f726c647e207170e5f6
+Calculated 37e9
+Got f6e5
+rx msg: Hello world~ qp
+
+CRC invalid
+
+Raw 48656c6c7e31666f726c643a203534a5b2
+Calculated ff05
+Got b2a5
+rx msg: Hell~1forld: 54
+
+CRC invalid
+
+
+--------Header--------
+Payload length: 159
+CRC presence:   0
+Coding rate:    4
+Header checksum invalid!
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+Raw 48656c6c6f20776f726c643a203571e4f6
+Calculated b2e0
+Got f6e4
+rx msg: Hello world: 5q
+
+CRC invalid
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+Raw 48656c6c6f20776f726c643a203536a7b2
+Calculated b2a7
+Got b2a7
+rx msg: Hello world: 56
+
+CRC valid!
+
+
+--------Header--------
+Payload length: 75
+CRC presence:   1
+Coding rate:    0
+Header checksum invalid!
+
+
+--------Header--------
+Payload length: 31
+CRC presence:   1
+Coding rate:    0
+Header checksum invalid!
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+Raw 49656c6d6f20776f726c643a203539a8b2
+Calculated 988e
+Got b2a8
+rx msg: Ielmo world: 59
+
+CRC invalid
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+Raw 4c656868ef20f76f726c6418221630a1b1
+Calculated 3cf3
+Got b1a1
+rx msg: Lehh� �orld"0
+
+CRC invalid
+
+Raw 48656c6c6f20776f726c643a203630a1b1
+Calculated b1a1
+Got b1a1
+rx msg: Hello world: 60
+
+CRC valid!
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+Raw 48656c6c6f20776f726c643a203631a0b1
+Calculated b1a0
+Got b1a0
+rx msg: Hello world: 61
+
+CRC valid!
+
+Raw 48756d6c6f20776f726c643a203631a0b1
+Calculated 5eb9
+Got b1a0
+rx msg: Humlo world: 61
+
+CRC invalid
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+Raw 48656c6c6f20776f726c643a203632a3b1
+Calculated b1a3
+Got b1a3
+rx msg: Hello world: 62
+
+CRC valid!
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    0
+Header checksum valid!
+
+Raw 48656c6c6f20776f726c643a203633a2b1
+Calculated b1a2
+Got b1a2
+rx msg: Hello world: 63
+
+CRC valid!
+
+Raw 68456e6e6f20776f726c643a203633a2b1
+Calculated 8c53
+Got b1a2
+rx msg: hEnno world: 63
+
+CRC invalid
+

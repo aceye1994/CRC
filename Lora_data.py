@@ -14,7 +14,9 @@ class Lora_data:
 		self.data_word = input_data
 		self.frame_check_seq = input_crc
 		self.is_correct = crc_check(input_data, input_crc)
-		self.crc_error_code = bintohex(get_crc_error_code(self.data_word, self.frame_check_seq))
+		# print(crc16(self.data_word))
+		self.crc_error_code = get_crc_error_code(self.data_word, self.frame_check_seq)
+		# print(self.crc_error_code)
 		bit_string = ""
 		data_bit_size = len(hextobin(self.data_word))
 		# TODO: check whether data word will pad with 0 if its size is not a multiplier of SF
@@ -82,7 +84,7 @@ class Lora_data:
 			else:
 				initial_candidate_correction += self.symbol_list[i][2:]
 		# print(initial_candidate_correction)
-		self.crc_error_code = bintohex(get_crc_error_code(initial_candidate_correction, self.frame_check_seq))
+		self.crc_error_code = get_crc_error_code(initial_candidate_correction, self.frame_check_seq)
 		if self.crc_error_code == '0x0':
 			recover_data_word = [initial_candidate_correction]
 			# print("CRC recover of this data word is: ")
@@ -98,9 +100,11 @@ class Lora_data:
 		return recover_data_word
 
 	def dfs(self, index, path_string, result):
+		# print("path: " + path_string)
 		if index == self.data_symbol_size:
-			bit_string_crc = crc_remainder(bintohex(path_string))
-			# print(path_string)
+			# print(len(path_string))
+			# print(bintohex(path_string))
+			bit_string_crc = crc16(bintohex(path_string))
 			# print(bit_string_crc)
 			if bit_string_crc == self.crc_error_code:
 				result.append(path_string)
@@ -108,12 +112,14 @@ class Lora_data:
 		else:
 			if index in self.need_crc_set:
 				for symbol_bit_string in bit_list:
+					# print(symbol_bit_string)
 					path_string += symbol_bit_string
 					# print(path_string)
 					self.dfs(index + 1, path_string, result)
 					path_string = path_string[:index * SF]
 			else: 
 				path_string += all_zero
+				# print(path_string)
 				self.dfs(index + 1, path_string, result)
 
 
