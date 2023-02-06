@@ -72,7 +72,42 @@ class Lora_data:
 		else: 
 			return len(self.need_crc_set) + 1
 
-	def crcRecover(self, lora_copies):
+	def crcRecover(self, lora_copies, flag, lora_data_copies):
+		if self.is_correct:
+			print("CRC passed, no need to recover")
+			return
+		recover_symbol_list = {}
+		if flag:
+			recover_symbol_list = self.recoverCopies(lora_copies)
+			# print(recover_symbol_list)
+			lora_data_copies.recover_symbol_list = recover_symbol_list
+			lora_data_copies.need_crc_set = self.need_crc_set
+		else:
+			recover_symbol_list = lora_data_copies.recover_symbol_list
+			self.need_crc_set = lora_data_copies.need_crc_set
+		initial_candidate_correction = "0x"
+		for i in range(0, self.data_symbol_size):
+			if i in recover_symbol_list.keys():
+				initial_candidate_correction += recover_symbol_list[i][2:]
+			else:
+				initial_candidate_correction += self.symbol_list[i][2:]
+		# print(initial_candidate_correction)
+		self.crc_error_code = get_crc_error_code(initial_candidate_correction, self.frame_check_seq)
+		if self.crc_error_code == '0x0':
+			recover_data_word = [initial_candidate_correction]
+			# print("CRC recover of this data word is: ")
+			# print(recover_data_word)
+			# return recover_data_word
+		else:
+			bit_string = ""
+			result = []
+			self.dfs(0, bit_string, result)
+			recover_data_word = display_correction(initial_candidate_correction, result)
+		# print("CRC recover of this data word is: ")
+		# print(recover_data_word)
+		return recover_data_word
+
+	def crcRecover_single(self, lora_copies):
 		if self.is_correct:
 			print("CRC passed, no need to recover")
 			return

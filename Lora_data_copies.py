@@ -7,6 +7,8 @@ class Lora_data_copies:
 		self.num_copies = len(input_data_copies)
 		self.recover_dict = {}
 		self.recover_type = -1
+		self.recover_symbol_list = {}
+		self.need_crc_set = set()
 
 	def display(self):
 		for i in range(0, self.num_copies):
@@ -26,7 +28,10 @@ class Lora_data_copies:
 		for i in range(0, self.num_copies):
 			# print("Recover based on " + str(i + 1) + " data copy and its FCS")
 			lora_data = self.copies[i]
-			crc_recover_list = lora_data.crcRecover(self.copies[:i] + self.copies[i+1:])
+			flag = False
+			if i == 0:
+				flag = True
+			crc_recover_list = lora_data.crcRecover(self.copies[:i] + self.copies[i+1:], flag, self)
 			# print(crc_recover_list)
 			self.recover_dict[i] = crc_recover_list
 			self.recover_type = lora_data.getRecoverType()

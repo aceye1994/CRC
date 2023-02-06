@@ -54,7 +54,7 @@ def test_crc_copies_recover():
 	lora_data_copies = [Lora_data("0xdeadbeee", crc_code), Lora_data("0xdeadb00f", crc_code)]
 	# lora_data.recoverCopies(lora_data_copies)
 	print("CRC recover of this data word is: ")
-	print(lora_data.crcRecover(lora_data_copies))
+	print(lora_data.crcRecover_single(lora_data_copies))
 	# print(lora_data.crc_error_code)
 	# print(lora_data_copies[1].symbol_list)
 	# print(construct_bit_string(8))
@@ -176,7 +176,7 @@ test_time_major_correct()
 test_time_one_symbol()
 test_time_two_symbol()
 # test_crc_calculation("0x54686973056973204C6F5261206D657373616765")
-# simulateLoraNtimes(100)
+simulateLoraNtimes(1000)
 
 
 # readFile()
