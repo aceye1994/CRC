@@ -69,8 +69,10 @@ class Lora_data:
 	def getRecoverType(self):
 		if self.is_correct:
 			return 0
-		else: 
+		elif len(self.need_crc_set) < 3: 
 			return len(self.need_crc_set) + 1
+		else:
+			return 4
 
 	def crcRecover(self, lora_copies, flag, lora_data_copies):
 		if self.is_correct:
@@ -79,12 +81,16 @@ class Lora_data:
 		recover_symbol_list = {}
 		if flag:
 			recover_symbol_list = self.recoverCopies(lora_copies)
+			# print("there")
 			# print(recover_symbol_list)
 			lora_data_copies.recover_symbol_list = recover_symbol_list
 			lora_data_copies.need_crc_set = self.need_crc_set
 		else:
 			recover_symbol_list = lora_data_copies.recover_symbol_list
 			self.need_crc_set = lora_data_copies.need_crc_set
+		if self.getRecoverType() == 4:
+			print("Time exceed, Fail to recover")
+			return []
 		initial_candidate_correction = "0x"
 		for i in range(0, self.data_symbol_size):
 			if i in recover_symbol_list.keys():

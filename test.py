@@ -169,16 +169,20 @@ def test_time_two_symbol():
 
 # test_generate_crc_table()
 # test_pure_crc_recover()
-test_crc_copies_recover()
-test_crc_copies_recover_long()
-test_time_crc_pass()
-test_time_major_correct()
-test_time_one_symbol()
-test_time_two_symbol()
-# test_crc_calculation("0x54686973056973204C6F5261206D657373616765")
-simulateLoraNtimes(1000)
+# test_crc_copies_recover()
+# test_crc_copies_recover_long()
+# test_time_crc_pass()
+# test_time_major_correct()
+# test_time_one_symbol()
+# test_time_two_symbol()
+# # test_crc_calculation("0x54686973056973204C6F5261206D657373616765")
+# simulateLoraNtimes(1)
 
-
-# readFile()
+files= ["log/r-11ah-1.txt", "log/r-11ah-2.txt", "log/r-11ah-3.txt"]
+# files = ["log/0208-sf7_10k_020_m1db-rx-ts1.txt", "log/0208-sf7_10k_020_m1db-rx-ts2.txt", "log/0208-sf7_10k_020_m1db-rx-ts3.txt"]
+# files = ["log/sdr-test-0208/A1.txt", "log/sdr-test-0208/A2.txt", "log/sdr-test-0208/A3.txt"]
+log = processLog(files)
+log.recoverAll()
+log.display()
 
 

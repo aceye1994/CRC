@@ -6,7 +6,7 @@ from Lora_data import *
 from Lora_data_copies import *
 from utility import *
 
-origin_data_word = "0x54686973206973204C6F5261206D657373616765"
+origin_data_word = "0x48656c6c6f20776f726c643a203632"
 origin_fcs = crc16(origin_data_word)
 c = 3
 p0 = 0.95
@@ -54,4 +54,5 @@ def simulateLoraNtimes(n):
 		else:
 			recover_time_record[recover_type] = (elapsed_time, 1)
 		print(recover_time_record)
+		lora_data_copies_example.getRecoverAns()
 	return recover_time_record

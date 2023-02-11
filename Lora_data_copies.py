@@ -13,11 +13,12 @@ class Lora_data_copies:
 	def display(self):
 		for i in range(0, self.num_copies):
 			self.copies[i].display()
+		print("\n")
 
 	def crcCheckAll(self):
 		for i in range(0, self.num_copies):
 			if(self.copies[i].is_correct):
-				self.recover_dict[i] = self.copies[i].data_word
+				self.recover_dict[i] = [self.copies[i].data_word]
 				return True
 		return False
 
@@ -32,12 +33,12 @@ class Lora_data_copies:
 			if i == 0:
 				flag = True
 			crc_recover_list = lora_data.crcRecover(self.copies[:i] + self.copies[i+1:], flag, self)
-			# print(crc_recover_list)
 			self.recover_dict[i] = crc_recover_list
 			self.recover_type = lora_data.getRecoverType()
 		# print("xxxxxxxx Recover completed xxxxxxxxxxx")
 
 	def getRecoverAns(self):
-		for i in self.recover_dict.keys():
-			print("CRC recover of index " + str(i + 1) + " data copy is: ")
-			print(self.recover_dict[i])
+		# for i in self.recover_dict.keys():
+		# 	print("CRC recover of index " + str(i + 1) + " data copy is: ")
+		# 	print(self.recover_dict[i])
+		return self.recover_dict
