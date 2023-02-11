@@ -67,7 +67,7 @@ class processLog:
 					while cur_timer - timer > GAP + DELTA:
 						data_word_list.append("xxxx")
 						fcs_list.append("xxxx")
-						timer += 1000
+						timer += GAP + DELTA
 					timer = cur_timer
 			i += 1
 		# print(len(data_word_list))
@@ -138,29 +138,34 @@ class processLog:
 		succeed = 0
 		failure = 0
 		for i in range(0, len(self.recover_lst)):
-			print(i)
-			self.lora_pkt_list[i].display()
+			# print(i)
+			# self.lora_pkt_list[i].display()
+			# print(self.lora_pkt_list[i].recover_type)
 			recover_msg_map = self.recover_lst[i]
+			# print(recover_msg_map)
 			msg = "hello world: " + str(i + 1)
 			hex_msg =  "0x30303020" + msg.encode('utf-8').hex()
 			if self.checkRecoveryOne(recover_msg_map, hex_msg):
 				succeed += 1
 			else:
 				failure += 1
-				# print(recover_msg_map)
-				# print(self.lora_pkt_list[i].recover_type)
-				# self.lora_pkt_list[i].display()
+				if self.lora_pkt_list[i].recover_type < 4 and self.lora_pkt_list[i].recover_type > -1:
+					print(i)
+					print(recover_msg_map)
+					print(self.lora_pkt_list[i].recover_type)
+					self.lora_pkt_list[i].display()
+					print(hex_msg)
 			# print(hex_msg)
 		print("succeed: " + str(succeed))
 		print("failure: " + str(failure))
 
 	def checkRecoveryOne(self, recover_msg_map, hex_msg):
-		print(hex_msg)
+		# print(hex_msg)
 		if (len(recover_msg_map) == 0):
 			return False
 		for recover_msgs in recover_msg_map.values():
 				for recover_msg in recover_msgs:
-					print(recover_msg)
+					# print(recover_msg)
 					if recover_msg == hex_msg:
 						return True
 		return False

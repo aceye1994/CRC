@@ -151,7 +151,7 @@ class Lora_data:
 				result.append(path_string)
 			return
 		else:
-			if index in self.need_crc_set:
+			if index in self.need_crc_set and index < self.data_symbol_size - 2:
 				for symbol_bit_string in bit_list:
 					# print(symbol_bit_string)
 					path_string += symbol_bit_string

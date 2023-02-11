@@ -13,7 +13,6 @@ class Lora_data_copies:
 	def display(self):
 		for i in range(0, self.num_copies):
 			self.copies[i].display()
-		print("\n")
 
 	def crcCheckAll(self):
 		for i in range(0, self.num_copies):
