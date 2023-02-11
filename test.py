@@ -178,19 +178,19 @@ def test_time_two_symbol():
 # # test_crc_calculation("0x54686973056973204C6F5261206D657373616765")
 # simulateLoraNtimes(1)
 
-# files= ["log/r-11ah-1.txt", "log/r-11ah-2.txt", "log/r-11ah-3.txt"]
-# # files = ["log/0208-sf7_10k_020_m1db-rx-ts1.txt", "log/0208-sf7_10k_020_m1db-rx-ts2.txt", "log/0208-sf7_10k_020_m1db-rx-ts3.txt"]
-# # files = ["log/sdr-test-0208/A1.txt", "log/sdr-test-0208/A2.txt", "log/sdr-test-0208/A3.txt"]
-# log = processLog(files)
-# log.recoverAll()
-# log.display()
+files= ["log/r-11ah-1.txt", "log/r-11ah-2.txt", "log/r-11ah-3.txt"]
+# files = ["log/0208-sf7_10k_020_m1db-rx-ts1.txt", "log/0208-sf7_10k_020_m1db-rx-ts2.txt", "log/0208-sf7_10k_020_m1db-rx-ts3.txt"]
+# files = ["log/sdr-test-0208/A1.txt", "log/sdr-test-0208/A2.txt", "log/sdr-test-0208/A3.txt"]
+log = processLog(files)
+log.recoverAll()
+log.display()
 
-origin_input_string = "0x3030302068656c6c6f20776f726c643a2039"
-crc_code = crc16(origin_input_string)
-print(crc_code)
-corrupt_input_string_1 = "0x3030302068656c6c6f20776f726c643a2039"
-corrupt_input_string_2 = "0x303030a0e8656c6c6f20776f726c643a2039"
-lora_data_copies = Lora_data_copies([Lora_data(corrupt_input_string_1, "0x17cb"), Lora_data(corrupt_input_string_2, "0x14c8")])
-lora_data_copies.crcRecover()
-print(lora_data_copies.getRecoverAns())
+# origin_input_string = "0x3030302068656c6c6f20776f726c643a2039"
+# crc_code = crc16(origin_input_string)
+# print(crc_code)
+# corrupt_input_string_1 = "0x3030302068656c6c6f20776f726c643a2039"
+# corrupt_input_string_2 = "0x303030a0e8656c6c6f20776f726c643a2039"
+# lora_data_copies = Lora_data_copies([Lora_data(corrupt_input_string_1, "0x17cb"), Lora_data(corrupt_input_string_2, "0x14c8")])
+# lora_data_copies.crcRecover()
+# print(lora_data_copies.getRecoverAns())
 

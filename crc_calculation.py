@@ -22,8 +22,13 @@ def xor(a, b):
     return ''.join(result)
 
 def hextobin(ini_string):
+    # print(ini_string)
     ini_string_len = len(ini_string) - 2
     digits = 4 * ini_string_len
+    # print(digits)
+    # scale = 16
+    # res = bin(int(ini_string, scale))[2:]
+    # print(res)
     match digits:
         case 4:
             res = "{0:04b}".format(int(ini_string, 16))
@@ -35,7 +40,9 @@ def hextobin(ini_string):
             res = "{0:032b}".format(int(ini_string, 16))
         # TODO, how to deal with 0 padding
         case default:
-            res = "{0:0160b}".format(int(ini_string, 16))
+            res = bin(int(ini_string, 16))[2:].zfill(digits)
+            # print(res)
+            # res = "{0:#0{1}x}".format(int(ini_string, 16))
     return res
 
 def bintohex(n):

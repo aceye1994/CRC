@@ -2,9 +2,9 @@
 # Spreading Factor
 SF = 8
 # num_data_word_symbol
-M = 20
+M = 20 - 2
 # num_fcs_symbol
-m = 2
+m = 2 + 2 + 5
 # prob_symbol_transmit_correct
 p0 = 0.95
 # 

@@ -19,6 +19,7 @@ class Lora_data:
 		# print(self.crc_error_code)
 		bit_string = ""
 		data_bit_size = len(hextobin(self.data_word))
+		print(self.data_word)
 		# TODO: check whether data word will pad with 0 if its size is not a multiplier of SF
 		self.data_symbol_size = int(data_bit_size / SF)
 		binary_data_word = hextobin(self.data_word)
@@ -44,7 +45,6 @@ class Lora_data:
 			record[symbol] = 1;
 			max_occurance = 1;
 			for copy in lora_copies:
-				# print(copy.getDataBySymbol())
 				cur_symbol = copy.symbol_list[i]
 				# print(cur_symbol)
 				if cur_symbol in record.keys():
