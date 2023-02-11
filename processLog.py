@@ -51,10 +51,14 @@ class processLog:
 			if line.find(CODEWORD) != -1:
 				data_word_list.append("0x"+self.remove(line[9:len(line)-5]))
 			elif line.find(FCS) != -1:
-				if (len(line) != len(FCS) + 5):
-					fcs_list.append("xxxx")
-				else:
+				if (len(line) == len(FCS) + 5):
 					fcs_list.append("0x"+line[len(line)-4:])
+				else:
+					miss_bit = len(FCS) + 5 - len(line)
+					prefix = "0x"
+					for j in range(0, miss_bit):
+						prefix += "0"
+					fcs_list.append(prefix+line[len(line)-4+miss_bit:])
 			elif line.find(TIMESTAMP) != -1:
 				cur_timer = int(line[6:])
 				if timer == 0:
@@ -112,7 +116,6 @@ class processLog:
 					recover_time_record[recover_type] = (new_avg_time, frequence + 1)
 				else:
 					recover_time_record[recover_type] = (elapsed_time, 1)
-				continue
 			else:
 				# print("there")
 				# lora_pkt.display()
@@ -127,7 +130,7 @@ class processLog:
 			self.recover_lst.append(lora_pkt.getRecoverAns())
 		# print(self.recover_lst)
 		# print(len(self.recover_lst))
-		# print(recover_time_record)
+		print(recover_time_record)
 		self.checkRecoveryAll()
 		return recover_time_record
 
@@ -135,8 +138,10 @@ class processLog:
 		succeed = 0
 		failure = 0
 		for i in range(0, len(self.recover_lst)):
+			print(i)
+			self.lora_pkt_list[i].display()
 			recover_msg_map = self.recover_lst[i]
-			msg = "hello world: " + str(i)
+			msg = "hello world: " + str(i + 1)
 			hex_msg =  "0x30303020" + msg.encode('utf-8').hex()
 			if self.checkRecoveryOne(recover_msg_map, hex_msg):
 				succeed += 1
@@ -146,15 +151,16 @@ class processLog:
 				# print(self.lora_pkt_list[i].recover_type)
 				# self.lora_pkt_list[i].display()
 			# print(hex_msg)
-		print(succeed)
-		print(failure)
+		print("succeed: " + str(succeed))
+		print("failure: " + str(failure))
 
 	def checkRecoveryOne(self, recover_msg_map, hex_msg):
+		print(hex_msg)
 		if (len(recover_msg_map) == 0):
 			return False
 		for recover_msgs in recover_msg_map.values():
 				for recover_msg in recover_msgs:
-					# print(recover_msg)
+					print(recover_msg)
 					if recover_msg == hex_msg:
 						return True
 		return False

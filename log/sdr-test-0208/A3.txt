@@ -1,0 +1,584 @@
+usrp_source :info: set_min_output_buffer on block 1 to 4104
+Press Enter to quit: 
+--------Header--------
+Payload length: 14
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898738961
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 12 d4 
+Calculated d412
+Got d412
+
+--------Header--------
+Payload length: 14
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898741962
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 36 17 d4 
+Calculated d417
+Got d417
+
+--------Header--------
+Payload length: 14
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898742961
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 37 16 d4 
+Calculated d416
+Got d416
+
+--------Header--------
+Payload length: 14
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898743962
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 38 19 d4 
+Calculated d419
+Got d419
+
+--------Header--------
+Payload length: 14
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898744961
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 39 18 d4 
+Calculated d418
+Got d418
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898750998
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 35 cc 9b 
+Calculated 9bcc
+Got 9bcc
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898752003
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 36 cf 9b 
+Calculated 9bcf
+Got 9bcf
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898755004
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 39 c0 9b 
+Calculated 9bc0
+Got 9bc0
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898758003
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 32 32 cb 98 
+Calculated 98cb
+Got 98cb
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898762009
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 32 36 cf 98 
+Calculated 98cf
+Got 98cf
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898764009
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 32 38 c1 98 
+Calculated 98c1
+Got 98c1
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898767006
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 31 c8 99 
+Calculated 99c8
+Got 99c8
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898768010
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 32 cb 99 
+Calculated 99cb
+Got 99cb
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898769010
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 33 ca 99 
+Calculated 99ca
+Got 99ca
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898770011
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 34 cd 99 
+Calculated 99cd
+Got 99cd
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898772011
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 36 cf 99 
+Calculated 99cf
+Got 99cf
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898774003
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 38 c1 99 
+Calculated 99c1
+Got 99c1
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898778004
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 34 32 cb 9e 
+Calculated 9ecb
+Got 9ecb
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898782013
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 34 36 cf 9e 
+Calculated 9ecf
+Got 9ecf
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898783012
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 34 37 ce 9e 
+Calculated 9ece
+Got 9ece
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898784013
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 34 38 c1 9e 
+Calculated 9ec1
+Got 9ec1
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898786011
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 35 30 c9 9f 
+Calculated 9fc9
+Got 9fc9
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898787014
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 35 31 c8 9f 
+Calculated 9fc8
+Got 9fc8
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898788014
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 35 32 cb 9f 
+Calculated 9fcb
+Got 9fcb
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898790014
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 35 34 cd 9f 
+Calculated 9fcd
+Got 9fcd
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898791015
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 35 35 cc 9f 
+Calculated 9fcc
+Got 9fcc
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898792015
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 35 36 cf 9f 
+Calculated 9fcf
+Got 9fcf
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898793011
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 35 37 ce 9f 
+Calculated 9fce
+Got 9fce
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898794011
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 35 38 c1 9f 
+Calculated 9fc1
+Got 9fc1
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898795015
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 35 39 c0 9f 
+Calculated 9fc0
+Got 9fc0
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898796015
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 36 30 c9 9c 
+Calculated 9cc9
+Got 9cc9
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898797012
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 36 31 c8 9c 
+Calculated 9cc8
+Got 9cc8
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898799008
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 36 33 ca 9c 
+Calculated 9cca
+Got 9cca
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898801014
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 36 35 cc 9c 
+Calculated 9ccc
+Got 9ccc
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898803008
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 36 37 ce 9c 
+Calculated 9cce
+Got 9cce
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898804017
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 36 38 c1 9c 
+Calculated 9cc1
+Got 9cc1
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898806010
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 37 30 c9 9d 
+Calculated 9dc9
+Got 9dc9
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898807010
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 37 31 c8 9d 
+Calculated 9dc8
+Got 9dc8
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898815016
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 37 39 c0 1d 
+Calculated 9dc0
+Got 1dc0
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898817016
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 38 31 c8 92 
+Calculated 92c8
+Got 92c8
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898820016
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 38 34 cd 92 
+Calculated 92cd
+Got 92cd
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898821020
+Raw Data 68 65 cc 6c 6f 8a 7d 6f 72 6c 64 3a 20 38 35 cc 92 
+Calculated 55c7
+Got 92cc
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898824016
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 38 38 c1 92 
+Calculated 92c1
+Got 92c1
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898825017
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 38 39 c0 92 
+Calculated 92c0
+Got 92c0
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898826017
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 39 30 c9 93 
+Calculated 93c9
+Got 93c9
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898828019
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 39 32 cb 93 
+Calculated 93cb
+Got 93cb
+
+--------Header--------
+Payload length: 15
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898830021
+Raw Data 68 65 6c 6c 6f 20 77 67 72 64 64 5a 46 39 52 cd 93 
+Calculated 1c60
+Got 93cd
+
+--------Header--------
+Payload length: 16
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898843024
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 30 37 e5 fb 
+Calculated fbe5
+Got fbe5
+
+--------Header--------
+Payload length: 16
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898845024
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 30 39 eb fb 
+Calculated fbeb
+Got fbeb
+
+--------Header--------
+Payload length: 16
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898849025
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 31 33 e1 fa 
+Calculated fae1
+Got fae1
+
+--------Header--------
+Payload length: 16
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898850023
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 31 34 e6 fa 
+Calculated fae6
+Got fae6
+
+--------Header--------
+Payload length: 16
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898851025
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 31 35 e7 fa 
+Calculated fae7
+Got fae7
+
+--------Header--------
+Payload length: 16
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1675898856018
+Raw Data 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 32 30 e2 f9 
+Calculated f9e2
+Got f9e2

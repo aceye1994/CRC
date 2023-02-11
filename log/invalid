@@ -1,0 +1,7604 @@
+usrp_source :info: set_min_output_buffer on block 1 to 4104
+D: S=1, bin=119
+D: S=1, bin=613
+D: S=1, bin=57
+D: S=1, bin=996
+D: S=1, bin=143
+D: S=1, bin=971
+D: S=1, bin=233
+D: S=1, bin=393
+D: S=1, bin=507
+D: S=1, bin=678
+D: S=1, bin=804
+D: S=1, bin=11
+D: S=1, bin=615
+D: S=1, bin=67
+D: S=1, bin=628
+D: S=1, bin=483
+D: S=1, bin=178
+D: S=2, bin=178
+D: S=3, bin=178
+D: S=4, bin=520
+D: D=5, adv to SYNC, VALS 180 178 178 178 520
+D: S=1, bin=614
+D: S=1, bin=455
+D: S=1, bin=95
+D: S=1, bin=98
+D: S=2, bin=756
+D: S=1, bin=19
+D: S=1, bin=485
+D: S=1, bin=763
+D: S=2, bin=763
+D: S=1, bin=763
+D: S=2, bin=763
+D: S=1, bin=723
+D: S=1, bin=352
+D: S=1, bin=287
+D: S=1, bin=462
+D: S=1, bin=464
+D: S=2, bin=220
+D: S=3, bin=220
+D: S=1, bin=1021
+D: S=2, bin=366
+D: S=1, bin=629
+D: S=2, bin=4
+D: S=3, bin=972
+D: S=1, bin=183
+D: S=1, bin=405
+D: S=1, bin=811
+D: S=2, bin=812
+D: S=3, bin=812
+D: S=4, bin=812
+D: D=5, adv to SYNC, VALS 812 811 812 812 812
+D: S=1, bin=861
+D: S=1, bin=77
+D: S=1, bin=324
+D: S=2, bin=724
+D: S=3, bin=885
+D: S=1, bin=304
+D: S=2, bin=304
+D: S=1, bin=509
+D: S=2, bin=133
+D: S=1, bin=891
+D: S=1, bin=307
+D: S=1, bin=874
+D: S=1, bin=922
+D: S=2, bin=922
+D: S=3, bin=922
+D: S=4, bin=922
+D: D=5, adv to SYNC, VALS 922 922 922 922 922
+
+--------Header--------
+Payload length: 18
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006845662
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 c2 14 
+Calculated 14c2
+Got 14c2
+D: S=1, bin=100
+D: S=2, bin=100
+D: S=3, bin=97
+D: S=4, bin=100
+D: D=5, adv to SYNC, VALS 100 100 100 97 100
+
+--------Header--------
+Payload length: 18
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006846661
+Raw Data 30 30 30 2c 68 65 6c 6c e3 60 77 cf b2 40 6e 3a b0 fe 45 14 
+Calculated 3e8e
+Got 1445
+D: S=1, bin=798
+D: S=1, bin=930
+D: S=2, bin=931
+D: S=3, bin=568
+D: S=4, bin=931
+D: D=5, adv to SYNC, VALS 931 930 931 568 931
+D: S=1, bin=77
+D: S=2, bin=78
+D: S=1, bin=438
+D: S=1, bin=94
+D: S=1, bin=301
+D: S=1, bin=247
+D: S=1, bin=298
+D: S=1, bin=939
+D: S=2, bin=939
+D: S=3, bin=939
+D: S=4, bin=939
+D: D=5, adv to SYNC, VALS 939 939 939 939 939
+
+--------Header--------
+Payload length: 18
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006848663
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 36 c7 14 
+Calculated 14c7
+Got 14c7
+D: S=1, bin=933
+D: S=1, bin=1010
+D: S=2, bin=1010
+D: S=3, bin=1010
+D: S=4, bin=1010
+D: D=5, adv to SYNC, VALS 1010 1010 1010 1010 1010
+
+--------Header--------
+Payload length: 18
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006849665
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 37 a 14 
+Calculated 14c6
+Got 140a
+D: S=1, bin=694
+D: S=1, bin=218
+D: S=2, bin=218
+D: S=3, bin=218
+D: S=4, bin=218
+D: D=5, adv to SYNC, VALS 218 218 218 218 218
+
+--------Header--------
+Payload length: 18
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006850664
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 38 c9 14 
+Calculated 14c9
+Got 14c9
+D: S=1, bin=143
+D: S=2, bin=140
+D: S=3, bin=140
+D: S=4, bin=140
+D: D=5, adv to SYNC, VALS 140 143 140 140 140
+
+--------Header--------
+Payload length: 18
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006851664
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 39 cb 17 
+Calculated 14c8
+Got 17cb
+D: S=1, bin=963
+D: S=1, bin=35
+D: S=1, bin=649
+D: S=1, bin=44
+D: S=1, bin=44
+D: S=2, bin=45
+D: S=3, bin=44
+D: S=4, bin=44
+D: D=5, adv to SYNC, VALS 44 44 45 44 44
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006852665
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 30 85 92 
+Calculated 9285
+Got 9285
+D: S=1, bin=334
+D: S=1, bin=138
+D: S=1, bin=121
+D: S=2, bin=121
+D: S=3, bin=121
+D: S=4, bin=121
+D: D=5, adv to SYNC, VALS 326 121 121 121 121
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006853665
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 31 84 92 
+Calculated 9284
+Got 9284
+D: S=1, bin=924
+D: S=1, bin=620
+D: S=1, bin=98
+D: S=2, bin=98
+D: S=1, bin=98
+D: S=2, bin=98
+D: S=3, bin=98
+D: S=1, bin=984
+D: S=1, bin=96
+D: S=2, bin=95
+D: S=3, bin=96
+D: S=4, bin=96
+D: D=5, adv to SYNC, VALS 96 96 95 96 96
+D: S=1, bin=613
+D: S=1, bin=811
+D: S=2, bin=453
+D: S=1, bin=723
+D: S=1, bin=885
+D: S=1, bin=660
+D: S=1, bin=138
+D: S=1, bin=663
+D: S=1, bin=251
+D: S=1, bin=934
+D: S=2, bin=934
+D: S=3, bin=934
+D: S=4, bin=934
+D: D=5, adv to SYNC, VALS 934 934 934 934 934
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006856666
+Raw Data 30 30 30 20 68 65 6c 6c 6f 21 67 6f 72 6c 64 3a 20 31 34 81 92 
+Calculated e229
+Got 9281
+D: S=1, bin=414
+D: S=1, bin=154
+D: S=2, bin=154
+D: S=3, bin=154
+D: S=4, bin=154
+D: D=5, adv to SYNC, VALS 154 154 154 154 154
+D: S=1, bin=455
+D: S=1, bin=724
+D: S=1, bin=304
+D: S=1, bin=887
+D: S=1, bin=239
+D: S=1, bin=914
+D: S=2, bin=914
+D: S=3, bin=914
+D: S=4, bin=914
+D: D=5, adv to SYNC, VALS 914 914 914 914 914
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006858666
+Raw Data 30 30 30 20 68 65 6c 6c 4d 20 77 7f 7a 7d 65 3b 29 31 36 83 92 
+Calculated 138a
+Got 9283
+D: S=1, bin=172
+D: S=1, bin=172
+D: S=2, bin=172
+D: S=3, bin=172
+D: S=1, bin=432
+D: S=1, bin=134
+D: S=1, bin=24
+D: S=2, bin=24
+D: S=3, bin=24
+D: S=4, bin=23
+D: D=5, adv to SYNC, VALS 24 24 24 24 23
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006860666
+Raw Data 30 30 30 20 68 65 6c 6f 6c 30 66 6c 72 6c 64 3a 20 31 38 8d 92 
+Calculated 7248
+Got 928d
+D: S=1, bin=150
+D: S=2, bin=149
+D: S=3, bin=149
+D: S=4, bin=149
+D: D=5, adv to SYNC, VALS 149 150 149 149 149
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006861667
+Raw Data 30 30 30 20 68 65 6c 6c 63 20 77 6f 72 6c 64 3a 20 31 29 8c 92 
+Calculated 278c
+Got 928c
+D: S=1, bin=195
+D: S=1, bin=191
+D: S=2, bin=191
+D: S=1, bin=137
+D: S=2, bin=987
+D: S=3, bin=989
+D: S=4, bin=987
+D: D=5, adv to SYNC, VALS 987 137 987 989 987
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006863667
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 32 31 84 91 
+Calculated 9184
+Got 9184
+D: S=1, bin=290
+D: S=1, bin=193
+D: S=2, bin=653
+D: S=3, bin=193
+D: S=4, bin=380
+D: D=5, adv to SYNC, VALS 193 193 653 193 380
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006864668
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f b2 6c a4 f6 2c 32 32 87 91 
+Calculated 167d
+Got 9187
+D: S=1, bin=5
+D: S=1, bin=507
+D: S=1, bin=175
+D: S=1, bin=175
+D: S=2, bin=174
+D: S=3, bin=226
+D: S=1, bin=174
+D: S=1, bin=192
+D: S=1, bin=88
+D: S=2, bin=88
+D: S=3, bin=88
+D: S=4, bin=88
+D: D=5, adv to SYNC, VALS 88 88 88 88 88
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006866667
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 12 6c 64 3a a0 b2 bc 89 91 
+Calculated 995d
+Got 9189
+D: S=1, bin=67
+D: S=2, bin=275
+D: S=3, bin=66
+D: S=4, bin=67
+D: D=5, adv to SYNC, VALS 66 67 275 66 67
+D: S=1, bin=455
+D: S=1, bin=308
+D: S=1, bin=759
+D: S=1, bin=139
+D: S=1, bin=9
+D: S=1, bin=442
+D: S=1, bin=16
+D: S=2, bin=16
+D: S=3, bin=16
+D: S=4, bin=16
+D: D=5, adv to SYNC, VALS 16 16 16 16 16
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006868667
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 32 36 83 91 
+Calculated 9183
+Got 9183
+D: S=1, bin=622
+D: S=1, bin=389
+D: S=1, bin=130
+D: S=1, bin=131
+D: S=1, bin=752
+D: S=1, bin=52
+D: S=2, bin=52
+D: S=3, bin=52
+D: S=4, bin=52
+D: D=5, adv to SYNC, VALS 52 52 52 52 52
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006870667
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 32 38 8d 91 
+Calculated 918d
+Got 918d
+D: S=1, bin=130
+D: S=2, bin=888
+D: S=3, bin=130
+D: S=1, bin=130
+D: S=1, bin=853
+D: S=1, bin=854
+D: S=1, bin=435
+D: S=1, bin=263
+D: S=1, bin=199
+D: S=1, bin=6
+D: S=1, bin=5
+D: S=2, bin=5
+D: S=3, bin=8
+D: S=1, bin=29
+D: S=1, bin=962
+D: S=1, bin=204
+D: S=1, bin=936
+D: S=1, bin=936
+D: S=2, bin=936
+D: S=3, bin=936
+D: S=1, bin=573
+D: S=1, bin=393
+D: S=1, bin=6
+D: S=2, bin=539
+D: S=1, bin=160
+D: S=1, bin=926
+D: S=1, bin=886
+D: S=2, bin=887
+D: S=1, bin=887
+D: S=2, bin=887
+D: S=1, bin=43
+D: S=1, bin=476
+D: S=1, bin=300
+D: S=1, bin=612
+D: S=2, bin=615
+D: S=1, bin=252
+D: S=1, bin=518
+D: S=1, bin=741
+D: S=1, bin=741
+D: S=2, bin=741
+D: S=3, bin=742
+D: S=4, bin=741
+D: D=5, adv to SYNC, VALS 160 741 741 742 741
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006875669
+Raw Data 30 30 30 20 6d 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 33 86 90 
+Calculated d048
+Got 9086
+D: S=1, bin=92
+D: S=2, bin=92
+D: S=3, bin=92
+D: S=4, bin=92
+D: D=5, adv to SYNC, VALS 92 92 92 92 92
+D: S=1, bin=173
+D: S=1, bin=41
+D: S=1, bin=222
+D: S=1, bin=404
+D: S=1, bin=114
+D: S=1, bin=908
+D: S=1, bin=910
+D: S=2, bin=910
+D: S=3, bin=910
+D: S=4, bin=869
+D: D=5, adv to SYNC, VALS 910 910 910 910 869
+D: S=1, bin=613
+D: S=1, bin=865
+D: S=1, bin=438
+D: S=1, bin=465
+D: S=1, bin=495
+D: S=1, bin=470
+D: S=1, bin=955
+D: S=2, bin=953
+D: S=3, bin=955
+D: S=4, bin=955
+D: D=5, adv to SYNC, VALS 955 955 953 955 955
+D: S=1, bin=724
+D: S=1, bin=255
+D: S=1, bin=260
+D: S=1, bin=122
+D: S=1, bin=861
+D: S=1, bin=867
+D: S=2, bin=868
+D: S=3, bin=867
+D: S=4, bin=867
+D: D=5, adv to SYNC, VALS 868 867 868 867 867
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006879671
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 37 82 90 
+Calculated 9082
+Got 9082
+D: S=1, bin=240
+D: S=2, bin=240
+D: S=1, bin=240
+D: S=2, bin=240
+D: S=1, bin=712
+D: S=1, bin=672
+D: S=1, bin=66
+D: S=2, bin=66
+D: S=3, bin=66
+D: S=4, bin=66
+D: D=5, adv to SYNC, VALS 66 66 66 66 66
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006881671
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 39 8c 90 
+Calculated 908c
+Got 908c
+D: S=1, bin=209
+D: S=2, bin=209
+D: S=3, bin=209
+D: S=4, bin=209
+D: D=5, adv to SYNC, VALS 209 209 209 209 209
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006882671
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 34 30 85 97 
+Calculated 9785
+Got 9785
+D: S=1, bin=966
+D: S=2, bin=31
+D: S=1, bin=151
+D: S=1, bin=154
+D: S=1, bin=154
+D: S=2, bin=154
+D: S=3, bin=20
+D: S=1, bin=52
+D: S=2, bin=52
+D: S=3, bin=52
+D: S=4, bin=52
+D: D=5, adv to SYNC, VALS 52 52 52 52 52
+D: S=1, bin=957
+D: S=1, bin=485
+D: S=1, bin=304
+D: S=1, bin=208
+D: S=1, bin=415
+D: S=1, bin=969
+D: S=2, bin=969
+D: S=3, bin=969
+D: S=4, bin=969
+D: D=5, adv to SYNC, VALS 969 969 969 969 969
+D: S=1, bin=485
+D: S=1, bin=256
+D: S=1, bin=438
+D: S=1, bin=304
+D: S=1, bin=181
+D: S=1, bin=958
+D: S=2, bin=958
+D: S=3, bin=958
+D: S=4, bin=958
+D: D=5, adv to SYNC, VALS 958 958 958 958 958
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006886670
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 34 34 81 97 
+Calculated 9781
+Got 9781
+D: S=1, bin=348
+D: S=1, bin=78
+D: S=2, bin=78
+D: S=3, bin=78
+D: S=4, bin=78
+D: D=5, adv to SYNC, VALS 13 78 78 78 78
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006887671
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 34 35 80 97 
+Calculated 9780
+Got 9780
+D: S=1, bin=273
+D: S=2, bin=272
+D: S=3, bin=909
+D: S=4, bin=273
+D: D=5, adv to SYNC, VALS 273 273 272 909 273
+D: S=1, bin=860
+D: S=1, bin=864
+D: S=1, bin=450
+D: S=1, bin=878
+D: S=1, bin=763
+D: S=2, bin=764
+D: S=3, bin=763
+D: S=4, bin=764
+D: D=5, adv to SYNC, VALS 763 763 764 763 764
+D: S=1, bin=723
+D: S=1, bin=721
+D: S=1, bin=266
+D: S=1, bin=654
+D: S=1, bin=567
+D: S=1, bin=984
+D: S=1, bin=996
+D: S=2, bin=996
+D: S=1, bin=996
+D: S=2, bin=996
+D: S=3, bin=994
+D: S=1, bin=837
+D: S=1, bin=280
+D: S=1, bin=857
+D: S=1, bin=198
+D: S=1, bin=910
+D: S=1, bin=848
+D: S=2, bin=848
+D: S=3, bin=848
+D: S=1, bin=848
+D: S=2, bin=848
+D: S=1, bin=71
+D: S=1, bin=436
+D: S=1, bin=262
+D: S=1, bin=548
+D: S=1, bin=943
+D: S=2, bin=943
+D: S=1, bin=861
+D: S=1, bin=32
+D: S=1, bin=963
+D: S=1, bin=308
+D: S=1, bin=830
+D: S=2, bin=830
+D: S=3, bin=830
+D: S=4, bin=830
+D: D=5, adv to SYNC, VALS 830 830 830 830 830
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006892672
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 35 30 85 96 
+Calculated 9685
+Got 9685
+D: S=1, bin=91
+D: S=2, bin=91
+D: S=3, bin=92
+D: S=4, bin=91
+D: D=5, adv to SYNC, VALS 90 91 91 92 91
+D: S=1, bin=456
+D: S=1, bin=723
+D: S=1, bin=544
+D: S=1, bin=675
+D: S=2, bin=885
+D: S=3, bin=885
+D: S=4, bin=885
+D: D=5, adv to SYNC, VALS 885 675 885 885 885
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006894673
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 35 32 87 96 
+Calculated 9687
+Got 9687
+D: S=1, bin=183
+D: S=2, bin=183
+D: S=3, bin=183
+D: S=4, bin=183
+D: D=5, adv to SYNC, VALS 183 183 183 183 183
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006895673
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 35 33 86 96 
+Calculated 9686
+Got 9686
+D: S=1, bin=139
+D: S=2, bin=139
+D: S=3, bin=140
+D: S=4, bin=139
+D: D=5, adv to SYNC, VALS 139 139 139 140 139
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006896673
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 35 34 81 96 
+Calculated 9681
+Got 9681
+D: S=1, bin=81
+D: S=2, bin=81
+D: S=3, bin=81
+D: S=4, bin=81
+D: D=5, adv to SYNC, VALS 81 81 81 81 81
+D: S=1, bin=438
+D: S=1, bin=886
+D: S=2, bin=886
+D: S=1, bin=543
+D: S=2, bin=248
+D: S=1, bin=292
+D: S=1, bin=879
+D: S=2, bin=879
+D: S=3, bin=879
+D: S=4, bin=879
+D: D=5, adv to SYNC, VALS 879 879 879 879 879
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006898675
+Raw Data 30 30 30 20 68 65 6c 6c f6 20 77 6f 72 6c 64 3a 20 35 36 83 96 
+Calculated b813
+Got 9683
+D: S=1, bin=146
+D: S=2, bin=667
+D: S=3, bin=146
+D: S=4, bin=146
+D: D=5, adv to SYNC, VALS 146 146 667 146 146
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006899674
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 35 37 82 96 
+Calculated 9682
+Got 9682
+D: S=1, bin=114
+D: S=2, bin=114
+D: S=3, bin=114
+D: S=4, bin=114
+D: D=5, adv to SYNC, VALS 919 114 114 114 114
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006900675
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 35 38 8d 96 
+Calculated 968d
+Got 968d
+D: S=1, bin=719
+D: S=1, bin=613
+D: S=1, bin=182
+D: S=2, bin=182
+D: S=3, bin=182
+D: S=4, bin=182
+D: D=5, adv to SYNC, VALS 182 182 182 182 182
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006901674
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 35 39 8c 96 
+Calculated 968c
+Got 968c
+D: S=1, bin=767
+D: S=1, bin=300
+D: S=1, bin=87
+D: S=2, bin=87
+D: S=3, bin=87
+D: S=4, bin=87
+D: D=5, adv to SYNC, VALS 87 87 87 87 87
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006902675
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 36 30 85 95 
+Calculated 9585
+Got 9585
+D: S=1, bin=229
+D: S=1, bin=229
+D: S=2, bin=229
+D: S=3, bin=229
+D: S=4, bin=229
+D: D=5, adv to SYNC, VALS 229 229 229 229 229
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006903674
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 54 a 20 36 3b 84 95 
+Calculated 55be
+Got 9584
+D: S=1, bin=927
+D: S=2, bin=927
+D: S=3, bin=922
+D: S=1, bin=927
+D: S=2, bin=927
+D: S=1, bin=84
+D: S=1, bin=516
+D: S=1, bin=76
+D: S=1, bin=251
+D: S=1, bin=227
+D: S=2, bin=627
+D: S=1, bin=384
+D: S=1, bin=111
+D: S=1, bin=873
+D: S=1, bin=884
+D: S=2, bin=884
+D: S=3, bin=884
+D: S=4, bin=884
+D: D=5, adv to SYNC, VALS 884 884 884 884 884
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006905676
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 7a ec 6c 3a 20 36 33 86 95 
+Calculated e332
+Got 9586
+D: S=1, bin=466
+D: S=1, bin=118
+D: S=2, bin=118
+D: S=3, bin=121
+D: S=1, bin=118
+D: S=2, bin=119
+D: S=3, bin=119
+D: S=1, bin=1004
+D: S=1, bin=500
+D: S=1, bin=665
+D: S=1, bin=970
+D: S=2, bin=970
+D: S=1, bin=970
+D: S=2, bin=970
+D: S=1, bin=204
+D: S=1, bin=704
+D: S=1, bin=100
+D: S=1, bin=585
+D: S=2, bin=229
+D: S=1, bin=368
+D: S=1, bin=940
+D: S=2, bin=940
+D: S=3, bin=940
+D: S=4, bin=940
+D: D=5, adv to SYNC, VALS 940 940 940 940 940
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006908677
+Raw Data 30 30 30 20 68 65 6c 2c 2b 20 73 6b 72 6c 64 3a 20 36 36 83 95 
+Calculated e3c8
+Got 9583
+D: S=1, bin=152
+D: S=2, bin=152
+D: S=3, bin=152
+D: S=4, bin=152
+D: D=5, adv to SYNC, VALS 152 152 152 152 152
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006909676
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 36 37 82 95 
+Calculated 9582
+Got 9582
+D: S=1, bin=554
+D: S=1, bin=1008
+D: S=1, bin=888
+D: S=1, bin=181
+D: S=2, bin=181
+D: S=3, bin=181
+D: S=4, bin=181
+D: D=5, adv to SYNC, VALS 181 181 181 181 181
+D: S=1, bin=861
+D: S=2, bin=661
+D: S=1, bin=173
+D: S=1, bin=885
+D: S=1, bin=95
+D: S=1, bin=106
+D: S=1, bin=895
+D: S=1, bin=854
+D: S=2, bin=854
+D: S=3, bin=854
+D: S=4, bin=854
+D: D=5, adv to SYNC, VALS 854 854 854 854 854
+D: S=1, bin=861
+D: S=1, bin=438
+D: S=2, bin=723
+D: S=1, bin=724
+D: S=2, bin=886
+D: S=1, bin=12
+D: S=1, bin=457
+D: S=1, bin=96
+D: S=1, bin=483
+D: S=1, bin=942
+D: S=2, bin=942
+D: S=3, bin=942
+D: S=4, bin=942
+D: D=5, adv to SYNC, VALS 942 942 942 942 942
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006912677
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 37 30 85 94 
+Calculated 9485
+Got 9485
+D: S=1, bin=151
+D: S=1, bin=867
+D: S=1, bin=496
+D: S=1, bin=195
+D: S=2, bin=194
+D: S=3, bin=194
+D: S=4, bin=194
+D: D=5, adv to SYNC, VALS 194 195 194 194 194
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006913677
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 37 31 84 94 
+Calculated 9484
+Got 9484
+D: S=1, bin=85
+D: S=1, bin=85
+D: S=2, bin=85
+D: S=3, bin=85
+D: S=4, bin=85
+D: D=5, adv to SYNC, VALS 85 85 85 85 85
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006914677
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 37 32 87 94 
+Calculated 9487
+Got 9487
+D: S=1, bin=691
+D: S=1, bin=79
+D: S=1, bin=157
+D: S=1, bin=157
+D: S=2, bin=157
+D: S=1, bin=157
+D: S=2, bin=181
+D: S=1, bin=295
+D: S=1, bin=354
+D: S=1, bin=106
+D: S=2, bin=106
+D: S=3, bin=106
+D: S=4, bin=106
+D: D=5, adv to SYNC, VALS 106 106 106 106 106
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006916678
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 37 34 81 94 
+Calculated 9481
+Got 9481
+D: S=1, bin=377
+D: S=1, bin=808
+D: S=1, bin=818
+D: S=2, bin=19
+D: S=3, bin=19
+D: S=4, bin=19
+D: D=5, adv to SYNC, VALS 19 818 19 19 19
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006917679
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 37 35 80 94 
+Calculated 9480
+Got 9480
+D: S=1, bin=228
+D: S=2, bin=228
+D: S=3, bin=228
+D: S=4, bin=228
+D: D=5, adv to SYNC, VALS 228 228 228 228 228
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006918679
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 63 6c 65 3a 20 37 36 83 94 
+Calculated db8
+Got 9483
+D: S=1, bin=180
+D: S=1, bin=17
+D: S=1, bin=15
+D: S=1, bin=87
+D: S=2, bin=87
+D: S=3, bin=87
+D: S=4, bin=87
+D: D=5, adv to SYNC, VALS 87 87 87 87 87
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006919679
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 37 37 82 94 
+Calculated 9482
+Got 9482
+D: S=1, bin=633
+D: S=1, bin=945
+D: S=1, bin=103
+D: S=2, bin=103
+D: S=1, bin=103
+D: S=2, bin=103
+D: S=1, bin=405
+D: S=2, bin=303
+D: S=1, bin=912
+D: S=1, bin=876
+D: S=1, bin=1006
+D: S=2, bin=1006
+D: S=3, bin=1005
+D: S=4, bin=17
+D: D=5, adv to SYNC, VALS 1006 1006 1006 1005 17
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006921680
+Raw Data 30 30 30 60 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 37 f5 8c 94 
+Calculated bfff
+Got 948c
+D: S=1, bin=993
+D: S=1, bin=487
+D: S=1, bin=218
+D: S=2, bin=218
+D: S=3, bin=218
+D: S=4, bin=220
+D: D=5, adv to SYNC, VALS 218 218 218 218 220
+D: S=1, bin=957
+D: S=1, bin=256
+D: S=2, bin=455
+D: S=1, bin=724
+D: S=1, bin=941
+D: S=1, bin=879
+D: S=2, bin=879
+D: S=3, bin=879
+D: S=4, bin=879
+D: D=5, adv to SYNC, VALS 879 879 879 879 879
+D: S=1, bin=861
+D: S=1, bin=485
+D: S=1, bin=324
+D: S=2, bin=724
+D: S=1, bin=12
+D: S=1, bin=357
+D: S=1, bin=908
+D: S=1, bin=951
+D: S=2, bin=951
+D: S=3, bin=951
+D: S=1, bin=951
+D: S=2, bin=951
+D: S=1, bin=366
+D: S=1, bin=540
+D: S=2, bin=412
+D: S=1, bin=382
+D: S=1, bin=814
+D: S=2, bin=408
+D: S=1, bin=552
+D: S=1, bin=1011
+D: S=2, bin=587
+D: S=3, bin=199
+D: S=1, bin=301
+D: S=2, bin=302
+D: S=1, bin=674
+D: S=1, bin=724
+D: S=1, bin=841
+D: S=2, bin=841
+D: S=3, bin=841
+D: S=4, bin=841
+D: D=5, adv to SYNC, VALS 841 841 841 841 841
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006925680
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 38 33 86 9b 
+Calculated 9b86
+Got 9b86
+D: S=1, bin=225
+D: S=1, bin=104
+D: S=2, bin=103
+D: S=3, bin=104
+D: S=4, bin=104
+D: D=5, adv to SYNC, VALS 96 104 103 104 104
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006926681
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 38 34 81 9b 
+Calculated 9b81
+Got 9b81
+D: S=1, bin=510
+D: S=1, bin=756
+D: S=1, bin=1014
+D: S=1, bin=180
+D: S=1, bin=177
+D: S=2, bin=175
+D: S=3, bin=177
+D: S=4, bin=177
+D: D=5, adv to SYNC, VALS 177 177 175 177 177
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006927680
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 38 35 80 9b 
+Calculated 9b80
+Got 9b80
+D: S=1, bin=802
+D: S=1, bin=851
+D: S=1, bin=624
+D: S=1, bin=103
+D: S=2, bin=101
+D: S=3, bin=101
+D: S=4, bin=101
+D: D=5, adv to SYNC, VALS 101 103 101 101 101
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006928681
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 38 36 83 9b 
+Calculated 9b83
+Got 9b83
+D: S=1, bin=706
+D: S=1, bin=467
+D: S=1, bin=216
+D: S=1, bin=216
+D: S=2, bin=216
+D: S=3, bin=216
+D: S=1, bin=216
+D: S=2, bin=554
+D: S=1, bin=685
+D: S=1, bin=127
+D: S=1, bin=128
+D: S=2, bin=127
+D: S=3, bin=127
+D: S=4, bin=127
+D: D=5, adv to SYNC, VALS 127 128 127 127 127
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006930681
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 24 38 38 8d 9b 
+Calculated db09
+Got 9b8d
+D: S=1, bin=60
+D: S=1, bin=995
+D: S=1, bin=776
+D: S=1, bin=246
+D: S=2, bin=247
+D: S=3, bin=248
+D: S=4, bin=248
+D: D=5, adv to SYNC, VALS 248 246 247 248 248
+D: S=1, bin=324
+D: S=1, bin=12
+D: S=1, bin=197
+D: S=2, bin=907
+D: S=1, bin=553
+D: S=2, bin=848
+D: S=3, bin=848
+D: S=4, bin=848
+D: D=5, adv to SYNC, VALS 608 553 848 848 848
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006932681
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 39 30 85 9a 
+Calculated 9a85
+Got 9a85
+D: S=1, bin=149
+D: S=1, bin=448
+D: S=1, bin=352
+D: S=1, bin=29
+D: S=1, bin=51
+D: S=2, bin=51
+D: S=3, bin=51
+D: S=4, bin=51
+D: D=5, adv to SYNC, VALS 51 51 51 51 51
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006933682
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 39 31 84 9a 
+Calculated 9a84
+Got 9a84
+D: S=1, bin=716
+D: S=1, bin=847
+D: S=1, bin=276
+D: S=1, bin=640
+D: S=1, bin=193
+D: S=2, bin=193
+D: S=3, bin=193
+D: S=4, bin=193
+D: D=5, adv to SYNC, VALS 194 193 193 193 193
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006934682
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 39 32 87 9a 
+Calculated 9a87
+Got 9a87
+D: S=1, bin=351
+D: S=1, bin=294
+D: S=2, bin=294
+D: S=3, bin=294
+D: S=4, bin=294
+D: D=5, adv to SYNC, VALS 294 294 294 294 294
+D: S=1, bin=181
+D: S=2, bin=957
+D: S=1, bin=485
+D: S=1, bin=455
+D: S=1, bin=308
+D: S=2, bin=433
+D: S=1, bin=122
+D: S=1, bin=352
+D: S=1, bin=831
+D: S=1, bin=927
+D: S=2, bin=927
+D: S=3, bin=927
+D: S=4, bin=927
+D: D=5, adv to SYNC, VALS 927 927 927 927 927
+D: S=1, bin=485
+D: S=1, bin=254
+D: S=1, bin=438
+D: S=1, bin=200
+D: S=1, bin=650
+D: S=2, bin=559
+D: S=1, bin=389
+D: S=1, bin=497
+D: S=1, bin=325
+D: S=1, bin=885
+D: S=1, bin=222
+D: S=1, bin=863
+D: S=2, bin=863
+D: S=3, bin=863
+D: S=4, bin=863
+D: D=5, adv to SYNC, VALS 863 863 863 863 863
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006937681
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 65 64 3a 20 39 35 80 9a 
+Calculated 69f7
+Got 9a80
+D: S=1, bin=39
+D: S=1, bin=275
+D: S=1, bin=140
+D: S=2, bin=140
+D: S=3, bin=141
+D: S=4, bin=142
+D: D=5, adv to SYNC, VALS 141 140 140 141 142
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006938682
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 39 36 83 9a 
+Calculated 9a83
+Got 9a83
+D: S=1, bin=970
+D: S=1, bin=194
+D: S=1, bin=109
+D: S=2, bin=109
+D: S=3, bin=109
+D: S=4, bin=109
+D: D=5, adv to SYNC, VALS 109 109 109 109 109
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006939683
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 39 37 82 9a 
+Calculated 9a82
+Got 9a82
+D: S=1, bin=664
+D: S=1, bin=378
+D: S=1, bin=161
+D: S=2, bin=161
+D: S=3, bin=161
+D: S=4, bin=161
+D: D=5, adv to SYNC, VALS 161 161 161 161 161
+D: S=1, bin=957
+D: S=1, bin=865
+D: S=2, bin=256
+D: S=1, bin=723
+D: S=2, bin=324
+D: S=1, bin=308
+D: S=1, bin=258
+D: S=1, bin=254
+D: S=1, bin=877
+D: S=1, bin=967
+D: S=2, bin=966
+D: S=3, bin=966
+D: S=4, bin=967
+D: D=5, adv to SYNC, VALS 967 967 966 966 967
+
+--------Header--------
+Payload length: 19
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006941682
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 39 39 8c 9a 
+Calculated 9a8c
+Got 9a8c
+D: S=1, bin=398
+D: S=1, bin=144
+D: S=1, bin=144
+D: S=2, bin=144
+D: S=3, bin=41
+D: S=1, bin=144
+D: S=1, bin=911
+D: S=2, bin=913
+D: S=3, bin=913
+D: S=1, bin=260
+D: S=1, bin=910
+D: S=1, bin=966
+D: S=2, bin=966
+D: S=3, bin=966
+D: S=4, bin=966
+D: D=5, adv to SYNC, VALS 966 966 966 966 966
+D: S=1, bin=921
+D: S=1, bin=455
+D: S=2, bin=940
+D: S=1, bin=724
+D: S=1, bin=95
+D: S=1, bin=400
+D: S=1, bin=768
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=1, bin=319
+D: S=1, bin=615
+D: S=2, bin=555
+D: S=1, bin=707
+D: S=1, bin=65
+D: S=1, bin=915
+D: S=2, bin=915
+D: S=3, bin=915
+D: S=4, bin=915
+D: D=5, adv to SYNC, VALS 915 915 915 915 915
+D: S=1, bin=605
+D: S=1, bin=865
+D: S=1, bin=886
+D: S=1, bin=1017
+D: S=1, bin=769
+D: S=2, bin=768
+D: S=3, bin=769
+D: S=4, bin=510
+D: D=5, adv to SYNC, VALS 130 769 768 769 510
+D: S=1, bin=149
+D: S=1, bin=252
+D: S=1, bin=138
+D: S=2, bin=138
+D: S=3, bin=138
+D: S=1, bin=138
+D: S=2, bin=138
+D: S=3, bin=138
+D: S=1, bin=170
+D: S=1, bin=905
+D: S=2, bin=907
+D: S=3, bin=907
+D: S=1, bin=35
+D: S=2, bin=35
+D: S=3, bin=35
+D: S=4, bin=34
+D: D=5, adv to SYNC, VALS 34 35 35 35 34
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006946726
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 30 34 cf 26 
+Calculated 26cf
+Got 26cf
+D: S=1, bin=546
+D: S=1, bin=105
+D: S=2, bin=105
+D: S=3, bin=105
+D: S=4, bin=105
+D: D=5, adv to SYNC, VALS 105 105 105 105 105
+D: S=1, bin=605
+D: S=1, bin=921
+D: S=1, bin=865
+D: S=1, bin=455
+D: S=1, bin=258
+D: S=1, bin=373
+D: S=1, bin=142
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=1, bin=669
+D: S=1, bin=910
+D: S=2, bin=910
+D: S=3, bin=910
+D: S=4, bin=910
+D: D=5, adv to SYNC, VALS 910 910 910 910 910
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006948726
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 30 36 cd 26 
+Calculated 26cd
+Got 26cd
+D: S=1, bin=272
+D: S=1, bin=609
+D: S=1, bin=213
+D: S=2, bin=215
+D: S=3, bin=216
+D: S=4, bin=215
+D: D=5, adv to SYNC, VALS 218 213 215 216 215
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006949725
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 30 37 cc 26 
+Calculated 26cc
+Got 26cc
+D: S=1, bin=995
+D: S=1, bin=252
+D: S=2, bin=250
+D: S=1, bin=252
+D: S=2, bin=252
+D: S=3, bin=252
+D: S=4, bin=252
+D: D=5, adv to SYNC, VALS 252 252 252 252 252
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006950725
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 30 38 c3 26 
+Calculated 26c3
+Got 26c3
+D: S=1, bin=920
+D: S=2, bin=920
+D: S=1, bin=920
+D: S=2, bin=920
+D: S=1, bin=351
+D: S=1, bin=619
+D: S=2, bin=782
+D: S=1, bin=1015
+D: S=1, bin=200
+D: S=1, bin=721
+D: S=1, bin=296
+D: S=1, bin=663
+D: S=2, bin=665
+D: S=3, bin=665
+D: S=1, bin=507
+D: S=1, bin=800
+D: S=2, bin=800
+D: S=3, bin=800
+D: S=4, bin=800
+D: D=5, adv to SYNC, VALS 800 800 800 800 800
+D: S=1, bin=921
+D: S=1, bin=865
+D: S=1, bin=455
+D: S=2, bin=438
+D: S=1, bin=627
+D: S=1, bin=479
+D: S=1, bin=769
+D: S=1, bin=897
+D: S=1, bin=820
+D: S=1, bin=813
+D: S=1, bin=434
+D: S=1, bin=907
+D: S=2, bin=909
+D: S=3, bin=599
+D: S=1, bin=909
+D: S=2, bin=909
+D: S=1, bin=489
+D: S=1, bin=340
+D: S=1, bin=358
+D: S=1, bin=608
+D: S=1, bin=193
+D: S=1, bin=800
+D: S=1, bin=0
+D: S=1, bin=702
+D: S=1, bin=561
+D: S=1, bin=789
+D: S=2, bin=789
+D: S=3, bin=789
+D: S=4, bin=789
+D: D=5, adv to SYNC, VALS 789 789 789 789 789
+D: S=1, bin=921
+D: S=1, bin=258
+D: S=1, bin=768
+D: S=1, bin=141
+D: S=1, bin=663
+D: S=1, bin=817
+D: S=1, bin=919
+D: S=2, bin=920
+D: S=3, bin=920
+D: S=4, bin=919
+D: D=5, adv to SYNC, VALS 836 919 920 920 919
+D: S=1, bin=768
+D: S=2, bin=769
+D: S=3, bin=656
+D: S=1, bin=849
+D: S=1, bin=900
+D: S=2, bin=900
+D: S=3, bin=900
+D: S=4, bin=900
+D: D=5, adv to SYNC, VALS 900 900 900 900 900
+D: S=1, bin=617
+D: S=1, bin=537
+D: S=1, bin=256
+D: S=1, bin=308
+D: S=1, bin=448
+D: S=1, bin=768
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=1, bin=734
+D: S=1, bin=930
+D: S=1, bin=926
+D: S=2, bin=926
+D: S=3, bin=926
+D: S=4, bin=926
+D: D=5, adv to SYNC, VALS 926 926 926 926 926
+D: S=1, bin=324
+D: S=2, bin=724
+D: S=1, bin=713
+D: S=1, bin=768
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=1, bin=500
+D: S=1, bin=135
+D: S=1, bin=252
+D: S=1, bin=926
+D: S=2, bin=857
+D: S=3, bin=926
+D: S=4, bin=926
+D: D=5, adv to SYNC, VALS 926 926 857 926 926
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006958730
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 31 36 cd 27 
+Calculated 27cd
+Got 27cd
+D: S=1, bin=242
+D: S=2, bin=242
+D: S=3, bin=242
+D: S=4, bin=242
+D: D=5, adv to SYNC, VALS 242 242 242 242 242
+D: S=1, bin=537
+D: S=1, bin=455
+D: S=1, bin=724
+D: S=1, bin=242
+D: S=1, bin=304
+D: S=1, bin=322
+D: S=1, bin=768
+D: S=2, bin=419
+D: S=3, bin=769
+D: S=1, bin=857
+D: S=2, bin=857
+D: S=3, bin=857
+D: S=4, bin=348
+D: D=5, adv to SYNC, VALS 856 857 857 857 348
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006960730
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 31 38 c3 27 
+Calculated 27c3
+Got 27c3
+D: S=1, bin=122
+D: S=2, bin=122
+D: S=3, bin=122
+D: S=4, bin=122
+D: D=5, adv to SYNC, VALS 122 122 122 122 122
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006961730
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 31 39 c2 27 
+Calculated 27c2
+Got 27c2
+D: S=1, bin=507
+D: S=1, bin=361
+D: S=2, bin=115
+D: S=3, bin=115
+D: S=4, bin=115
+D: D=5, adv to SYNC, VALS 115 361 115 115 115
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006962730
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 32 30 cb 24 
+Calculated 24cb
+Got 24cb
+D: S=1, bin=270
+D: S=1, bin=652
+D: S=1, bin=141
+D: S=1, bin=140
+D: S=2, bin=140
+D: S=3, bin=141
+D: S=4, bin=6
+D: D=5, adv to SYNC, VALS 142 140 140 141 6
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006963731
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 32 31 ca 24 
+Calculated 24ca
+Got 24ca
+D: S=1, bin=346
+D: S=1, bin=855
+D: S=1, bin=239
+D: S=2, bin=239
+D: S=3, bin=239
+D: S=4, bin=239
+D: D=5, adv to SYNC, VALS 239 239 239 239 239
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006964730
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 32 32 c9 24 
+Calculated 24c9
+Got 24c9
+D: S=1, bin=126
+D: S=1, bin=228
+D: S=1, bin=32
+D: S=2, bin=32
+D: S=3, bin=29
+D: S=4, bin=32
+D: D=5, adv to SYNC, VALS 32 32 32 29 32
+D: S=1, bin=32
+D: S=1, bin=921
+D: S=1, bin=701
+D: S=1, bin=724
+D: S=1, bin=398
+D: S=2, bin=333
+D: S=3, bin=769
+D: S=4, bin=768
+D: D=5, adv to SYNC, VALS 400 398 333 769 768
+D: S=1, bin=711
+D: S=1, bin=969
+D: S=1, bin=926
+D: S=1, bin=965
+D: S=1, bin=320
+D: S=1, bin=148
+D: S=2, bin=148
+D: S=3, bin=148
+D: S=4, bin=148
+D: D=5, adv to SYNC, VALS 148 148 148 148 148
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006966732
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 32 34 cf 24 
+Calculated 24cf
+Got 24cf
+D: S=1, bin=875
+D: S=1, bin=195
+D: S=2, bin=194
+D: S=3, bin=194
+D: S=4, bin=194
+D: D=5, adv to SYNC, VALS 194 195 194 194 194
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006967732
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 32 35 ce 24 
+Calculated 24ce
+Got 24ce
+D: S=1, bin=422
+D: S=1, bin=925
+D: S=1, bin=100
+D: S=2, bin=100
+D: S=3, bin=100
+D: S=4, bin=100
+D: D=5, adv to SYNC, VALS 100 100 100 100 100
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006968732
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 32 36 cd 24 
+Calculated 24cd
+Got 24cd
+D: S=1, bin=203
+D: S=1, bin=92
+D: S=2, bin=92
+D: S=3, bin=93
+D: S=4, bin=92
+D: D=5, adv to SYNC, VALS 92 92 92 93 92
+D: S=1, bin=177
+D: S=1, bin=256
+D: S=1, bin=438
+D: S=1, bin=481
+D: S=1, bin=824
+D: S=1, bin=769
+D: S=2, bin=768
+D: S=3, bin=769
+D: S=4, bin=769
+D: D=5, adv to SYNC, VALS 322 769 768 769 769
+D: S=1, bin=244
+D: S=1, bin=237
+D: S=2, bin=237
+D: S=3, bin=237
+D: S=4, bin=237
+D: D=5, adv to SYNC, VALS 237 237 237 237 237
+D: S=1, bin=439
+D: S=1, bin=885
+D: S=1, bin=627
+D: S=1, bin=653
+D: S=1, bin=322
+D: S=1, bin=768
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=4, bin=896
+D: D=5, adv to SYNC, VALS 769 768 769 769 896
+D: S=1, bin=223
+D: S=1, bin=202
+D: S=1, bin=250
+D: S=1, bin=992
+D: S=1, bin=174
+D: S=2, bin=174
+D: S=3, bin=174
+D: S=4, bin=174
+D: D=5, adv to SYNC, VALS 174 174 174 174 174
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006971732
+Raw Data 30 30 30 20 68 65 6c 6c 65 20 d7 6f 72 6c 64 3a 20 31 32 39 c2 24 
+Calculated 36ea
+Got 24c2
+D: S=1, bin=705
+D: S=1, bin=52
+D: S=2, bin=52
+D: S=3, bin=52
+D: S=4, bin=52
+D: D=5, adv to SYNC, VALS 52 52 52 52 52
+D: S=1, bin=861
+D: S=1, bin=865
+D: S=1, bin=724
+D: S=1, bin=304
+D: S=1, bin=768
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=1, bin=852
+D: S=1, bin=310
+D: S=1, bin=961
+D: S=2, bin=962
+D: S=3, bin=962
+D: S=4, bin=962
+D: D=5, adv to SYNC, VALS 961 961 962 962 962
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006973733
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 33 31 ca a5 
+Calculated 25ca
+Got a5ca
+D: S=1, bin=175
+D: S=1, bin=175
+D: S=2, bin=175
+D: S=3, bin=175
+D: S=4, bin=175
+D: D=5, adv to SYNC, VALS 175 175 175 175 175
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006974733
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 33 32 c9 25 
+Calculated 25c9
+Got 25c9
+D: S=1, bin=861
+D: S=1, bin=195
+D: S=1, bin=158
+D: S=1, bin=125
+D: S=2, bin=126
+D: S=1, bin=126
+D: S=2, bin=126
+D: S=1, bin=986
+D: S=1, bin=894
+D: S=2, bin=895
+D: S=3, bin=895
+D: S=1, bin=17
+D: S=2, bin=1014
+D: S=3, bin=1014
+D: S=4, bin=1014
+D: D=5, adv to SYNC, VALS 1014 17 1014 1014 1014
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006976733
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 33 34 cf 25 
+Calculated 25cf
+Got 25cf
+D: S=1, bin=720
+D: S=1, bin=363
+D: S=1, bin=134
+D: S=2, bin=134
+D: S=3, bin=134
+D: S=4, bin=134
+D: D=5, adv to SYNC, VALS 134 134 134 134 134
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006977734
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 33 35 ce 25 
+Calculated 25ce
+Got 25ce
+D: S=1, bin=571
+D: S=1, bin=273
+D: S=1, bin=91
+D: S=2, bin=91
+D: S=3, bin=90
+D: S=4, bin=89
+D: D=5, adv to SYNC, VALS 91 91 91 90 89
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006978734
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 33 36 cd 25 
+Calculated 25cd
+Got 25cd
+D: S=1, bin=536
+D: S=1, bin=46
+D: S=1, bin=165
+D: S=2, bin=162
+D: S=3, bin=163
+D: S=4, bin=163
+D: D=5, adv to SYNC, VALS 163 165 162 163 163
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006979735
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 65 64 33 20 31 33 37 cc 25 
+Calculated 1321
+Got 25cc
+D: S=1, bin=162
+D: S=1, bin=742
+D: S=1, bin=750
+D: S=1, bin=134
+D: S=2, bin=134
+D: S=3, bin=134
+D: S=4, bin=134
+D: D=5, adv to SYNC, VALS 134 134 134 134 134
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006980735
+Raw Data 30 30 10 a0 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 33 38 c3 25 
+Calculated 37c5
+Got 25c3
+D: S=1, bin=831
+D: S=1, bin=574
+D: S=1, bin=90
+D: S=2, bin=91
+D: S=3, bin=90
+D: S=4, bin=90
+D: D=5, adv to SYNC, VALS 90 90 91 90 90
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006981735
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 33 39 c2 25 
+Calculated 25c2
+Got 25c2
+D: S=1, bin=125
+D: S=2, bin=125
+D: S=3, bin=125
+D: S=4, bin=125
+D: D=5, adv to SYNC, VALS 125 125 125 125 125
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006982736
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 34 30 cb 22 
+Calculated 22cb
+Got 22cb
+D: S=1, bin=931
+D: S=1, bin=600
+D: S=1, bin=111
+D: S=2, bin=111
+D: S=3, bin=111
+D: S=4, bin=111
+D: D=5, adv to SYNC, VALS 111 111 111 111 111
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006983736
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 34 31 ca 22 
+Calculated 22ca
+Got 22ca
+D: S=1, bin=679
+D: S=1, bin=885
+D: S=1, bin=125
+D: S=2, bin=126
+D: S=3, bin=130
+D: S=4, bin=127
+D: D=5, adv to SYNC, VALS 126 125 126 130 127
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006984736
+Raw Data 30 30 30 20 a8 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 34 32 c9 22 
+Calculated 5e08
+Got 22c9
+D: S=1, bin=381
+D: S=1, bin=121
+D: S=2, bin=121
+D: S=3, bin=120
+D: S=4, bin=121
+D: D=5, adv to SYNC, VALS 121 121 121 120 121
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006985737
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 34 33 c8 22 
+Calculated 22c8
+Got 22c8
+D: S=1, bin=126
+D: S=2, bin=126
+D: S=3, bin=127
+D: S=4, bin=126
+D: D=5, adv to SYNC, VALS 126 126 126 127 126
+D: S=1, bin=921
+D: S=1, bin=865
+D: S=1, bin=501
+D: S=1, bin=724
+D: S=2, bin=886
+D: S=1, bin=97
+D: S=1, bin=768
+D: S=2, bin=769
+D: S=1, bin=1002
+D: S=2, bin=1003
+D: S=3, bin=1002
+D: S=4, bin=1002
+D: D=5, adv to SYNC, VALS 1002 1002 1003 1002 1002
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006987737
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 34 35 ce 22 
+Calculated 22ce
+Got 22ce
+D: S=1, bin=520
+D: S=1, bin=82
+D: S=2, bin=83
+D: S=3, bin=82
+D: S=4, bin=83
+D: D=5, adv to SYNC, VALS 83 82 83 82 83
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006988737
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 34 36 cd 12 
+Calculated 22cd
+Got 12cd
+D: S=1, bin=889
+D: S=1, bin=937
+D: S=1, bin=271
+D: S=1, bin=358
+D: S=1, bin=75
+D: S=2, bin=75
+D: S=3, bin=75
+D: S=4, bin=75
+D: D=5, adv to SYNC, VALS 77 75 75 75 75
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006989738
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 34 37 cc 22 
+Calculated 22cc
+Got 22cc
+D: S=1, bin=995
+D: S=1, bin=603
+D: S=1, bin=760
+D: S=1, bin=84
+D: S=1, bin=77
+D: S=2, bin=84
+D: S=3, bin=84
+D: S=4, bin=84
+D: D=5, adv to SYNC, VALS 84 77 84 84 84
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006990739
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 61 64 38 c3 22 
+Calculated 2836
+Got 22c3
+D: S=1, bin=487
+D: S=1, bin=170
+D: S=2, bin=170
+D: S=3, bin=170
+D: S=4, bin=170
+D: D=5, adv to SYNC, VALS 170 170 170 170 170
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006991737
+Raw Data 30 30 30 ac a8 65 5c 5c 63 0 77 ff b8 c7 c6 19 79 37 6d 3d c2 12 
+Calculated 6795
+Got 12c2
+D: S=1, bin=1007
+D: S=1, bin=150
+D: S=1, bin=651
+D: S=1, bin=926
+D: S=2, bin=927
+D: S=3, bin=927
+D: S=4, bin=927
+D: D=5, adv to SYNC, VALS 926 926 927 927 927
+D: S=1, bin=724
+D: S=1, bin=542
+D: S=1, bin=372
+D: S=1, bin=767
+D: S=2, bin=768
+D: S=3, bin=769
+D: S=1, bin=572
+D: S=1, bin=960
+D: S=2, bin=960
+D: S=1, bin=960
+D: S=2, bin=960
+D: S=3, bin=960
+D: S=1, bin=109
+D: S=1, bin=192
+D: S=1, bin=895
+D: S=1, bin=822
+D: S=1, bin=243
+D: S=1, bin=563
+D: S=1, bin=308
+D: S=1, bin=705
+D: S=2, bin=738
+D: S=3, bin=705
+D: S=4, bin=705
+D: D=5, adv to SYNC, VALS 66 705 738 705 705
+D: S=1, bin=64
+D: S=1, bin=150
+D: S=2, bin=150
+D: S=3, bin=150
+D: S=4, bin=149
+D: D=5, adv to SYNC, VALS 150 150 150 150 149
+D: S=1, bin=511
+D: S=1, bin=723
+D: S=1, bin=302
+D: S=2, bin=233
+D: S=1, bin=769
+D: S=2, bin=767
+D: S=1, bin=825
+D: S=1, bin=477
+D: S=1, bin=887
+D: S=2, bin=886
+D: S=3, bin=887
+D: S=4, bin=886
+D: D=5, adv to SYNC, VALS 886 887 886 887 886
+D: S=1, bin=438
+D: S=2, bin=723
+D: S=1, bin=886
+D: S=1, bin=277
+D: S=1, bin=480
+D: S=1, bin=768
+D: S=2, bin=770
+D: S=3, bin=769
+D: S=1, bin=770
+D: S=2, bin=770
+D: S=3, bin=770
+D: S=4, bin=770
+D: D=5, adv to SYNC, VALS 770 770 770 770 770
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006996741
+Raw Data 30 30 30 20 68 65 6c 6c 6e 20 76 6f 72 39 31 6a 20 31 35 34 cf 23 
+Calculated aa8c
+Got 23cf
+D: S=1, bin=509
+D: S=1, bin=253
+D: S=2, bin=953
+D: S=3, bin=253
+D: S=4, bin=952
+D: D=5, adv to SYNC, VALS 252 253 953 253 952
+D: S=1, bin=178
+D: S=1, bin=768
+D: S=2, bin=368
+D: S=3, bin=769
+D: S=1, bin=871
+D: S=2, bin=974
+D: S=3, bin=871
+D: S=4, bin=871
+D: D=5, adv to SYNC, VALS 873 871 974 871 871
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006998742
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 35 36 cd 23 
+Calculated 23cd
+Got 23cd
+D: S=1, bin=121
+D: S=2, bin=121
+D: S=3, bin=119
+D: S=4, bin=121
+D: D=5, adv to SYNC, VALS 121 121 121 119 121
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676006999741
+Raw Data 30 30 30 20 68 65 7c 7c 6c 33 76 6e 72 6c 64 3a 20 31 35 37 cc 23 
+Calculated 7166
+Got 23cc
+D: S=1, bin=107
+D: S=2, bin=107
+D: S=3, bin=107
+D: S=4, bin=945
+D: D=5, adv to SYNC, VALS 107 107 107 107 945
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007000742
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 30 31 35 38 c3 23 
+Calculated 20b0
+Got 23c3
+D: S=1, bin=159
+D: S=2, bin=159
+D: S=3, bin=159
+D: S=4, bin=159
+D: D=5, adv to SYNC, VALS 159 159 159 159 159
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007001742
+Raw Data 30 f0 f0 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 70 34 35 39 c2 23 
+Calculated 718d
+Got 23c2
+D: S=1, bin=781
+D: S=1, bin=624
+D: S=1, bin=349
+D: S=1, bin=84
+D: S=2, bin=84
+D: S=3, bin=84
+D: S=4, bin=84
+D: D=5, adv to SYNC, VALS 84 84 84 84 84
+D: S=1, bin=606
+D: S=1, bin=483
+D: S=1, bin=543
+D: S=1, bin=643
+D: S=1, bin=924
+D: S=1, bin=819
+D: S=2, bin=819
+D: S=3, bin=819
+D: S=4, bin=819
+D: D=5, adv to SYNC, VALS 819 819 819 819 819
+D: S=1, bin=537
+D: S=2, bin=865
+D: S=1, bin=438
+D: S=1, bin=95
+D: S=1, bin=259
+D: S=1, bin=479
+D: S=2, bin=130
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=3, bin=896
+D: S=1, bin=7
+D: S=2, bin=7
+D: S=3, bin=7
+D: S=4, bin=7
+D: D=5, adv to SYNC, VALS 7 7 7 7 7
+D: S=1, bin=726
+D: S=2, bin=886
+D: S=1, bin=308
+D: S=1, bin=479
+D: S=1, bin=768
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=4, bin=896
+D: D=5, adv to SYNC, VALS 769 768 769 769 896
+D: S=1, bin=144
+D: S=2, bin=144
+D: S=3, bin=144
+D: S=4, bin=144
+D: D=5, adv to SYNC, VALS 144 144 144 144 144
+D: S=1, bin=921
+D: S=1, bin=768
+D: S=1, bin=896
+D: S=2, bin=895
+D: S=1, bin=372
+D: S=1, bin=914
+D: S=2, bin=914
+D: S=3, bin=913
+D: S=4, bin=914
+D: D=5, adv to SYNC, VALS 913 914 914 913 914
+D: S=1, bin=932
+D: S=1, bin=860
+D: S=1, bin=723
+D: S=1, bin=542
+D: S=1, bin=768
+D: S=2, bin=767
+D: S=3, bin=768
+D: S=4, bin=767
+D: D=5, adv to SYNC, VALS 130 768 767 768 767
+D: S=1, bin=572
+D: S=1, bin=66
+D: S=1, bin=371
+D: S=1, bin=1023
+D: S=1, bin=97
+D: S=2, bin=97
+D: S=3, bin=97
+D: S=4, bin=97
+D: D=5, adv to SYNC, VALS 97 97 97 97 97
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007007744
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 36 35 ce 20 
+Calculated 20ce
+Got 20ce
+D: S=1, bin=340
+D: S=1, bin=752
+D: S=1, bin=209
+D: S=1, bin=209
+D: S=2, bin=209
+D: S=3, bin=209
+D: S=4, bin=209
+D: D=5, adv to SYNC, VALS 209 209 209 209 209
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007008744
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 35 5 5d 23 
+Calculated 23fe
+Got 235d
+D: S=1, bin=869
+D: S=1, bin=235
+D: S=1, bin=776
+D: S=1, bin=80
+D: S=2, bin=80
+D: S=3, bin=80
+D: S=4, bin=80
+D: D=5, adv to SYNC, VALS 80 80 80 80 80
+D: S=1, bin=920
+D: S=1, bin=454
+D: S=1, bin=308
+D: S=1, bin=768
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=4, bin=896
+D: D=5, adv to SYNC, VALS 769 768 769 769 896
+D: S=1, bin=986
+D: S=1, bin=137
+D: S=1, bin=137
+D: S=1, bin=860
+D: S=2, bin=461
+D: S=1, bin=905
+D: S=2, bin=906
+D: S=3, bin=906
+D: S=1, bin=887
+D: S=1, bin=109
+D: S=1, bin=30
+D: S=1, bin=30
+D: S=2, bin=30
+D: S=3, bin=30
+D: S=1, bin=30
+D: S=1, bin=485
+D: S=1, bin=402
+D: S=2, bin=485
+D: S=1, bin=485
+D: S=2, bin=799
+D: S=3, bin=799
+D: S=4, bin=799
+D: D=5, adv to SYNC, VALS 172 485 799 799 799
+D: S=1, bin=120
+D: S=1, bin=319
+D: S=1, bin=320
+D: S=2, bin=319
+D: S=3, bin=317
+D: S=4, bin=319
+D: D=5, adv to SYNC, VALS 319 320 319 317 319
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007012744
+Raw Data 30 30 33 20 68 65 6c 6c 6f 20 77 6f 72 60 64 3a 20 31 37 30 cb 21 
+Calculated 42ad
+Got 21cb
+D: S=1, bin=25
+D: S=1, bin=982
+D: S=2, bin=982
+D: S=3, bin=982
+D: S=4, bin=982
+D: D=5, adv to SYNC, VALS 982 982 982 982 982
+D: S=1, bin=177
+D: S=1, bin=860
+D: S=1, bin=865
+D: S=1, bin=885
+D: S=1, bin=308
+D: S=1, bin=768
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=1, bin=680
+D: S=1, bin=139
+D: S=1, bin=283
+D: S=1, bin=1
+D: S=1, bin=926
+D: S=2, bin=925
+D: S=3, bin=925
+D: S=4, bin=926
+D: D=5, adv to SYNC, VALS 926 926 925 925 926
+D: S=1, bin=865
+D: S=1, bin=438
+D: S=1, bin=724
+D: S=1, bin=372
+D: S=1, bin=768
+D: S=2, bin=12
+D: S=3, bin=769
+D: S=1, bin=297
+D: S=1, bin=794
+D: S=2, bin=794
+D: S=3, bin=794
+D: S=4, bin=794
+D: D=5, adv to SYNC, VALS 1000 794 794 794 794
+D: S=1, bin=177
+D: S=1, bin=921
+D: S=1, bin=749
+D: S=1, bin=768
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=1, bin=916
+D: S=1, bin=936
+D: S=2, bin=937
+D: S=3, bin=937
+D: S=4, bin=937
+D: D=5, adv to SYNC, VALS 937 936 937 937 937
+D: S=1, bin=724
+D: S=2, bin=724
+D: S=1, bin=627
+D: S=2, bin=304
+D: S=1, bin=768
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=1, bin=898
+D: S=1, bin=115
+D: S=1, bin=945
+D: S=2, bin=945
+D: S=3, bin=945
+D: S=4, bin=945
+D: D=5, adv to SYNC, VALS 945 945 945 945 945
+D: S=1, bin=921
+D: S=1, bin=768
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=1, bin=441
+D: S=1, bin=349
+D: S=1, bin=901
+D: S=2, bin=135
+D: S=3, bin=900
+D: S=4, bin=899
+D: D=5, adv to SYNC, VALS 902 901 135 900 899
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007018748
+Raw Data 30 30 30 20 68 65 7c 6c 7f 20 77 6f 72 6c 64 3a 20 31 37 36 cd 21 
+Calculated 820b
+Got 21cd
+D: S=1, bin=82
+D: S=2, bin=695
+D: S=3, bin=82
+D: S=4, bin=82
+D: D=5, adv to SYNC, VALS 82 82 695 82 82
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007019748
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 37 37 cc 21 
+Calculated 21cc
+Got 21cc
+D: S=1, bin=141
+D: S=1, bin=156
+D: S=2, bin=156
+D: S=3, bin=155
+D: S=4, bin=156
+D: D=5, adv to SYNC, VALS 156 156 156 155 156
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007020749
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 37 38 c3 21 
+Calculated 21c3
+Got 21c3
+D: S=1, bin=586
+D: S=1, bin=52
+D: S=2, bin=52
+D: S=3, bin=52
+D: S=4, bin=54
+D: D=5, adv to SYNC, VALS 52 52 52 52 54
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007021750
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 37 39 c2 21 
+Calculated 21c2
+Got 21c2
+D: S=1, bin=1014
+D: S=1, bin=200
+D: S=2, bin=200
+D: S=3, bin=200
+D: S=4, bin=200
+D: D=5, adv to SYNC, VALS 200 200 200 200 200
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007022749
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 38 30 cb 3e 
+Calculated 2ecb
+Got 3ecb
+D: S=1, bin=757
+D: S=1, bin=37
+D: S=2, bin=38
+D: S=3, bin=38
+D: S=4, bin=38
+D: D=5, adv to SYNC, VALS 38 37 38 38 38
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007023750
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 38 31 ca 2e 
+Calculated 2eca
+Got 2eca
+D: S=1, bin=119
+D: S=2, bin=119
+D: S=3, bin=119
+D: S=4, bin=119
+D: D=5, adv to SYNC, VALS 119 119 119 119 119
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007024750
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 38 32 c9 2e 
+Calculated 2ec9
+Got 2ec9
+D: S=1, bin=185
+D: S=2, bin=185
+D: S=3, bin=186
+D: S=4, bin=185
+D: D=5, adv to SYNC, VALS 187 185 185 186 185
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007025750
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a b0 31 38 33 c8 2e 
+Calculated 3623
+Got 2ec8
+D: S=1, bin=193
+D: S=1, bin=362
+D: S=1, bin=57
+D: S=2, bin=57
+D: S=3, bin=57
+D: S=4, bin=57
+D: D=5, adv to SYNC, VALS 57 57 57 57 57
+D: S=1, bin=438
+D: S=1, bin=258
+D: S=1, bin=417
+D: S=1, bin=768
+D: S=2, bin=768
+D: S=3, bin=769
+D: S=4, bin=769
+D: D=5, adv to SYNC, VALS 102 768 768 769 769
+D: S=1, bin=729
+D: S=1, bin=171
+D: S=2, bin=171
+D: S=3, bin=171
+D: S=4, bin=171
+D: D=5, adv to SYNC, VALS 170 171 171 171 171
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007027751
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f b2 6c a4 3a 2c 31 38 35 ce 2e 
+Calculated 6637
+Got 2ece
+D: S=1, bin=390
+D: S=1, bin=147
+D: S=2, bin=147
+D: S=3, bin=147
+D: S=4, bin=149
+D: D=5, adv to SYNC, VALS 147 147 147 147 149
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007028752
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 38 36 cd 2e 
+Calculated 2ecd
+Got 2ecd
+D: S=1, bin=854
+D: S=1, bin=60
+D: S=2, bin=60
+D: S=3, bin=60
+D: S=4, bin=60
+D: D=5, adv to SYNC, VALS 60 60 60 60 60
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007029753
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 38 37 cc 2e 
+Calculated 2ecc
+Got 2ecc
+D: S=1, bin=382
+D: S=1, bin=151
+D: S=1, bin=151
+D: S=2, bin=151
+D: S=3, bin=5
+D: S=4, bin=935
+D: D=5, adv to SYNC, VALS 151 151 151 5 935
+D: S=1, bin=860
+D: S=1, bin=454
+D: S=1, bin=308
+D: S=2, bin=95
+D: S=1, bin=1014
+D: S=1, bin=766
+D: S=1, bin=116
+D: S=2, bin=117
+D: S=1, bin=984
+D: S=2, bin=984
+D: S=3, bin=984
+D: S=4, bin=984
+D: D=5, adv to SYNC, VALS 984 984 984 984 984
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007031752
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 38 39 c2 2e 
+Calculated 2ec2
+Got 2ec2
+D: S=1, bin=372
+D: S=1, bin=53
+D: S=2, bin=489
+D: S=3, bin=55
+D: S=1, bin=54
+D: S=2, bin=53
+D: S=1, bin=914
+D: S=1, bin=974
+D: S=1, bin=777
+D: S=1, bin=824
+D: S=2, bin=822
+D: S=3, bin=824
+D: S=1, bin=183
+D: S=2, bin=584
+D: S=1, bin=334
+D: S=1, bin=925
+D: S=1, bin=749
+D: S=1, bin=900
+D: S=2, bin=900
+D: S=3, bin=900
+D: S=4, bin=900
+D: D=5, adv to SYNC, VALS 899 900 900 900 900
+D: S=1, bin=604
+D: S=1, bin=438
+D: S=2, bin=723
+D: S=1, bin=573
+D: S=1, bin=627
+D: S=1, bin=420
+D: S=1, bin=768
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=1, bin=723
+D: S=1, bin=960
+D: S=2, bin=960
+D: S=3, bin=960
+D: S=4, bin=960
+D: D=5, adv to SYNC, VALS 960 960 960 960 960
+D: S=1, bin=605
+D: S=1, bin=537
+D: S=1, bin=521
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=1, bin=988
+D: S=1, bin=948
+D: S=2, bin=948
+D: S=3, bin=948
+D: S=4, bin=345
+D: D=5, adv to SYNC, VALS 948 948 948 948 345
+D: S=1, bin=255
+D: S=1, bin=723
+D: S=1, bin=713
+D: S=1, bin=415
+D: S=1, bin=768
+D: S=2, bin=769
+D: S=3, bin=767
+D: S=1, bin=196
+D: S=1, bin=126
+D: S=1, bin=933
+D: S=2, bin=933
+D: S=3, bin=933
+D: S=4, bin=933
+D: D=5, adv to SYNC, VALS 933 933 933 933 933
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007036754
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 31 39 34 cf 2f 
+Calculated 2fcf
+Got 2fcf
+D: S=1, bin=198
+D: S=1, bin=149
+D: S=2, bin=149
+D: S=1, bin=149
+D: S=2, bin=149
+D: S=3, bin=149
+D: S=1, bin=917
+D: S=2, bin=918
+D: S=3, bin=918
+D: S=1, bin=79
+D: S=1, bin=26
+D: S=2, bin=26
+D: S=3, bin=26
+D: S=4, bin=26
+D: D=5, adv to SYNC, VALS 26 26 26 26 26
+D: S=1, bin=455
+D: S=1, bin=543
+D: S=1, bin=769
+D: S=2, bin=768
+D: S=3, bin=769
+D: S=4, bin=769
+D: D=5, adv to SYNC, VALS 142 769 768 769 769
+D: S=1, bin=196
+D: S=1, bin=169
+D: S=2, bin=169
+D: S=3, bin=170
+D: S=1, bin=169
+D: S=1, bin=586
+D: S=1, bin=938
+D: S=1, bin=346
+D: S=1, bin=75
+D: S=1, bin=98
+D: S=1, bin=98
+D: S=1, bin=959
+D: S=1, bin=38
+D: S=1, bin=866
+D: S=2, bin=386
+D: S=3, bin=867
+D: S=1, bin=782
+D: S=1, bin=182
+D: S=1, bin=762
+D: S=1, bin=7
+D: S=2, bin=7
+D: S=3, bin=7
+D: S=4, bin=7
+D: D=5, adv to SYNC, VALS 7 7 7 7 7
+D: S=1, bin=173
+D: S=1, bin=308
+D: S=1, bin=400
+D: S=1, bin=768
+D: S=1, bin=645
+D: S=1, bin=1012
+D: S=1, bin=916
+D: S=2, bin=916
+D: S=3, bin=916
+D: S=4, bin=916
+D: D=5, adv to SYNC, VALS 916 916 916 916 916
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007042755
+Raw Data 30 30 30 20 68 65 6c 4c 4f 22 55 5f 72 6c 64 3a 20 32 30 30 a8 16 
+Calculated eefb
+Got 16a8
+D: S=1, bin=307
+D: S=2, bin=308
+D: S=3, bin=308
+D: S=1, bin=913
+D: S=1, bin=805
+D: S=1, bin=52
+D: S=2, bin=77
+D: S=3, bin=52
+D: S=1, bin=943
+D: S=1, bin=941
+D: S=1, bin=992
+D: S=2, bin=992
+D: S=3, bin=992
+D: S=4, bin=992
+D: D=5, adv to SYNC, VALS 992 992 992 992 992
+D: S=1, bin=438
+D: S=1, bin=773
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=1, bin=949
+D: S=2, bin=949
+D: S=3, bin=949
+D: S=4, bin=728
+D: D=5, adv to SYNC, VALS 948 949 949 949 728
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007045756
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 32 30 33 ab 16 
+Calculated 16ab
+Got 16ab
+D: S=1, bin=95
+D: S=1, bin=96
+D: S=1, bin=4
+D: S=1, bin=864
+D: S=2, bin=863
+D: S=3, bin=864
+D: S=1, bin=16
+D: S=2, bin=19
+D: S=1, bin=17
+D: S=2, bin=17
+D: S=1, bin=855
+D: S=1, bin=552
+D: S=1, bin=866
+D: S=1, bin=340
+D: S=1, bin=275
+D: S=1, bin=321
+D: S=2, bin=560
+D: S=3, bin=381
+D: S=1, bin=785
+D: S=2, bin=786
+D: S=3, bin=305
+D: S=1, bin=488
+D: S=1, bin=833
+D: S=1, bin=833
+D: S=1, bin=207
+D: S=1, bin=264
+D: S=1, bin=532
+D: S=2, bin=532
+D: S=1, bin=289
+D: S=1, bin=928
+D: S=2, bin=67
+D: S=1, bin=351
+D: S=1, bin=578
+D: S=1, bin=88
+D: S=1, bin=885
+D: S=1, bin=77
+D: S=1, bin=679
+D: S=1, bin=800
+D: S=2, bin=5
+D: S=3, bin=800
+D: S=1, bin=830
+D: S=1, bin=977
+D: S=1, bin=313
+D: S=2, bin=312
+D: S=1, bin=231
+D: S=2, bin=221
+D: S=1, bin=99
+D: S=1, bin=740
+D: S=1, bin=732
+D: S=1, bin=545
+D: S=2, bin=545
+D: S=3, bin=545
+D: S=1, bin=672
+D: S=1, bin=830
+D: S=1, bin=973
+D: S=1, bin=675
+D: S=2, bin=677
+D: S=3, bin=677
+D: S=4, bin=677
+D: D=5, adv to SYNC, VALS 676 675 677 677 677
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007050758
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 27 6c 34 3f 20 32 30 38 a0 16 
+Calculated bbfe
+Got 16a0
+D: S=1, bin=80
+D: S=2, bin=81
+D: S=1, bin=98
+D: S=2, bin=97
+D: S=3, bin=97
+D: S=4, bin=97
+D: D=5, adv to SYNC, VALS 98 98 97 97 97
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007051758
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 32 b8 39 a1 16 
+Calculated 9ea1
+Got 16a1
+D: S=1, bin=78
+D: S=2, bin=78
+D: S=3, bin=78
+D: S=4, bin=78
+D: D=5, adv to SYNC, VALS 78 78 78 78 78
+D: S=1, bin=721
+D: S=1, bin=257
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=4, bin=768
+D: D=5, adv to SYNC, VALS 770 769 769 769 768
+D: S=1, bin=551
+D: S=1, bin=189
+D: S=2, bin=188
+D: S=3, bin=189
+D: S=1, bin=189
+D: S=1, bin=958
+D: S=2, bin=958
+D: S=3, bin=957
+D: S=1, bin=495
+D: S=1, bin=1009
+D: S=2, bin=1009
+D: S=3, bin=1009
+D: S=4, bin=1009
+D: D=5, adv to SYNC, VALS 1009 1009 1009 1009 1009
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007054760
+Raw Data 30 30 30 20 68 65 6c 2c 6b 20 77 6f 72 6c 64 3a 20 23 31 32 aa 17 
+Calculated fc5a
+Got 17aa
+D: S=1, bin=840
+D: S=1, bin=148
+D: S=2, bin=148
+D: S=1, bin=148
+D: S=2, bin=148
+D: S=1, bin=917
+D: S=2, bin=917
+D: S=3, bin=917
+D: S=1, bin=403
+D: S=1, bin=737
+D: S=1, bin=129
+D: S=2, bin=726
+D: S=3, bin=130
+D: S=4, bin=129
+D: D=5, adv to SYNC, VALS 139 129 726 130 129
+D: S=1, bin=918
+D: S=1, bin=439
+D: S=1, bin=96
+D: S=1, bin=771
+D: S=2, bin=771
+D: S=3, bin=770
+D: S=1, bin=908
+D: S=2, bin=908
+D: S=3, bin=908
+D: S=4, bin=908
+D: D=5, adv to SYNC, VALS 908 908 908 908 908
+D: S=1, bin=885
+D: S=1, bin=770
+D: S=2, bin=769
+D: S=3, bin=768
+D: S=1, bin=898
+D: S=1, bin=526
+D: S=1, bin=893
+D: S=2, bin=893
+D: S=1, bin=893
+D: S=2, bin=893
+D: S=1, bin=925
+D: S=1, bin=46
+D: S=2, bin=473
+D: S=3, bin=473
+D: S=1, bin=405
+D: S=1, bin=125
+D: S=2, bin=306
+D: S=1, bin=192
+D: S=2, bin=593
+D: S=1, bin=177
+D: S=1, bin=497
+D: S=2, bin=411
+D: S=3, bin=626
+D: S=1, bin=202
+D: S=2, bin=639
+D: S=3, bin=638
+D: S=4, bin=637
+D: D=5, adv to SYNC, VALS 347 202 639 638 637
+D: S=1, bin=168
+D: S=1, bin=296
+D: S=1, bin=323
+D: S=1, bin=152
+D: S=2, bin=152
+D: S=3, bin=152
+D: S=4, bin=152
+D: D=5, adv to SYNC, VALS 153 152 152 152 152
+D: S=1, bin=605
+D: S=1, bin=537
+D: S=1, bin=627
+D: S=1, bin=449
+D: S=1, bin=769
+D: S=2, bin=768
+D: S=3, bin=769
+D: S=1, bin=805
+D: S=2, bin=805
+D: S=3, bin=805
+D: S=4, bin=805
+D: D=5, adv to SYNC, VALS 765 805 805 805 805
+D: S=1, bin=721
+D: S=1, bin=647
+D: S=1, bin=502
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=3, bin=768
+D: S=1, bin=1018
+D: S=1, bin=916
+D: S=2, bin=916
+D: S=3, bin=915
+D: S=4, bin=915
+D: D=5, adv to SYNC, VALS 916 916 916 915 915
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007061762
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 ec 64 3a 20 32 31 39 a1 17 
+Calculated 3571
+Got 17a1
+D: S=1, bin=164
+D: S=2, bin=164
+D: S=3, bin=242
+D: S=4, bin=164
+D: D=5, adv to SYNC, VALS 164 164 164 242 164
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007062762
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 2 b2 50 a8 24 
+Calculated a29b
+Got 24a8
+D: S=1, bin=810
+D: S=1, bin=65
+D: S=2, bin=63
+D: S=3, bin=63
+D: S=4, bin=65
+D: D=5, adv to SYNC, VALS 65 65 63 63 65
+D: S=1, bin=95
+D: S=1, bin=542
+D: S=1, bin=322
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=1, bin=577
+D: S=1, bin=918
+D: S=2, bin=918
+D: S=1, bin=918
+D: S=2, bin=918
+D: S=3, bin=918
+D: S=1, bin=826
+D: S=1, bin=815
+D: S=1, bin=331
+D: S=1, bin=219
+D: S=1, bin=374
+D: S=2, bin=202
+D: S=1, bin=152
+D: S=1, bin=522
+D: S=1, bin=215
+D: S=1, bin=663
+D: S=1, bin=663
+D: S=1, bin=825
+D: S=2, bin=825
+D: S=3, bin=825
+D: S=4, bin=825
+D: D=5, adv to SYNC, VALS 825 825 825 825 825
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007065764
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 32 32 33 ab 14 
+Calculated 14ab
+Got 14ab
+D: S=1, bin=511
+D: S=1, bin=584
+D: S=1, bin=876
+D: S=1, bin=302
+D: S=1, bin=483
+D: S=1, bin=200
+D: S=2, bin=198
+D: S=3, bin=198
+D: S=4, bin=198
+D: D=5, adv to SYNC, VALS 198 200 198 198 198
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007066763
+Raw Data 30 30 30 b0 68 65 6c c 4f 20 d7 7f 70 61 65 2b 20 2 b2 34 cc 24 
+Calculated 768a
+Got 24cc
+D: S=1, bin=1023
+D: S=2, bin=1023
+D: S=3, bin=1023
+D: S=4, bin=1023
+D: D=5, adv to SYNC, VALS 1022 1023 1023 1023 1023
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007067765
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 3f 77 6c 64 3a 20 32 32 35 ad 14 
+Calculated bd3b
+Got 14ad
+D: S=1, bin=1018
+D: S=1, bin=136
+D: S=2, bin=136
+D: S=3, bin=136
+D: S=4, bin=136
+D: D=5, adv to SYNC, VALS 136 136 136 136 136
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007068764
+Raw Data 30 10 30 20 68 65 5c 5c 6f 20 77 6f 72 6c 64 3a 20 32 32 36 ae 14 
+Calculated 8e1b
+Got 14ae
+D: S=1, bin=120
+D: S=2, bin=121
+D: S=1, bin=121
+D: S=1, bin=890
+D: S=2, bin=890
+D: S=3, bin=890
+D: S=1, bin=322
+D: S=1, bin=246
+D: S=1, bin=840
+D: S=1, bin=271
+D: S=1, bin=464
+D: S=1, bin=125
+D: S=2, bin=125
+D: S=3, bin=125
+D: S=4, bin=125
+D: D=5, adv to SYNC, VALS 125 125 125 125 125
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007070765
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 32 32 38 a0 14 
+Calculated 14a0
+Got 14a0
+D: S=1, bin=287
+D: S=1, bin=98
+D: S=2, bin=95
+D: S=1, bin=100
+D: S=2, bin=98
+D: S=3, bin=98
+D: S=4, bin=98
+D: D=5, adv to SYNC, VALS 911 100 98 98 98
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007071765
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 32 32 39 a1 14 
+Calculated 14a1
+Got 14a1
+D: S=1, bin=813
+D: S=1, bin=887
+D: S=1, bin=132
+D: S=2, bin=133
+D: S=3, bin=133
+D: S=1, bin=133
+D: S=2, bin=134
+D: S=1, bin=588
+D: S=1, bin=901
+D: S=2, bin=901
+D: S=3, bin=901
+D: S=1, bin=23
+D: S=2, bin=23
+D: S=1, bin=23
+D: S=1, bin=611
+D: S=2, bin=747
+D: S=3, bin=909
+D: S=1, bin=793
+D: S=2, bin=793
+D: S=3, bin=793
+D: S=1, bin=890
+D: S=1, bin=357
+D: S=1, bin=176
+D: S=1, bin=32
+D: S=2, bin=32
+D: S=3, bin=31
+D: S=1, bin=893
+D: S=1, bin=897
+D: S=1, bin=661
+D: S=1, bin=802
+D: S=1, bin=928
+D: S=1, bin=644
+D: S=1, bin=992
+D: S=1, bin=720
+D: S=2, bin=929
+D: S=3, bin=721
+D: S=4, bin=720
+D: D=5, adv to SYNC, VALS 720 720 929 721 720
+D: S=1, bin=247
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=1, bin=965
+D: S=2, bin=965
+D: S=3, bin=965
+D: S=1, bin=965
+D: S=2, bin=965
+D: S=1, bin=545
+D: S=1, bin=558
+D: S=2, bin=368
+D: S=1, bin=806
+D: S=1, bin=664
+D: S=1, bin=36
+D: S=1, bin=568
+D: S=1, bin=390
+D: S=1, bin=710
+D: S=2, bin=708
+D: S=1, bin=815
+D: S=2, bin=815
+D: S=3, bin=815
+D: S=1, bin=815
+D: S=2, bin=815
+D: S=1, bin=845
+D: S=1, bin=395
+D: S=1, bin=392
+D: S=1, bin=3
+D: S=1, bin=95
+D: S=1, bin=270
+D: S=2, bin=270
+D: S=1, bin=560
+D: S=2, bin=561
+D: S=3, bin=560
+D: S=1, bin=88
+D: S=1, bin=100
+D: S=1, bin=697
+D: S=2, bin=696
+D: S=3, bin=697
+D: S=4, bin=697
+D: D=5, adv to SYNC, VALS 697 697 696 697 697
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007078768
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 a2 3a 3f ae 15 
+Calculated 9f1e
+Got 15ae
+D: S=1, bin=229
+D: S=1, bin=870
+D: S=1, bin=125
+D: S=1, bin=959
+D: S=2, bin=140
+D: S=3, bin=140
+D: S=1, bin=140
+D: S=2, bin=139
+D: S=1, bin=909
+D: S=2, bin=12
+D: S=1, bin=8
+D: S=2, bin=8
+D: S=3, bin=8
+D: S=4, bin=8
+D: D=5, adv to SYNC, VALS 432 8 8 8 8
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007080769
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 32 33 38 a0 15 
+Calculated 15a0
+Got 15a0
+D: S=1, bin=128
+D: S=2, bin=128
+D: S=3, bin=128
+D: S=4, bin=128
+D: D=5, adv to SYNC, VALS 128 128 128 128 128
+D: S=1, bin=177
+D: S=1, bin=861
+D: S=1, bin=438
+D: S=1, bin=95
+D: S=2, bin=96
+D: S=1, bin=497
+D: S=2, bin=455
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=4, bin=896
+D: D=5, adv to SYNC, VALS 769 769 769 769 896
+D: S=1, bin=431
+D: S=1, bin=126
+D: S=2, bin=127
+D: S=3, bin=127
+D: S=4, bin=127
+D: D=5, adv to SYNC, VALS 127 126 127 127 127
+D: S=1, bin=324
+D: S=1, bin=627
+D: S=1, bin=544
+D: S=1, bin=269
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=1, bin=338
+D: S=1, bin=546
+D: S=1, bin=768
+D: S=1, bin=191
+D: S=1, bin=530
+D: S=1, bin=920
+D: S=1, bin=920
+D: S=2, bin=920
+D: S=3, bin=920
+D: S=4, bin=921
+D: D=5, adv to SYNC, VALS 920 920 920 920 921
+D: S=1, bin=617
+D: S=1, bin=103
+D: S=1, bin=964
+D: S=1, bin=322
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=1, bin=10
+D: S=1, bin=190
+D: S=1, bin=992
+D: S=2, bin=992
+D: S=3, bin=992
+D: S=1, bin=992
+D: S=2, bin=992
+D: S=1, bin=573
+D: S=1, bin=505
+D: S=1, bin=449
+D: S=1, bin=63
+D: S=1, bin=272
+D: S=1, bin=374
+D: S=2, bin=237
+D: S=1, bin=737
+D: S=2, bin=737
+D: S=3, bin=737
+D: S=1, bin=776
+D: S=2, bin=776
+D: S=1, bin=776
+D: S=2, bin=776
+D: S=1, bin=953
+D: S=1, bin=950
+D: S=1, bin=62
+D: S=1, bin=636
+D: S=1, bin=521
+D: S=2, bin=520
+D: S=3, bin=521
+D: S=1, bin=647
+D: S=1, bin=644
+D: S=1, bin=694
+D: S=2, bin=693
+D: S=3, bin=693
+D: S=4, bin=693
+D: D=5, adv to SYNC, VALS 693 694 693 693 693
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007086770
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 32 34 34 ac 12 
+Calculated 12ac
+Got 12ac
+D: S=1, bin=60
+D: S=2, bin=60
+D: S=3, bin=60
+D: S=4, bin=60
+D: D=5, adv to SYNC, VALS 60 60 60 60 60
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007087771
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 32 34 35 ad 12 
+Calculated 12ad
+Got 12ad
+D: S=1, bin=136
+D: S=2, bin=136
+D: S=3, bin=136
+D: S=4, bin=711
+D: D=5, adv to SYNC, VALS 136 136 136 136 711
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007088772
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 32 34 36 ae 12 
+Calculated 12ae
+Got 12ae
+D: S=1, bin=674
+D: S=1, bin=746
+D: S=1, bin=159
+D: S=2, bin=179
+D: S=3, bin=63
+D: S=4, bin=159
+D: D=5, adv to SYNC, VALS 159 159 179 63 159
+D: S=1, bin=921
+D: S=1, bin=865
+D: S=1, bin=725
+D: S=1, bin=769
+D: S=2, bin=584
+D: S=1, bin=954
+D: S=1, bin=151
+D: S=1, bin=877
+D: S=2, bin=877
+D: S=3, bin=877
+D: S=4, bin=877
+D: D=5, adv to SYNC, VALS 877 877 877 877 877
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007090772
+Raw Data 30 30 30 20 68 65 6c 2c 6b 0 75 6f 72 ec 64 3a 20 a2 34 38 a0 12 
+Calculated 7273
+Got 12a0
+D: S=1, bin=603
+D: S=1, bin=104
+D: S=2, bin=103
+D: S=3, bin=104
+D: S=4, bin=104
+D: D=5, adv to SYNC, VALS 104 104 103 104 104
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007091773
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 32 34 39 a1 12 
+Calculated 12a1
+Got 12a1
+D: S=1, bin=486
+D: S=1, bin=657
+D: S=1, bin=191
+D: S=1, bin=191
+D: S=2, bin=191
+D: S=3, bin=191
+D: S=4, bin=191
+D: D=5, adv to SYNC, VALS 693 191 191 191 191
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007092772
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 36 2c 64 3a 24 32 35 30 a8 13 
+Calculated a2b5
+Got 13a8
+D: S=1, bin=234
+D: S=1, bin=134
+D: S=2, bin=134
+D: S=3, bin=135
+D: S=4, bin=134
+D: D=5, adv to SYNC, VALS 134 134 134 135 134
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007093773
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 32 35 31 a9 13 
+Calculated 13a9
+Got 13a9
+D: S=1, bin=772
+D: S=1, bin=48
+D: S=2, bin=48
+D: S=3, bin=48
+D: S=4, bin=48
+D: D=5, adv to SYNC, VALS 49 48 48 48 48
+D: S=1, bin=886
+D: S=1, bin=259
+D: S=1, bin=544
+D: S=2, bin=543
+D: S=1, bin=479
+D: S=2, bin=811
+D: S=1, bin=768
+D: S=2, bin=769
+D: S=1, bin=914
+D: S=1, bin=895
+D: S=2, bin=895
+D: S=3, bin=895
+D: S=4, bin=895
+D: D=5, adv to SYNC, VALS 895 895 895 895 895
+D: S=1, bin=32
+D: S=1, bin=177
+D: S=2, bin=605
+D: S=1, bin=455
+D: S=1, bin=324
+D: S=1, bin=627
+D: S=1, bin=565
+D: S=1, bin=479
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=1, bin=896
+D: S=1, bin=700
+D: S=2, bin=408
+D: S=1, bin=142
+D: S=1, bin=896
+D: S=2, bin=896
+D: S=1, bin=896
+D: S=2, bin=896
+D: S=3, bin=896
+D: S=1, bin=477
+D: S=1, bin=732
+D: S=1, bin=409
+D: S=1, bin=327
+D: S=2, bin=328
+D: S=1, bin=596
+D: S=1, bin=499
+D: S=2, bin=176
+D: S=3, bin=415
+D: S=1, bin=189
+D: S=2, bin=351
+D: S=1, bin=641
+D: S=2, bin=641
+D: S=3, bin=641
+D: S=1, bin=768
+D: S=1, bin=872
+D: S=1, bin=778
+D: S=2, bin=778
+D: S=3, bin=778
+D: S=4, bin=778
+D: D=5, adv to SYNC, VALS 778 778 778 778 778
+D: S=1, bin=173
+D: S=1, bin=438
+D: S=1, bin=722
+D: S=2, bin=84
+D: S=1, bin=481
+D: S=2, bin=308
+D: S=1, bin=543
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=1, bin=857
+D: S=1, bin=519
+D: S=1, bin=247
+D: S=1, bin=910
+D: S=2, bin=911
+D: S=3, bin=910
+D: S=4, bin=910
+D: D=5, adv to SYNC, VALS 910 910 911 910 910
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007098775
+Raw Data 30 30 30 20 68 65 ac 6c af 20 b7 6f 72 6c 64 3a 20 32 35 36 ae 13 
+Calculated f930
+Got 13ae
+D: S=1, bin=913
+D: S=1, bin=702
+D: S=1, bin=166
+D: S=2, bin=760
+D: S=3, bin=166
+D: S=4, bin=166
+D: D=5, adv to SYNC, VALS 165 166 760 166 166
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007099775
+Raw Data 30 30 30 20 68 65 ac a0 af e0 7b 63 72 6c 64 3a 20 32 35 37 af 13 
+Calculated 6f61
+Got 13af
+D: S=1, bin=669
+D: S=1, bin=79
+D: S=1, bin=79
+D: S=2, bin=79
+D: S=3, bin=78
+D: S=1, bin=581
+D: S=1, bin=209
+D: S=1, bin=848
+D: S=2, bin=847
+D: S=3, bin=847
+D: S=1, bin=982
+D: S=2, bin=982
+D: S=3, bin=982
+D: S=4, bin=982
+D: D=5, adv to SYNC, VALS 982 982 982 982 982
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007101777
+Raw Data 30 30 30 70 6d 65 6c 6d 5c 23 47 ef e2 7c 75 23 28 32 35 39 a1 13 
+Calculated 62c
+Got 13a1
+D: S=1, bin=1015
+D: S=1, bin=131
+D: S=2, bin=131
+D: S=3, bin=131
+D: S=4, bin=131
+D: D=5, adv to SYNC, VALS 131 131 131 131 131
+D: S=1, bin=324
+D: S=1, bin=304
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=1, bin=501
+D: S=1, bin=314
+D: S=1, bin=902
+D: S=2, bin=902
+D: S=3, bin=902
+D: S=4, bin=902
+D: D=5, adv to SYNC, VALS 902 902 902 902 902
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007103777
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 32 36 31 a9 10 
+Calculated 10a9
+Got 10a9
+D: S=1, bin=538
+D: S=1, bin=807
+D: S=1, bin=170
+D: S=1, bin=151
+D: S=2, bin=151
+D: S=1, bin=151
+D: S=2, bin=151
+D: S=1, bin=1016
+D: S=1, bin=632
+D: S=1, bin=455
+D: S=1, bin=920
+D: S=2, bin=920
+D: S=3, bin=920
+D: S=1, bin=834
+D: S=1, bin=958
+D: S=1, bin=485
+D: S=1, bin=376
+D: S=1, bin=215
+D: S=2, bin=215
+D: S=3, bin=215
+D: S=4, bin=215
+D: D=5, adv to SYNC, VALS 215 215 215 215 215
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007105776
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 32 36 33 ab 10 
+Calculated 10ab
+Got 10ab
+D: S=1, bin=15
+D: S=2, bin=15
+D: S=3, bin=15
+D: S=4, bin=15
+D: D=5, adv to SYNC, VALS 459 15 15 15 15
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007106778
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 32 36 34 ac 10 
+Calculated 10ac
+Got 10ac
+D: S=1, bin=717
+D: S=1, bin=826
+D: S=1, bin=37
+D: S=2, bin=37
+D: S=3, bin=37
+D: S=4, bin=322
+D: D=5, adv to SYNC, VALS 37 37 37 37 322
+D: S=1, bin=605
+D: S=1, bin=454
+D: S=1, bin=886
+D: S=1, bin=393
+D: S=1, bin=768
+D: S=2, bin=768
+D: S=3, bin=768
+D: S=1, bin=278
+D: S=1, bin=782
+D: S=1, bin=913
+D: S=1, bin=910
+D: S=1, bin=299
+D: S=1, bin=423
+D: S=1, bin=751
+D: S=1, bin=609
+D: S=1, bin=772
+D: S=2, bin=366
+D: S=1, bin=1005
+D: S=1, bin=513
+D: S=1, bin=428
+D: S=1, bin=204
+D: S=1, bin=380
+D: S=1, bin=655
+D: S=2, bin=655
+D: S=1, bin=357
+D: S=1, bin=276
+D: S=1, bin=681
+D: S=2, bin=806
+D: S=3, bin=807
+D: S=4, bin=807
+D: D=5, adv to SYNC, VALS 806 681 806 807 807
+D: S=1, bin=537
+D: S=1, bin=455
+D: S=1, bin=723
+D: S=1, bin=94
+D: S=1, bin=768
+D: S=2, bin=768
+D: S=3, bin=768
+D: S=1, bin=833
+D: S=1, bin=813
+D: S=1, bin=418
+D: S=1, bin=264
+D: S=1, bin=908
+D: S=2, bin=908
+D: S=3, bin=908
+D: S=4, bin=908
+D: D=5, adv to SYNC, VALS 908 908 908 908 908
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007110780
+Raw Data 30 f0 30 70 a4 a9 6c e 6f 0 77 fd f8 f8 ec 23 a1 ec be f8 a0 28 
+Calculated 905b
+Got 28a0
+D: S=1, bin=290
+D: S=1, bin=642
+D: S=1, bin=995
+D: S=2, bin=313
+D: S=1, bin=313
+D: S=2, bin=869
+D: S=3, bin=337
+D: S=1, bin=57
+D: S=2, bin=57
+D: S=3, bin=57
+D: S=1, bin=216
+D: S=1, bin=171
+D: S=2, bin=171
+D: S=3, bin=910
+D: S=4, bin=171
+D: D=5, adv to SYNC, VALS 171 171 171 910 171
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007112779
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 32 37 30 a8 11 
+Calculated 11a8
+Got 11a8
+D: S=1, bin=431
+D: S=1, bin=139
+D: S=2, bin=139
+D: S=3, bin=139
+D: S=4, bin=139
+D: D=5, adv to SYNC, VALS 139 139 139 139 139
+D: S=1, bin=95
+D: S=1, bin=526
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=1, bin=883
+D: S=1, bin=885
+D: S=2, bin=885
+D: S=3, bin=883
+D: S=4, bin=885
+D: D=5, adv to SYNC, VALS 885 885 885 883 885
+D: S=1, bin=725
+D: S=1, bin=627
+D: S=2, bin=627
+D: S=1, bin=770
+D: S=2, bin=768
+D: S=3, bin=769
+D: S=4, bin=769
+D: D=5, adv to SYNC, VALS 322 770 768 769 769
+D: S=1, bin=263
+D: S=2, bin=263
+D: S=3, bin=263
+D: S=4, bin=263
+D: D=5, adv to SYNC, VALS 263 263 263 263 263
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007115780
+Raw Data 30 30 3 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 32 37 33 ab 11 
+Calculated 9cf8
+Got 11ab
+D: S=1, bin=15
+D: S=2, bin=15
+D: S=3, bin=15
+D: S=1, bin=15
+D: S=2, bin=15
+D: S=1, bin=622
+D: S=1, bin=552
+D: S=1, bin=784
+D: S=1, bin=778
+D: S=1, bin=464
+D: S=1, bin=430
+D: S=1, bin=912
+D: S=2, bin=912
+D: S=3, bin=912
+D: S=1, bin=65
+D: S=1, bin=426
+D: S=1, bin=610
+D: S=1, bin=774
+D: S=1, bin=489
+D: S=1, bin=191
+D: S=2, bin=431
+D: S=1, bin=656
+D: S=2, bin=657
+D: S=3, bin=784
+D: S=1, bin=615
+D: S=2, bin=751
+D: S=1, bin=804
+D: S=2, bin=804
+D: S=3, bin=599
+D: S=4, bin=804
+D: D=5, adv to SYNC, VALS 804 804 804 599 804
+D: S=1, bin=724
+D: S=1, bin=305
+D: S=1, bin=479
+D: S=1, bin=769
+D: S=1, bin=865
+D: S=1, bin=683
+D: S=1, bin=925
+D: S=1, bin=923
+D: S=2, bin=923
+D: S=3, bin=471
+D: S=4, bin=923
+D: D=5, adv to SYNC, VALS 923 923 923 471 923
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007119782
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a b0 32 37 37 af 11 
+Calculated 944
+Got 11af
+D: S=1, bin=114
+D: S=2, bin=113
+D: S=3, bin=113
+D: S=4, bin=113
+D: D=5, adv to SYNC, VALS 113 114 113 113 113
+D: S=1, bin=1005
+D: S=1, bin=275
+D: S=1, bin=722
+D: S=2, bin=492
+D: S=1, bin=627
+D: S=1, bin=757
+D: S=1, bin=526
+D: S=1, bin=771
+D: S=1, bin=172
+D: S=1, bin=23
+D: S=1, bin=916
+D: S=2, bin=916
+D: S=3, bin=916
+D: S=1, bin=703
+D: S=2, bin=916
+D: S=1, bin=602
+D: S=1, bin=330
+D: S=1, bin=216
+D: S=2, bin=616
+D: S=3, bin=777
+D: S=4, bin=373
+D: D=5, adv to SYNC, VALS 615 216 616 777 373
+D: S=1, bin=877
+D: S=1, bin=288
+D: S=2, bin=288
+D: S=1, bin=23
+D: S=1, bin=415
+D: S=2, bin=414
+D: S=3, bin=415
+D: S=4, bin=413
+D: D=5, adv to SYNC, VALS 415 415 414 415 413
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007122784
+Raw Data 30 30 30 30 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 a2 38 30 a8 1e 
+Calculated d39b
+Got 1ea8
+D: S=1, bin=878
+D: S=1, bin=109
+D: S=1, bin=190
+D: S=1, bin=150
+D: S=1, bin=120
+D: S=2, bin=120
+D: S=3, bin=120
+D: S=4, bin=120
+D: D=5, adv to SYNC, VALS 120 120 120 120 120
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007123783
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 50 1e 33 ab 1e 
+Calculated 744f
+Got 1eab
+D: S=1, bin=745
+D: S=1, bin=147
+D: S=2, bin=147
+D: S=3, bin=147
+D: S=4, bin=146
+D: D=5, adv to SYNC, VALS 147 147 147 147 146
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007124784
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 32 38 32 aa 1e 
+Calculated 1eaa
+Got 1eaa
+D: S=1, bin=220
+D: S=2, bin=220
+D: S=3, bin=220
+D: S=4, bin=220
+D: D=5, adv to SYNC, VALS 220 220 220 220 220
+D: S=1, bin=183
+D: S=1, bin=920
+D: S=1, bin=454
+D: S=1, bin=308
+D: S=1, bin=473
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=1, bin=798
+D: S=2, bin=798
+D: S=3, bin=798
+D: S=4, bin=797
+D: D=5, adv to SYNC, VALS 797 798 798 798 797
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007126784
+Raw Data 30 30 f0 2c 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 32 38 34 ac 1e 
+Calculated 2602
+Got 1eac
+D: S=1, bin=430
+D: S=2, bin=886
+D: S=1, bin=114
+D: S=2, bin=114
+D: S=3, bin=114
+D: S=4, bin=114
+D: D=5, adv to SYNC, VALS 114 114 114 114 114
+D: S=1, bin=481
+D: S=1, bin=95
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=1, bin=832
+D: S=1, bin=616
+D: S=1, bin=912
+D: S=2, bin=912
+D: S=3, bin=912
+D: S=4, bin=912
+D: D=5, adv to SYNC, VALS 912 912 912 912 912
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007128785
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 5f 41 6c 64 3a 20 32 38 36 ae 1e 
+Calculated a64f
+Got 1eae
+D: S=1, bin=571
+D: S=1, bin=269
+D: S=1, bin=119
+D: S=2, bin=120
+D: S=3, bin=119
+D: S=4, bin=119
+D: D=5, adv to SYNC, VALS 99 119 120 119 119
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007129786
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 32 38 37 af 1e 
+Calculated 1eaf
+Got 1eaf
+D: S=1, bin=283
+D: S=1, bin=29
+D: S=1, bin=226
+D: S=2, bin=226
+D: S=3, bin=226
+D: S=4, bin=226
+D: D=5, adv to SYNC, VALS 226 226 226 226 226
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007130785
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 32 b 38 a0 1e 
+Calculated 2da0
+Got 1ea0
+D: S=1, bin=710
+D: S=1, bin=67
+D: S=1, bin=118
+D: S=1, bin=115
+D: S=2, bin=118
+D: S=3, bin=117
+D: S=4, bin=118
+D: D=5, adv to SYNC, VALS 118 115 118 117 118
+D: S=1, bin=323
+D: S=2, bin=724
+D: S=1, bin=497
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=1, bin=914
+D: S=2, bin=915
+D: S=3, bin=915
+D: S=1, bin=913
+D: S=2, bin=768
+D: S=3, bin=937
+D: S=1, bin=67
+D: S=1, bin=214
+D: S=1, bin=192
+D: S=1, bin=659
+D: S=2, bin=659
+D: S=3, bin=659
+D: S=4, bin=659
+D: D=5, adv to SYNC, VALS 306 659 659 659 659
+D: S=1, bin=25
+D: S=2, bin=25
+D: S=1, bin=24
+D: S=2, bin=477
+D: S=3, bin=26
+D: S=1, bin=943
+D: S=1, bin=331
+D: S=1, bin=442
+D: S=1, bin=793
+D: S=1, bin=722
+D: S=1, bin=934
+D: S=2, bin=934
+D: S=3, bin=934
+D: S=4, bin=180
+D: D=5, adv to SYNC, VALS 934 934 934 934 180
+D: S=1, bin=605
+D: S=1, bin=885
+D: S=1, bin=497
+D: S=1, bin=770
+D: S=2, bin=769
+D: S=1, bin=896
+D: S=1, bin=507
+D: S=1, bin=675
+D: S=1, bin=950
+D: S=1, bin=948
+D: S=2, bin=963
+D: S=1, bin=180
+D: S=1, bin=19
+D: S=1, bin=183
+D: S=1, bin=694
+D: S=2, bin=693
+D: S=3, bin=120
+D: S=4, bin=694
+D: D=5, adv to SYNC, VALS 825 694 693 120 694
+D: S=1, bin=356
+D: S=1, bin=84
+D: S=1, bin=84
+D: S=2, bin=84
+D: S=1, bin=580
+D: S=1, bin=853
+D: S=2, bin=855
+D: S=1, bin=947
+D: S=1, bin=996
+D: S=2, bin=996
+D: S=3, bin=996
+D: S=4, bin=996
+D: D=5, adv to SYNC, VALS 996 996 996 996 996
+D: S=1, bin=865
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=1, bin=498
+D: S=1, bin=899
+D: S=2, bin=899
+D: S=3, bin=900
+D: S=4, bin=899
+D: D=5, adv to SYNC, VALS 899 899 899 900 899
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007138788
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 32 39 36 ae 1f 
+Calculated 1fae
+Got 1fae
+D: S=1, bin=997
+D: S=1, bin=686
+D: S=1, bin=29
+D: S=2, bin=29
+D: S=3, bin=156
+D: S=4, bin=29
+D: D=5, adv to SYNC, VALS 29 29 29 156 29
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007139790
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 32 39 37 af 1f 
+Calculated 1faf
+Got 1faf
+D: S=1, bin=285
+D: S=1, bin=476
+D: S=1, bin=456
+D: S=1, bin=238
+D: S=2, bin=238
+D: S=3, bin=238
+D: S=4, bin=238
+D: D=5, adv to SYNC, VALS 238 238 238 238 238
+D: S=1, bin=934
+D: S=1, bin=324
+D: S=2, bin=724
+D: S=1, bin=95
+D: S=2, bin=258
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=1, bin=421
+D: S=1, bin=933
+D: S=1, bin=933
+D: S=2, bin=933
+D: S=3, bin=933
+D: S=4, bin=933
+D: D=5, adv to SYNC, VALS 355 933 933 933 933
+D: S=1, bin=933
+D: S=1, bin=769
+D: S=2, bin=768
+D: S=1, bin=475
+D: S=1, bin=926
+D: S=2, bin=926
+D: S=3, bin=928
+D: S=4, bin=926
+D: D=5, adv to SYNC, VALS 926 926 926 928 926
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007142790
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 30 30 89 6 
+Calculated 689
+Got 689
+D: S=1, bin=179
+D: S=2, bin=179
+D: S=3, bin=179
+D: S=4, bin=179
+D: D=5, adv to SYNC, VALS 179 179 179 179 179
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007143790
+Raw Data 30 30 a0 b0 f8 66 65 6c 6f 20 77 6f 72 6c 64 3a 20 33 30 31 88 16 
+Calculated 719a
+Got 1688
+D: S=1, bin=142
+D: S=2, bin=142
+D: S=3, bin=142
+D: S=4, bin=142
+D: D=5, adv to SYNC, VALS 142 142 142 142 142
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007144790
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 36 6c 26 38 20 33 30 32 8b 6 
+Calculated 87ae
+Got 68b
+D: S=1, bin=489
+D: S=1, bin=249
+D: S=2, bin=249
+D: S=3, bin=249
+D: S=4, bin=249
+D: D=5, adv to SYNC, VALS 249 249 249 249 249
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007145789
+Raw Data 30 30 30 20 68 65 6c 6c 7f 30 77 6f 72 6c 64 3a 20 33 30 33 8a 6 
+Calculated c1e2
+Got 68a
+D: S=1, bin=22
+D: S=2, bin=22
+D: S=3, bin=23
+D: S=1, bin=22
+D: S=1, bin=406
+D: S=1, bin=791
+D: S=2, bin=791
+D: S=3, bin=792
+D: S=4, bin=791
+D: D=5, adv to SYNC, VALS 791 791 791 792 791
+D: S=1, bin=120
+D: S=1, bin=169
+D: S=2, bin=169
+D: S=3, bin=170
+D: S=1, bin=169
+D: S=2, bin=169
+D: S=1, bin=201
+D: S=1, bin=938
+D: S=2, bin=938
+D: S=3, bin=938
+D: S=4, bin=938
+D: D=5, adv to SYNC, VALS 938 938 938 938 938
+D: S=1, bin=139
+D: S=1, bin=150
+D: S=2, bin=150
+D: S=3, bin=150
+D: S=4, bin=150
+D: D=5, adv to SYNC, VALS 150 150 150 150 150
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007148791
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 30 36 8f 6 
+Calculated 68f
+Got 68f
+D: S=1, bin=892
+D: S=1, bin=23
+D: S=2, bin=23
+D: S=3, bin=569
+D: S=4, bin=22
+D: D=5, adv to SYNC, VALS 23 23 23 569 22
+D: S=1, bin=537
+D: S=1, bin=708
+D: S=1, bin=769
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=1, bin=125
+D: S=1, bin=23
+D: S=2, bin=900
+D: S=3, bin=900
+D: S=4, bin=900
+D: D=5, adv to SYNC, VALS 900 23 900 900 900
+D: S=1, bin=603
+D: S=1, bin=537
+D: S=1, bin=381
+D: S=1, bin=724
+D: S=1, bin=267
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=1, bin=769
+D: S=1, bin=904
+D: S=2, bin=904
+D: S=3, bin=904
+D: S=4, bin=904
+D: D=5, adv to SYNC, VALS 905 904 904 904 904
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007151792
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 30 39 80 6 
+Calculated 680
+Got 680
+D: S=1, bin=536
+D: S=1, bin=242
+D: S=1, bin=88
+D: S=2, bin=89
+D: S=3, bin=89
+D: S=4, bin=89
+D: D=5, adv to SYNC, VALS 89 88 89 89 89
+D: S=1, bin=608
+D: S=1, bin=617
+D: S=1, bin=481
+D: S=1, bin=95
+D: S=1, bin=627
+D: S=1, bin=521
+D: S=2, bin=520
+D: S=1, bin=419
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=3, bin=768
+D: S=1, bin=499
+D: S=1, bin=992
+D: S=1, bin=809
+D: S=2, bin=810
+D: S=3, bin=809
+D: S=4, bin=809
+D: D=5, adv to SYNC, VALS 809 809 810 809 809
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007153795
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 31 31 88 7 
+Calculated 788
+Got 788
+D: S=1, bin=73
+D: S=1, bin=112
+D: S=2, bin=112
+D: S=3, bin=112
+D: S=4, bin=112
+D: D=5, adv to SYNC, VALS 112 112 112 112 112
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007154794
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 31 32 8b 17 
+Calculated 78b
+Got 178b
+D: S=1, bin=553
+D: S=1, bin=109
+D: S=2, bin=109
+D: S=3, bin=110
+D: S=4, bin=109
+D: D=5, adv to SYNC, VALS 110 109 109 110 109
+D: S=1, bin=438
+D: S=2, bin=664
+D: S=1, bin=626
+D: S=2, bin=304
+D: S=1, bin=712
+D: S=1, bin=497
+D: S=2, bin=479
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=4, bin=769
+D: D=5, adv to SYNC, VALS 768 769 769 769 769
+D: S=1, bin=496
+D: S=1, bin=89
+D: S=1, bin=356
+D: S=2, bin=356
+D: S=3, bin=18
+D: S=4, bin=356
+D: D=5, adv to SYNC, VALS 356 356 356 18 356
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007156793
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 31 34 8d 7 
+Calculated 78d
+Got 78d
+D: S=1, bin=911
+D: S=1, bin=637
+D: S=1, bin=992
+D: S=2, bin=992
+D: S=1, bin=992
+D: S=2, bin=992
+D: S=1, bin=573
+D: S=2, bin=830
+D: S=1, bin=691
+D: S=1, bin=416
+D: S=1, bin=737
+D: S=2, bin=738
+D: S=3, bin=739
+D: S=4, bin=736
+D: D=5, adv to SYNC, VALS 386 737 738 739 736
+D: S=1, bin=878
+D: S=1, bin=254
+D: S=2, bin=254
+D: S=3, bin=255
+D: S=4, bin=252
+D: D=5, adv to SYNC, VALS 255 254 254 255 252
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007158795
+Raw Data 30 30 9a 80 c2 cf 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 31 36 8f 7 
+Calculated 1f4c
+Got 78f
+D: S=1, bin=123
+D: S=1, bin=519
+D: S=1, bin=56
+D: S=2, bin=56
+D: S=3, bin=56
+D: S=4, bin=58
+D: D=5, adv to SYNC, VALS 56 56 56 56 58
+D: S=1, bin=456
+D: S=1, bin=723
+D: S=1, bin=259
+D: S=1, bin=713
+D: S=1, bin=770
+D: S=1, bin=790
+D: S=1, bin=649
+D: S=1, bin=941
+D: S=2, bin=941
+D: S=3, bin=942
+D: S=4, bin=942
+D: D=5, adv to SYNC, VALS 942 941 941 942 942
+D: S=1, bin=94
+D: S=1, bin=542
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=4, bin=769
+D: D=5, adv to SYNC, VALS 768 769 769 769 769
+D: S=1, bin=326
+D: S=2, bin=326
+D: S=3, bin=326
+D: S=4, bin=326
+D: D=5, adv to SYNC, VALS 642 326 326 326 326
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007161794
+Raw Data 30 30 30 20 68 65 3c 6c 6a 20 27 6f 72 6c 64 3a 20 33 31 39 80 7 
+Calculated e484
+Got 780
+D: S=1, bin=972
+D: S=2, bin=972
+D: S=3, bin=972
+D: S=4, bin=1012
+D: D=5, adv to SYNC, VALS 972 972 972 972 1012
+D: S=1, bin=24
+D: S=1, bin=861
+D: S=1, bin=865
+D: S=2, bin=256
+D: S=1, bin=627
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=4, bin=28
+D: D=5, adv to SYNC, VALS 769 769 769 769 28
+D: S=1, bin=289
+D: S=1, bin=170
+D: S=2, bin=170
+D: S=3, bin=169
+D: S=4, bin=169
+D: D=5, adv to SYNC, VALS 169 170 170 169 169
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007163797
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 32 31 88 4 
+Calculated 488
+Got 488
+D: S=1, bin=850
+D: S=1, bin=19
+D: S=1, bin=180
+D: S=2, bin=180
+D: S=3, bin=180
+D: S=4, bin=180
+D: D=5, adv to SYNC, VALS 180 180 180 180 180
+D: S=1, bin=617
+D: S=1, bin=537
+D: S=1, bin=257
+D: S=1, bin=438
+D: S=1, bin=543
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=1, bin=548
+D: S=1, bin=938
+D: S=2, bin=938
+D: S=1, bin=938
+D: S=2, bin=937
+D: S=3, bin=938
+D: S=1, bin=91
+D: S=2, bin=775
+D: S=1, bin=637
+D: S=1, bin=9
+D: S=1, bin=216
+D: S=1, bin=393
+D: S=1, bin=683
+D: S=2, bin=684
+D: S=1, bin=683
+D: S=1, bin=825
+D: S=2, bin=2
+D: S=3, bin=823
+D: S=4, bin=826
+D: D=5, adv to SYNC, VALS 825 825 2 823 826
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007166797
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 32 34 8d 4 
+Calculated 48d
+Got 48d
+D: S=1, bin=778
+D: S=1, bin=133
+D: S=2, bin=133
+D: S=3, bin=133
+D: S=4, bin=133
+D: D=5, adv to SYNC, VALS 132 133 133 133 133
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007167797
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 32 35 8c 4 
+Calculated 48c
+Got 48c
+D: S=1, bin=822
+D: S=1, bin=118
+D: S=1, bin=118
+D: S=2, bin=118
+D: S=1, bin=576
+D: S=1, bin=1004
+D: S=1, bin=887
+D: S=2, bin=887
+D: S=3, bin=887
+D: S=4, bin=887
+D: D=5, adv to SYNC, VALS 887 887 887 887 887
+D: S=1, bin=63
+D: S=1, bin=186
+D: S=2, bin=916
+D: S=3, bin=185
+D: S=4, bin=185
+D: D=5, adv to SYNC, VALS 185 186 916 185 185
+D: S=1, bin=723
+D: S=1, bin=307
+D: S=2, bin=95
+D: S=1, bin=769
+D: S=2, bin=770
+D: S=3, bin=769
+D: S=4, bin=769
+D: D=5, adv to SYNC, VALS 769 769 770 769 769
+D: S=1, bin=962
+D: S=1, bin=967
+D: S=1, bin=797
+D: S=1, bin=210
+D: S=2, bin=136
+D: S=3, bin=698
+D: S=4, bin=136
+D: D=5, adv to SYNC, VALS 686 210 136 698 136
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007170798
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 32 38 81 4 
+Calculated 481
+Got 481
+D: S=1, bin=143
+D: S=1, bin=142
+D: S=2, bin=142
+D: S=1, bin=911
+D: S=2, bin=911
+D: S=3, bin=911
+D: S=4, bin=915
+D: D=5, adv to SYNC, VALS 911 911 911 911 915
+D: S=1, bin=615
+D: S=1, bin=306
+D: S=1, bin=62
+D: S=2, bin=62
+D: S=3, bin=62
+D: S=4, bin=62
+D: D=5, adv to SYNC, VALS 62 62 62 62 62
+D: S=1, bin=606
+D: S=1, bin=630
+D: S=1, bin=95
+D: S=1, bin=521
+D: S=1, bin=637
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=4, bin=769
+D: D=5, adv to SYNC, VALS 769 637 769 769 769
+D: S=1, bin=464
+D: S=1, bin=691
+D: S=1, bin=99
+D: S=2, bin=101
+D: S=3, bin=101
+D: S=4, bin=101
+D: D=5, adv to SYNC, VALS 101 99 101 101 101
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007173800
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 33 31 88 5 
+Calculated 588
+Got 588
+D: S=1, bin=1020
+D: S=1, bin=250
+D: S=2, bin=249
+D: S=3, bin=250
+D: S=4, bin=250
+D: D=5, adv to SYNC, VALS 249 250 249 250 250
+D: S=1, bin=864
+D: S=2, bin=864
+D: S=1, bin=481
+D: S=1, bin=497
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=4, bin=769
+D: D=5, adv to SYNC, VALS 120 769 769 769 769
+D: S=1, bin=615
+D: S=1, bin=744
+D: S=1, bin=140
+D: S=1, bin=140
+D: S=2, bin=140
+D: S=3, bin=140
+D: S=4, bin=140
+D: D=5, adv to SYNC, VALS 140 140 140 140 140
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007175799
+Raw Data 30 30 50 26 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 33 33 8a 5 
+Calculated 19dd
+Got 58a
+D: S=1, bin=63
+D: S=2, bin=63
+D: S=3, bin=63
+D: S=4, bin=63
+D: D=5, adv to SYNC, VALS 63 63 63 63 63
+D: S=1, bin=335
+D: S=1, bin=455
+D: S=1, bin=26
+D: S=1, bin=494
+D: S=1, bin=767
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=4, bin=769
+D: D=5, adv to SYNC, VALS 110 767 769 769 769
+D: S=1, bin=905
+D: S=1, bin=205
+D: S=2, bin=205
+D: S=3, bin=205
+D: S=4, bin=205
+D: D=5, adv to SYNC, VALS 205 205 205 205 205
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007177800
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 33 35 8c 5 
+Calculated 58c
+Got 58c
+D: S=1, bin=694
+D: S=1, bin=434
+D: S=1, bin=69
+D: S=2, bin=69
+D: S=3, bin=69
+D: S=4, bin=69
+D: D=5, adv to SYNC, VALS 69 69 69 69 69
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007178801
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 53 53 56 e9 5 
+Calculated 949
+Got 5e9
+D: S=1, bin=170
+D: S=2, bin=170
+D: S=3, bin=170
+D: S=4, bin=170
+D: D=5, adv to SYNC, VALS 170 170 170 170 170
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007179800
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 70 33 36 37 8e 5 
+Calculated e31
+Got 58e
+D: S=1, bin=90
+D: S=1, bin=818
+D: S=1, bin=989
+D: S=1, bin=72
+D: S=1, bin=73
+D: S=2, bin=72
+D: S=1, bin=934
+D: S=1, bin=841
+D: S=2, bin=842
+D: S=3, bin=841
+D: S=4, bin=841
+D: D=5, adv to SYNC, VALS 604 841 842 841 841
+D: S=1, bin=163
+D: S=2, bin=154
+D: S=3, bin=154
+D: S=4, bin=154
+D: D=5, adv to SYNC, VALS 154 163 154 154 154
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007181802
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 33 39 80 5 
+Calculated 580
+Got 580
+D: S=1, bin=145
+D: S=2, bin=145
+D: S=3, bin=145
+D: S=4, bin=145
+D: D=5, adv to SYNC, VALS 145 145 145 145 145
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007182801
+Raw Data 30 30 30 8a 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 34 30 89 2 
+Calculated a113
+Got 289
+D: S=1, bin=146
+D: S=1, bin=146
+D: S=2, bin=146
+D: S=1, bin=584
+D: S=1, bin=416
+D: S=1, bin=915
+D: S=2, bin=915
+D: S=3, bin=917
+D: S=4, bin=917
+D: D=5, adv to SYNC, VALS 104 915 915 917 917
+D: S=1, bin=88
+D: S=2, bin=573
+D: S=3, bin=88
+D: S=4, bin=88
+D: D=5, adv to SYNC, VALS 88 88 573 88 88
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007184802
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 34 32 8b 2 
+Calculated 28b
+Got 28b
+D: S=1, bin=480
+D: S=1, bin=18
+D: S=2, bin=18
+D: S=3, bin=18
+D: S=4, bin=18
+D: D=5, adv to SYNC, VALS 17 18 18 18 18
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007185803
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 34 33 8a 2 
+Calculated 28a
+Got 28a
+D: S=1, bin=121
+D: S=2, bin=121
+D: S=3, bin=121
+D: S=4, bin=811
+D: D=5, adv to SYNC, VALS 121 121 121 121 811
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007186804
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 34 34 8d 2 
+Calculated 28d
+Got 28d
+D: S=1, bin=953
+D: S=1, bin=109
+D: S=2, bin=109
+D: S=3, bin=109
+D: S=4, bin=109
+D: D=5, adv to SYNC, VALS 109 109 109 109 109
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007187804
+Raw Data 30 30 30 2a 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 30 34 35 8c 2 
+Calculated 5873
+Got 28c
+D: S=1, bin=232
+D: S=1, bin=247
+D: S=2, bin=247
+D: S=3, bin=247
+D: S=4, bin=247
+D: D=5, adv to SYNC, VALS 247 247 247 247 247
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007188803
+Raw Data 30 30 30 20 68 65 ec 64 6f 20 77 6f 72 6c 64 3a 20 33 34 36 8f 2 
+Calculated aa0
+Got 28f
+D: S=1, bin=893
+D: S=1, bin=357
+D: S=1, bin=15
+D: S=2, bin=15
+D: S=3, bin=15
+D: S=4, bin=15
+D: D=5, adv to SYNC, VALS 15 15 15 15 15
+D: S=1, bin=861
+D: S=1, bin=865
+D: S=1, bin=455
+D: S=2, bin=438
+D: S=1, bin=481
+D: S=1, bin=95
+D: S=2, bin=139
+D: S=1, bin=543
+D: S=2, bin=825
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=4, bin=769
+D: D=5, adv to SYNC, VALS 1012 769 769 769 769
+D: S=1, bin=826
+D: S=1, bin=141
+D: S=2, bin=140
+D: S=3, bin=140
+D: S=4, bin=141
+D: D=5, adv to SYNC, VALS 48 141 140 140 141
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007190805
+Raw Data 30 30 30 20 68 65 fc 65 6f b0 77 6f 72 6c 64 3a 20 33 34 38 81 2 
+Calculated 9fb
+Got 281
+D: S=1, bin=778
+D: S=1, bin=250
+D: S=1, bin=792
+D: S=1, bin=985
+D: S=1, bin=111
+D: S=2, bin=111
+D: S=3, bin=111
+D: S=4, bin=111
+D: D=5, adv to SYNC, VALS 202 111 111 111 111
+D: S=1, bin=865
+D: S=1, bin=438
+D: S=1, bin=543
+D: S=1, bin=269
+D: S=1, bin=769
+D: S=1, bin=769
+D: S=1, bin=317
+D: S=1, bin=584
+D: S=1, bin=960
+D: S=1, bin=947
+D: S=2, bin=947
+D: S=3, bin=947
+D: S=4, bin=947
+D: D=5, adv to SYNC, VALS 947 947 947 947 947
+D: S=1, bin=173
+D: S=2, bin=388
+D: S=1, bin=437
+D: S=1, bin=302
+D: S=1, bin=269
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=4, bin=769
+D: D=5, adv to SYNC, VALS 769 769 769 769 769
+D: S=1, bin=921
+D: S=1, bin=98
+D: S=1, bin=98
+D: S=2, bin=98
+D: S=3, bin=98
+D: S=4, bin=98
+D: D=5, adv to SYNC, VALS 98 98 98 98 98
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007193806
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 35 31 88 3 
+Calculated 388
+Got 388
+D: S=1, bin=89
+D: S=2, bin=88
+D: S=3, bin=89
+D: S=4, bin=89
+D: D=5, adv to SYNC, VALS 89 89 88 89 89
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007194807
+Raw Data 0 52 30 2c 68 65 6c c6 66 28 77 6f d2 6c 64 3a 10 0 7f 32 8b 3 
+Calculated 580f
+Got 38b
+D: S=1, bin=195
+D: S=1, bin=852
+D: S=1, bin=157
+D: S=2, bin=157
+D: S=3, bin=157
+D: S=4, bin=157
+D: D=5, adv to SYNC, VALS 157 157 157 157 157
+D: S=1, bin=861
+D: S=1, bin=173
+D: S=1, bin=455
+D: S=1, bin=723
+D: S=1, bin=309
+D: S=1, bin=99
+D: S=1, bin=769
+D: S=2, bin=770
+D: S=3, bin=770
+D: S=1, bin=947
+D: S=2, bin=79
+D: S=3, bin=947
+D: S=4, bin=945
+D: D=5, adv to SYNC, VALS 947 947 79 947 945
+D: S=1, bin=605
+D: S=1, bin=921
+D: S=1, bin=455
+D: S=2, bin=438
+D: S=1, bin=886
+D: S=1, bin=521
+D: S=1, bin=167
+D: S=2, bin=768
+D: S=3, bin=769
+D: S=4, bin=768
+D: D=5, adv to SYNC, VALS 768 167 768 769 768
+D: S=1, bin=105
+D: S=2, bin=105
+D: S=3, bin=105
+D: S=4, bin=105
+D: D=5, adv to SYNC, VALS 105 105 105 105 105
+D: S=1, bin=1021
+D: S=1, bin=617
+D: S=1, bin=724
+D: S=1, bin=543
+D: S=2, bin=713
+D: S=3, bin=270
+D: S=1, bin=99
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=1, bin=291
+D: S=1, bin=80
+D: S=2, bin=80
+D: S=3, bin=80
+D: S=4, bin=81
+D: D=5, adv to SYNC, VALS 80 80 80 80 81
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007198806
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 f5 fd a3 29 33 35 36 8f 3 
+Calculated e4a1
+Got 38f
+D: S=1, bin=708
+D: S=1, bin=64
+D: S=1, bin=1018
+D: S=1, bin=974
+D: S=2, bin=974
+D: S=3, bin=974
+D: S=4, bin=974
+D: D=5, adv to SYNC, VALS 1020 974 974 974 974
+D: S=1, bin=713
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=4, bin=769
+D: D=5, adv to SYNC, VALS 769 769 769 769 769
+D: S=1, bin=222
+D: S=1, bin=127
+D: S=2, bin=127
+D: S=3, bin=127
+D: S=4, bin=127
+D: D=5, adv to SYNC, VALS 127 127 127 127 127
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007200808
+Raw Data 30 30 12 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 35 38 81 3 
+Calculated 5fc
+Got 381
+D: S=1, bin=128
+D: S=2, bin=128
+D: S=3, bin=128
+D: S=4, bin=128
+D: D=5, adv to SYNC, VALS 128 128 128 128 128
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007201809
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 35 39 80 3 
+Calculated 380
+Got 380
+D: S=1, bin=122
+D: S=2, bin=123
+D: S=3, bin=122
+D: S=4, bin=122
+D: D=5, adv to SYNC, VALS 122 122 123 122 122
+D: S=1, bin=921
+D: S=1, bin=324
+D: S=1, bin=308
+D: S=1, bin=99
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=4, bin=769
+D: D=5, adv to SYNC, VALS 769 769 769 769 769
+D: S=1, bin=446
+D: S=1, bin=1015
+D: S=1, bin=145
+D: S=2, bin=146
+D: S=3, bin=582
+D: S=4, bin=145
+D: D=5, adv to SYNC, VALS 145 145 146 582 145
+D: S=1, bin=256
+D: S=1, bin=94
+D: S=1, bin=303
+D: S=1, bin=825
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=4, bin=769
+D: D=5, adv to SYNC, VALS 111 769 769 769 769
+D: S=1, bin=19
+D: S=1, bin=760
+D: S=1, bin=691
+D: S=1, bin=134
+D: S=2, bin=134
+D: S=3, bin=134
+D: S=4, bin=134
+D: D=5, adv to SYNC, VALS 134 134 134 134 134
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007204810
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 36 32 8b 0 
+Calculated 8b
+Got 8b
+D: S=1, bin=45
+D: S=1, bin=139
+D: S=1, bin=907
+D: S=1, bin=820
+D: S=1, bin=146
+D: S=2, bin=146
+D: S=3, bin=146
+D: S=4, bin=146
+D: D=5, adv to SYNC, VALS 146 146 146 146 146
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007205809
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 12 a 64 3a 20 33 36 33 8a 0 
+Calculated 8bcb
+Got 8a
+D: S=1, bin=103
+D: S=1, bin=147
+D: S=2, bin=147
+D: S=3, bin=147
+D: S=4, bin=145
+D: D=5, adv to SYNC, VALS 286 147 147 147 145
+D: S=1, bin=861
+D: S=2, bin=617
+D: S=1, bin=724
+D: S=1, bin=258
+D: S=1, bin=111
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=1, bin=725
+D: S=1, bin=103
+D: S=1, bin=54
+D: S=1, bin=877
+D: S=2, bin=877
+D: S=3, bin=877
+D: S=4, bin=878
+D: D=5, adv to SYNC, VALS 877 877 877 877 878
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007207811
+Raw Data 30 30 30 20 68 65 6c fc 66 20 77 66 72 6c 64 3a 20 33 36 35 8c 0 
+Calculated d2d9
+Got 8c
+D: S=1, bin=81
+D: S=1, bin=511
+D: S=1, bin=161
+D: S=2, bin=159
+D: S=3, bin=161
+D: S=4, bin=161
+D: D=5, adv to SYNC, VALS 161 161 159 161 161
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007208810
+Raw Data 30 30 56 26 6e 63 6a 6c 6f 20 77 6f 72 6c 64 3a 20 33 36 36 8f 0 
+Calculated 5351
+Got 8f
+D: S=1, bin=761
+D: S=1, bin=63
+D: S=2, bin=63
+D: S=3, bin=63
+D: S=4, bin=63
+D: D=5, adv to SYNC, VALS 63 63 63 63 63
+D: S=1, bin=871
+D: S=2, bin=605
+D: S=1, bin=455
+D: S=1, bin=323
+D: S=1, bin=481
+D: S=1, bin=541
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=4, bin=769
+D: D=5, adv to SYNC, VALS 769 769 769 769 769
+D: S=1, bin=252
+D: S=1, bin=923
+D: S=1, bin=317
+D: S=1, bin=127
+D: S=2, bin=127
+D: S=3, bin=127
+D: S=4, bin=127
+D: D=5, adv to SYNC, VALS 127 127 127 127 127
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007210812
+Raw Data 30 10 30 0 4a 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 36 38 81 0 
+Calculated ca9a
+Got 81
+D: S=1, bin=164
+D: S=2, bin=164
+D: S=3, bin=163
+D: S=4, bin=164
+D: D=5, adv to SYNC, VALS 358 164 164 163 164
+D: S=1, bin=431
+D: S=2, bin=723
+D: S=1, bin=309
+D: S=1, bin=454
+D: S=1, bin=768
+D: S=2, bin=769
+D: S=3, bin=767
+D: S=4, bin=768
+D: D=5, adv to SYNC, VALS 769 768 769 767 768
+D: S=1, bin=902
+D: S=1, bin=100
+D: S=1, bin=775
+D: S=1, bin=87
+D: S=2, bin=85
+D: S=3, bin=85
+D: S=4, bin=86
+D: D=5, adv to SYNC, VALS 85 87 85 85 86
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007212813
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 37 30 89 1 
+Calculated 189
+Got 189
+D: S=1, bin=964
+D: S=1, bin=244
+D: S=2, bin=244
+D: S=3, bin=244
+D: S=4, bin=244
+D: D=5, adv to SYNC, VALS 244 244 244 244 244
+D: S=1, bin=886
+D: S=1, bin=479
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=3, bin=767
+D: S=4, bin=769
+D: D=5, adv to SYNC, VALS 770 769 769 767 769
+D: S=1, bin=62
+D: S=2, bin=62
+D: S=1, bin=62
+D: S=2, bin=62
+D: S=3, bin=62
+D: S=1, bin=667
+D: S=1, bin=366
+D: S=1, bin=235
+D: S=1, bin=785
+D: S=1, bin=605
+D: S=1, bin=831
+D: S=2, bin=831
+D: S=3, bin=831
+D: S=4, bin=831
+D: D=5, adv to SYNC, VALS 831 831 831 831 831
+D: S=1, bin=496
+D: S=1, bin=801
+D: S=1, bin=168
+D: S=2, bin=168
+D: S=3, bin=168
+D: S=4, bin=168
+D: D=5, adv to SYNC, VALS 168 168 168 168 168
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007215813
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 37 33 8a 1 
+Calculated 18a
+Got 18a
+D: S=1, bin=188
+D: S=1, bin=409
+D: S=1, bin=906
+D: S=2, bin=149
+D: S=3, bin=149
+D: S=4, bin=149
+D: D=5, adv to SYNC, VALS 150 906 149 149 149
+D: S=1, bin=32
+D: S=1, bin=724
+D: S=1, bin=94
+D: S=1, bin=316
+D: S=1, bin=430
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=4, bin=769
+D: D=5, adv to SYNC, VALS 771 769 769 769 769
+D: S=1, bin=71
+D: S=2, bin=71
+D: S=3, bin=71
+D: S=4, bin=71
+D: D=5, adv to SYNC, VALS 71 71 71 71 71
+D: S=1, bin=865
+D: S=1, bin=755
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=4, bin=769
+D: D=5, adv to SYNC, VALS 769 769 769 769 769
+D: S=1, bin=679
+D: S=1, bin=138
+D: S=2, bin=138
+D: S=1, bin=138
+D: S=2, bin=138
+D: S=1, bin=907
+D: S=2, bin=907
+D: S=3, bin=907
+D: S=4, bin=907
+D: D=5, adv to SYNC, VALS 907 907 907 907 907
+D: S=1, bin=342
+D: S=1, bin=786
+D: S=1, bin=165
+D: S=2, bin=165
+D: S=3, bin=165
+D: S=4, bin=165
+D: D=5, adv to SYNC, VALS 165 165 165 165 165
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007219814
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 37 37 8e 1 
+Calculated 18e
+Got 18e
+D: S=1, bin=119
+D: S=1, bin=119
+D: S=2, bin=119
+D: S=3, bin=119
+D: S=4, bin=959
+D: D=5, adv to SYNC, VALS 121 119 119 119 959
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007220815
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 e7 6f 72 6c 64 3a 20 33 37 38 81 1 
+Calculated c1b4
+Got 181
+D: S=1, bin=116
+D: S=2, bin=116
+D: S=3, bin=116
+D: S=4, bin=116
+D: D=5, adv to SYNC, VALS 116 116 116 116 116
+D: S=1, bin=177
+D: S=1, bin=921
+D: S=2, bin=537
+D: S=1, bin=437
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=4, bin=769
+D: D=5, adv to SYNC, VALS 769 769 769 769 769
+D: S=1, bin=349
+D: S=1, bin=149
+D: S=2, bin=149
+D: S=3, bin=149
+D: S=4, bin=149
+D: D=5, adv to SYNC, VALS 148 149 149 149 149
+D: S=1, bin=921
+D: S=1, bin=455
+D: S=1, bin=724
+D: S=1, bin=95
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=4, bin=769
+D: D=5, adv to SYNC, VALS 769 769 769 769 769
+D: S=1, bin=617
+D: S=1, bin=137
+D: S=2, bin=280
+D: S=3, bin=136
+D: S=4, bin=136
+D: D=5, adv to SYNC, VALS 136 137 280 136 136
+D: S=1, bin=140
+D: S=1, bin=324
+D: S=2, bin=36
+D: S=1, bin=431
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=4, bin=769
+D: D=5, adv to SYNC, VALS 431 431 769 769 769
+D: S=1, bin=736
+D: S=1, bin=111
+D: S=1, bin=132
+D: S=2, bin=243
+D: S=3, bin=132
+D: S=4, bin=132
+D: D=5, adv to SYNC, VALS 132 132 243 132 132
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007224816
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 38 32 8b e 
+Calculated e8b
+Got e8b
+D: S=1, bin=157
+D: S=1, bin=2
+D: S=1, bin=121
+D: S=2, bin=121
+D: S=3, bin=121
+D: S=4, bin=121
+D: D=5, adv to SYNC, VALS 121 121 121 121 121
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007225817
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 38 33 8a e 
+Calculated e8a
+Got e8a
+D: S=1, bin=259
+D: S=1, bin=383
+D: S=1, bin=890
+D: S=1, bin=983
+D: S=1, bin=120
+D: S=1, bin=122
+D: S=1, bin=122
+D: S=1, bin=153
+D: S=1, bin=254
+D: S=1, bin=890
+D: S=2, bin=890
+D: S=3, bin=890
+D: S=4, bin=890
+D: D=5, adv to SYNC, VALS 890 890 890 890 890
+D: S=1, bin=293
+D: S=2, bin=178
+D: S=3, bin=179
+D: S=4, bin=179
+D: D=5, adv to SYNC, VALS 179 293 178 179 179
+D: S=1, bin=418
+D: S=1, bin=767
+D: S=2, bin=767
+D: S=3, bin=179
+D: S=1, bin=463
+D: S=1, bin=268
+D: S=1, bin=24
+D: S=1, bin=898
+D: S=2, bin=898
+D: S=3, bin=898
+D: S=4, bin=898
+D: D=5, adv to SYNC, VALS 898 898 898 898 898
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007228818
+Raw Data 30 30 30 21 68 64 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 38 36 8f e 
+Calculated e510
+Got e8f
+D: S=1, bin=45
+D: S=1, bin=361
+D: S=1, bin=83
+D: S=2, bin=83
+D: S=3, bin=83
+D: S=4, bin=85
+D: D=5, adv to SYNC, VALS 83 83 83 83 85
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007229818
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 38 37 8e 1e 
+Calculated e8e
+Got 1e8e
+D: S=1, bin=496
+D: S=1, bin=511
+D: S=1, bin=523
+D: S=1, bin=64
+D: S=1, bin=89
+D: S=1, bin=89
+D: S=2, bin=89
+D: S=3, bin=91
+D: S=1, bin=586
+D: S=1, bin=857
+D: S=2, bin=858
+D: S=3, bin=858
+D: S=4, bin=858
+D: D=5, adv to SYNC, VALS 858 857 858 858 858
+D: S=1, bin=227
+D: S=1, bin=472
+D: S=1, bin=201
+D: S=2, bin=201
+D: S=3, bin=201
+D: S=4, bin=201
+D: D=5, adv to SYNC, VALS 201 201 201 201 201
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007231818
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 38 39 80 e 
+Calculated e80
+Got e80
+D: S=1, bin=85
+D: S=2, bin=85
+D: S=3, bin=85
+D: S=4, bin=85
+D: D=5, adv to SYNC, VALS 85 85 85 85 85
+D: S=1, bin=865
+D: S=1, bin=481
+D: S=1, bin=95
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=4, bin=769
+D: D=5, adv to SYNC, VALS 769 769 769 769 769
+D: S=1, bin=99
+D: S=2, bin=97
+D: S=3, bin=97
+D: S=4, bin=97
+D: D=5, adv to SYNC, VALS 97 99 97 97 97
+D: S=1, bin=861
+D: S=1, bin=886
+D: S=1, bin=769
+D: S=2, bin=963
+D: S=3, bin=769
+D: S=4, bin=769
+D: D=5, adv to SYNC, VALS 769 769 963 769 769
+D: S=1, bin=810
+D: S=1, bin=160
+D: S=2, bin=160
+D: S=3, bin=160
+D: S=4, bin=160
+D: D=5, adv to SYNC, VALS 160 160 160 160 160
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007234820
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 39 32 8b f 
+Calculated f8b
+Got f8b
+D: S=1, bin=148
+D: S=2, bin=147
+D: S=3, bin=810
+D: S=4, bin=147
+D: D=5, adv to SYNC, VALS 148 148 147 810 147
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007235820
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 39 33 8a f 
+Calculated f8a
+Got f8a
+D: S=1, bin=229
+D: S=1, bin=23
+D: S=2, bin=188
+D: S=3, bin=188
+D: S=1, bin=188
+D: S=2, bin=188
+D: S=1, bin=909
+D: S=2, bin=222
+D: S=1, bin=957
+D: S=2, bin=957
+D: S=3, bin=957
+D: S=1, bin=116
+D: S=1, bin=54
+D: S=2, bin=54
+D: S=3, bin=54
+D: S=4, bin=54
+D: D=5, adv to SYNC, VALS 54 54 54 54 54
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007237821
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 33 39 35 8c 8f 
+Calculated f8c
+Got 8f8c
+D: S=1, bin=119
+D: S=2, bin=119
+D: S=3, bin=528
+D: S=4, bin=119
+D: D=5, adv to SYNC, VALS 119 119 119 528 119
+D: S=1, bin=617
+D: S=1, bin=363
+D: S=1, bin=98
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=4, bin=906
+D: D=5, adv to SYNC, VALS 769 769 769 769 906
+D: S=1, bin=929
+D: S=1, bin=205
+D: S=2, bin=205
+D: S=1, bin=206
+D: S=2, bin=206
+D: S=3, bin=205
+D: S=1, bin=238
+D: S=1, bin=974
+D: S=2, bin=974
+D: S=3, bin=974
+D: S=4, bin=974
+D: D=5, adv to SYNC, VALS 23 974 974 974 974
+D: S=1, bin=51
+D: S=2, bin=51
+D: S=1, bin=52
+D: S=2, bin=51
+D: S=3, bin=51
+D: S=1, bin=679
+D: S=2, bin=595
+D: S=3, bin=596
+D: S=1, bin=820
+D: S=2, bin=820
+D: S=3, bin=821
+D: S=4, bin=820
+D: D=5, adv to SYNC, VALS 820 820 820 821 820
+D: S=1, bin=1001
+D: S=1, bin=171
+D: S=2, bin=171
+D: S=3, bin=171
+D: S=4, bin=171
+D: D=5, adv to SYNC, VALS 172 171 171 171 171
+D: S=1, bin=258
+D: S=1, bin=497
+D: S=1, bin=769
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=4, bin=769
+D: D=5, adv to SYNC, VALS 769 769 769 769 769
+D: S=1, bin=26
+D: S=1, bin=750
+D: S=1, bin=176
+D: S=2, bin=176
+D: S=3, bin=176
+D: S=4, bin=176
+D: D=5, adv to SYNC, VALS 176 176 176 176 176
+D: S=1, bin=933
+D: S=2, bin=177
+D: S=1, bin=861
+D: S=1, bin=921
+D: S=1, bin=256
+D: S=1, bin=258
+D: S=1, bin=770
+D: S=1, bin=172
+D: S=1, bin=832
+D: S=1, bin=729
+D: S=1, bin=888
+D: S=2, bin=888
+D: S=3, bin=888
+D: S=4, bin=888
+D: D=5, adv to SYNC, VALS 888 888 888 888 888
+D: S=1, bin=177
+D: S=1, bin=921
+D: S=1, bin=865
+D: S=1, bin=258
+D: S=1, bin=768
+D: S=2, bin=256
+D: S=3, bin=772
+D: S=1, bin=274
+D: S=1, bin=893
+D: S=2, bin=893
+D: S=3, bin=893
+D: S=4, bin=893
+D: D=5, adv to SYNC, VALS 893 893 893 893 893
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007244823
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 34 30 32 6c 76 
+Calculated 766c
+Got 766c
+D: S=1, bin=709
+D: S=1, bin=630
+D: S=1, bin=656
+D: S=2, bin=187
+D: S=3, bin=185
+D: S=4, bin=187
+D: D=5, adv to SYNC, VALS 187 656 187 185 187
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007245823
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 34 30 33 6d 76 
+Calculated 766d
+Got 766d
+D: S=1, bin=951
+D: S=1, bin=240
+D: S=1, bin=226
+D: S=2, bin=226
+D: S=3, bin=226
+D: S=4, bin=226
+D: D=5, adv to SYNC, VALS 226 226 226 226 226
+D: S=1, bin=704
+D: S=1, bin=765
+D: S=1, bin=886
+D: S=1, bin=724
+D: S=1, bin=95
+D: S=1, bin=768
+D: S=2, bin=769
+D: S=3, bin=769
+D: S=1, bin=70
+D: S=1, bin=916
+D: S=2, bin=916
+D: S=3, bin=916
+D: S=4, bin=916
+D: D=5, adv to SYNC, VALS 916 916 916 916 916
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007247822
+Raw Data 30 30 30 29 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 34 30 35 6b 76 
+Calculated ffd2
+Got 766b
+D: S=1, bin=671
+D: S=1, bin=975
+D: S=2, bin=975
+D: S=3, bin=975
+D: S=4, bin=975
+D: D=5, adv to SYNC, VALS 975 975 975 975 975
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007248824
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 34 30 36 68 76 
+Calculated 7668
+Got 7668
+D: S=1, bin=719
+D: S=1, bin=1020
+D: S=1, bin=179
+D: S=2, bin=179
+D: S=3, bin=181
+D: S=4, bin=179
+D: D=5, adv to SYNC, VALS 180 179 179 181 179
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007249824
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 34 30 37 69 76 
+Calculated 7669
+Got 7669
+D: S=1, bin=5
+D: S=1, bin=60
+D: S=1, bin=120
+D: S=2, bin=121
+D: S=1, bin=122
+D: S=1, bin=888
+D: S=1, bin=424
+D: S=1, bin=818
+D: S=1, bin=651
+D: S=1, bin=288
+D: S=1, bin=811
+D: S=1, bin=581
+D: S=1, bin=49
+D: S=2, bin=49
+D: S=1, bin=49
+D: S=2, bin=49
+D: S=1, bin=773
+D: S=2, bin=772
+D: S=1, bin=901
+D: S=1, bin=983
+D: S=1, bin=644
+D: S=1, bin=119
+D: S=2, bin=864
+D: S=1, bin=914
+D: S=2, bin=313
+D: S=1, bin=914
+D: S=1, bin=64
+D: S=1, bin=345
+D: S=1, bin=213
+D: S=1, bin=1008
+D: S=1, bin=660
+D: S=1, bin=762
+D: S=2, bin=762
+D: S=3, bin=762
+D: S=4, bin=762
+D: D=5, adv to SYNC, VALS 762 762 762 762 762
+D: S=1, bin=921
+D: S=1, bin=481
+D: S=1, bin=35
+D: S=2, bin=35
+D: S=3, bin=561
+D: S=1, bin=35
+D: S=1, bin=490
+D: S=1, bin=359
+D: S=1, bin=357
+D: S=1, bin=291
+D: S=1, bin=710
+D: S=1, bin=220
+D: S=1, bin=107
+D: S=1, bin=917
+D: S=2, bin=917
+D: S=3, bin=917
+D: S=4, bin=917
+D: D=5, adv to SYNC, VALS 186 917 917 917 917
+D: S=1, bin=865
+D: S=1, bin=886
+D: S=1, bin=563
+D: S=1, bin=767
+D: S=1, bin=896
+D: S=1, bin=158
+D: S=1, bin=754
+D: S=2, bin=754
+D: S=3, bin=754
+D: S=4, bin=754
+D: D=5, adv to SYNC, VALS 754 754 754 754 754
+D: S=1, bin=173
+D: S=1, bin=308
+D: S=1, bin=534
+D: S=1, bin=905
+D: S=1, bin=905
+D: S=1, bin=905
+D: S=1, bin=742
+D: S=1, bin=54
+D: S=2, bin=746
+D: S=1, bin=569
+D: S=1, bin=766
+D: S=1, bin=139
+D: S=1, bin=446
+D: S=1, bin=651
+D: S=1, bin=137
+D: S=1, bin=785
+D: S=2, bin=788
+D: S=3, bin=788
+D: S=4, bin=788
+D: D=5, adv to SYNC, VALS 317 785 788 788 788
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007258827
+Raw Data 30 30 30 20 68 65 5c 6c cf 20 d7 6f 71 6c 64 9 70 34 71 32 68 17 
+Calculated 69e6
+Got 1768
+D: S=1, bin=810
+D: S=1, bin=93
+D: S=2, bin=93
+D: S=3, bin=93
+D: S=4, bin=93
+D: D=5, adv to SYNC, VALS 93 93 93 93 93
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007259828
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 34 31 37 69 77 
+Calculated 7769
+Got 7769
+D: S=1, bin=89
+D: S=2, bin=89
+D: S=3, bin=89
+D: S=4, bin=89
+D: D=5, adv to SYNC, VALS 89 89 89 89 89
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007260828
+Raw Data 30 10 10 2 6a 45 6c 6c 6f 20 77 6f 72 6c 64 3a 20 34 31 38 66 77 
+Calculated 617
+Got 7766
+D: S=1, bin=108
+D: S=1, bin=825
+D: S=1, bin=128
+D: S=2, bin=128
+D: S=3, bin=128
+D: S=4, bin=128
+D: D=5, adv to SYNC, VALS 128 128 128 128 128
+D: S=1, bin=95
+D: S=1, bin=545
+D: S=1, bin=768
+D: S=1, bin=408
+D: S=2, bin=937
+D: S=3, bin=937
+D: S=4, bin=937
+D: D=5, adv to SYNC, VALS 937 408 937 937 937
+D: S=1, bin=536
+D: S=1, bin=455
+D: S=1, bin=886
+D: S=1, bin=95
+D: S=1, bin=334
+D: S=1, bin=656
+D: S=1, bin=940
+D: S=2, bin=940
+D: S=3, bin=940
+D: S=4, bin=940
+D: D=5, adv to SYNC, VALS 940 940 940 940 940
+D: S=1, bin=375
+D: S=1, bin=724
+D: S=1, bin=768
+D: S=2, bin=666
+D: S=1, bin=718
+D: S=1, bin=871
+D: S=2, bin=871
+D: S=3, bin=871
+D: S=1, bin=871
+D: S=2, bin=871
+D: S=1, bin=103
+D: S=1, bin=478
+D: S=1, bin=378
+D: S=2, bin=952
+D: S=1, bin=617
+D: S=2, bin=616
+D: S=3, bin=617
+D: S=4, bin=743
+D: D=5, adv to SYNC, VALS 615 617 616 617 743
+D: S=1, bin=781
+D: S=1, bin=112
+D: S=2, bin=112
+D: S=3, bin=112
+D: S=4, bin=112
+D: D=5, adv to SYNC, VALS 112 112 112 112 112
+D: S=1, bin=455
+D: S=2, bin=438
+D: S=1, bin=308
+D: S=1, bin=628
+D: S=1, bin=770
+D: S=1, bin=256
+D: S=2, bin=767
+D: S=1, bin=910
+D: S=1, bin=898
+D: S=2, bin=898
+D: S=3, bin=898
+D: S=4, bin=898
+D: D=5, adv to SYNC, VALS 898 898 898 898 898
+D: S=1, bin=438
+D: S=1, bin=886
+D: S=1, bin=258
+D: S=1, bin=128
+D: S=1, bin=552
+D: S=1, bin=68
+D: S=1, bin=907
+D: S=2, bin=907
+D: S=3, bin=907
+D: S=4, bin=907
+D: D=5, adv to SYNC, VALS 907 907 907 907 907
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007267831
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 34 32 35 6b 74 
+Calculated 746b
+Got 746b
+D: S=1, bin=191
+D: S=2, bin=191
+D: S=3, bin=191
+D: S=4, bin=191
+D: D=5, adv to SYNC, VALS 191 191 191 191 191
+D: S=1, bin=605
+D: S=2, bin=861
+D: S=1, bin=920
+D: S=1, bin=864
+D: S=1, bin=723
+D: S=1, bin=94
+D: S=1, bin=767
+D: S=1, bin=369
+D: S=1, bin=903
+D: S=2, bin=904
+D: S=3, bin=904
+D: S=4, bin=904
+D: D=5, adv to SYNC, VALS 904 903 904 904 904
+D: S=1, bin=723
+D: S=2, bin=724
+D: S=3, bin=885
+D: S=1, bin=94
+D: S=2, bin=848
+D: S=1, bin=769
+D: S=2, bin=767
+D: S=1, bin=515
+D: S=1, bin=920
+D: S=2, bin=920
+D: S=3, bin=918
+D: S=4, bin=921
+D: D=5, adv to SYNC, VALS 919 920 920 918 921
+D: S=1, bin=537
+D: S=1, bin=723
+D: S=2, bin=324
+D: S=3, bin=724
+D: S=1, bin=767
+D: S=1, bin=289
+D: S=1, bin=933
+D: S=2, bin=933
+D: S=3, bin=933
+D: S=4, bin=933
+D: D=5, adv to SYNC, VALS 933 933 933 933 933
+D: S=1, bin=177
+D: S=1, bin=438
+D: S=1, bin=724
+D: S=1, bin=308
+D: S=1, bin=965
+D: S=1, bin=333
+D: S=1, bin=768
+D: S=1, bin=130
+D: S=1, bin=1019
+D: S=1, bin=881
+D: S=1, bin=0
+D: S=1, bin=890
+D: S=2, bin=890
+D: S=3, bin=890
+D: S=4, bin=890
+D: D=5, adv to SYNC, VALS 890 890 890 890 890
+D: S=1, bin=617
+D: S=1, bin=723
+D: S=1, bin=627
+D: S=1, bin=769
+D: S=1, bin=998
+D: S=1, bin=832
+D: S=2, bin=39
+D: S=3, bin=39
+D: S=4, bin=39
+D: D=5, adv to SYNC, VALS 39 832 39 39 39
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007273831
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 27 72 68 64 7a 24 34 33 31 6f 75 
+Calculated 6341
+Got 756f
+D: S=1, bin=765
+D: S=1, bin=148
+D: S=1, bin=397
+D: S=1, bin=74
+D: S=2, bin=75
+D: S=3, bin=73
+D: S=4, bin=73
+D: D=5, adv to SYNC, VALS 73 74 75 73 73
+D: S=1, bin=862
+D: S=1, bin=152
+D: S=1, bin=865
+D: S=1, bin=876
+D: S=1, bin=232
+D: S=1, bin=957
+D: S=1, bin=860
+D: S=1, bin=860
+D: S=2, bin=860
+D: S=3, bin=860
+D: S=1, bin=768
+D: S=1, bin=291
+D: S=1, bin=160
+D: S=1, bin=316
+D: S=2, bin=141
+D: S=1, bin=464
+D: S=1, bin=369
+D: S=1, bin=605
+D: S=2, bin=605
+D: S=1, bin=606
+D: S=2, bin=605
+D: S=1, bin=541
+D: S=1, bin=6
+D: S=1, bin=743
+D: S=1, bin=830
+D: S=2, bin=830
+D: S=3, bin=830
+D: S=4, bin=830
+D: D=5, adv to SYNC, VALS 830 830 830 830 830
+D: S=1, bin=537
+D: S=1, bin=724
+D: S=1, bin=258
+D: S=1, bin=481
+D: S=1, bin=768
+D: S=1, bin=485
+D: S=1, bin=882
+D: S=2, bin=882
+D: S=3, bin=882
+D: S=4, bin=882
+D: D=5, adv to SYNC, VALS 881 882 882 882 882
+D: S=1, bin=861
+D: S=1, bin=865
+D: S=2, bin=613
+D: S=1, bin=886
+D: S=1, bin=846
+D: S=2, bin=846
+D: S=3, bin=846
+D: S=4, bin=846
+D: D=5, adv to SYNC, VALS 919 846 846 846 846
+D: S=1, bin=607
+D: S=1, bin=455
+D: S=1, bin=723
+D: S=1, bin=95
+D: S=1, bin=303
+D: S=1, bin=757
+D: S=1, bin=481
+D: S=1, bin=767
+D: S=1, bin=895
+D: S=1, bin=768
+D: S=1, bin=928
+D: S=2, bin=928
+D: S=3, bin=928
+D: S=4, bin=928
+D: D=5, adv to SYNC, VALS 928 928 928 928 928
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007279834
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 34 33 37 69 75 
+Calculated 7569
+Got 7569
+D: S=1, bin=638
+D: S=1, bin=329
+D: S=1, bin=34
+D: S=1, bin=232
+D: S=2, bin=232
+D: S=1, bin=232
+D: S=2, bin=232
+D: S=1, bin=1002
+D: S=1, bin=571
+D: S=1, bin=104
+D: S=2, bin=104
+D: S=3, bin=104
+D: S=4, bin=104
+D: D=5, adv to SYNC, VALS 104 104 104 104 104
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007281834
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 34 33 39 67 75 
+Calculated 7567
+Got 7567
+D: S=1, bin=638
+D: S=1, bin=75
+D: S=1, bin=331
+D: S=1, bin=187
+D: S=2, bin=187
+D: S=3, bin=187
+D: S=1, bin=187
+D: S=1, bin=96
+D: S=1, bin=24
+D: S=1, bin=1019
+D: S=1, bin=686
+D: S=1, bin=1012
+D: S=2, bin=1012
+D: S=3, bin=1012
+D: S=4, bin=1012
+D: D=5, adv to SYNC, VALS 1012 1012 1012 1012 1012
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007283835
+Raw Data 30 30 30 20 68 65 6c f5 6f 29 7e 66 72 6c 64 3a 20 34 34 31 6f 72 
+Calculated 6426
+Got 726f
+D: S=1, bin=195
+D: S=2, bin=195
+D: S=3, bin=195
+D: S=4, bin=195
+D: D=5, adv to SYNC, VALS 195 195 195 195 195
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007284835
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 34 34 32 6c 72 
+Calculated 726c
+Got 726c
+D: S=1, bin=221
+D: S=1, bin=529
+D: S=1, bin=27
+D: S=2, bin=27
+D: S=3, bin=27
+D: S=4, bin=27
+D: D=5, adv to SYNC, VALS 27 27 27 27 27
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007285835
+Raw Data 30 30 30 20 68 65 6c 6c 4f 2 77 6f 72 6c 64 3a 20 34 34 33 6d 72 
+Calculated 2afb
+Got 726d
+D: S=1, bin=869
+D: S=1, bin=205
+D: S=2, bin=483
+D: S=3, bin=205
+D: S=4, bin=204
+D: D=5, adv to SYNC, VALS 205 205 483 205 204
+D: S=1, bin=865
+D: S=1, bin=724
+D: S=1, bin=94
+D: S=1, bin=393
+D: S=1, bin=938
+D: S=1, bin=78
+D: S=2, bin=911
+D: S=3, bin=912
+D: S=4, bin=648
+D: D=5, adv to SYNC, VALS 912 78 911 912 648
+D: S=1, bin=172
+D: S=1, bin=324
+D: S=1, bin=307
+D: S=1, bin=767
+D: S=1, bin=768
+D: S=1, bin=630
+D: S=1, bin=82
+D: S=1, bin=903
+D: S=1, bin=567
+D: S=1, bin=265
+D: S=1, bin=18
+D: S=1, bin=904
+D: S=2, bin=904
+D: S=3, bin=904
+D: S=4, bin=904
+D: D=5, adv to SYNC, VALS 904 904 904 904 904
+D: S=1, bin=537
+D: S=1, bin=770
+D: S=1, bin=902
+D: S=1, bin=894
+D: S=2, bin=894
+D: S=3, bin=894
+D: S=4, bin=894
+D: D=5, adv to SYNC, VALS 894 894 894 894 894
+D: S=1, bin=455
+D: S=1, bin=723
+D: S=2, bin=324
+D: S=3, bin=724
+D: S=1, bin=627
+D: S=1, bin=132
+D: S=1, bin=769
+D: S=2, bin=896
+D: S=3, bin=897
+D: S=1, bin=957
+D: S=1, bin=919
+D: S=2, bin=919
+D: S=3, bin=919
+D: S=4, bin=919
+D: D=5, adv to SYNC, VALS 919 919 919 919 919
+D: S=1, bin=752
+D: S=2, bin=554
+D: S=1, bin=605
+D: S=1, bin=539
+D: S=2, bin=865
+D: S=1, bin=724
+D: S=1, bin=95
+D: S=1, bin=773
+D: S=1, bin=770
+D: S=1, bin=769
+D: S=1, bin=273
+D: S=1, bin=48
+D: S=2, bin=495
+D: S=3, bin=48
+D: S=4, bin=48
+D: D=5, adv to SYNC, VALS 48 48 495 48 48
+D: S=1, bin=789
+D: S=1, bin=113
+D: S=1, bin=895
+D: S=2, bin=895
+D: S=3, bin=895
+D: S=4, bin=895
+D: D=5, adv to SYNC, VALS 895 895 895 895 895
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007292837
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 34 35 30 6e 73 
+Calculated 736e
+Got 736e
+D: S=1, bin=143
+D: S=2, bin=140
+D: S=3, bin=140
+D: S=4, bin=140
+D: D=5, adv to SYNC, VALS 140 143 140 140 140
+D: S=1, bin=605
+D: S=1, bin=173
+D: S=1, bin=437
+D: S=1, bin=322
+D: S=1, bin=258
+D: S=1, bin=545
+D: S=1, bin=180
+D: S=1, bin=770
+D: S=1, bin=632
+D: S=1, bin=885
+D: S=2, bin=885
+D: S=3, bin=885
+D: S=4, bin=885
+D: D=5, adv to SYNC, VALS 882 885 885 885 885
+D: S=1, bin=354
+D: S=1, bin=177
+D: S=2, bin=179
+D: S=1, bin=173
+D: S=1, bin=308
+D: S=1, bin=482
+D: S=1, bin=70
+D: S=1, bin=927
+D: S=2, bin=927
+D: S=3, bin=927
+D: S=4, bin=927
+D: D=5, adv to SYNC, VALS 927 927 927 927 927
+D: S=1, bin=180
+D: S=1, bin=142
+D: S=2, bin=770
+D: S=3, bin=768
+D: S=1, bin=921
+D: S=2, bin=921
+D: S=3, bin=921
+D: S=4, bin=921
+D: D=5, adv to SYNC, VALS 921 921 921 921 921
+D: S=1, bin=177
+D: S=1, bin=879
+D: S=1, bin=173
+D: S=2, bin=865
+D: S=1, bin=438
+D: S=1, bin=543
+D: S=1, bin=132
+D: S=1, bin=768
+D: S=2, bin=256
+D: S=3, bin=769
+D: S=1, bin=884
+D: S=2, bin=884
+D: S=3, bin=884
+D: S=4, bin=884
+D: D=5, adv to SYNC, VALS 45 884 884 884 884
+D: S=1, bin=921
+D: S=1, bin=310
+D: S=2, bin=308
+D: S=1, bin=482
+D: S=1, bin=770
+D: S=2, bin=768
+D: S=1, bin=769
+D: S=1, bin=896
+D: S=1, bin=969
+D: S=1, bin=918
+D: S=2, bin=918
+D: S=3, bin=215
+D: S=4, bin=918
+D: D=5, adv to SYNC, VALS 918 918 918 215 918
+D: S=1, bin=605
+D: S=1, bin=617
+D: S=1, bin=757
+D: S=1, bin=896
+D: S=1, bin=982
+D: S=1, bin=919
+D: S=2, bin=919
+D: S=3, bin=919
+D: S=4, bin=919
+D: D=5, adv to SYNC, VALS 919 919 919 919 919
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007299838
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 34 35 37 69 73 
+Calculated 7369
+Got 7369
+D: S=1, bin=277
+D: S=1, bin=99
+D: S=2, bin=99
+D: S=3, bin=99
+D: S=4, bin=99
+D: D=5, adv to SYNC, VALS 99 99 99 99 99
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007300839
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 34 35 38 66 73 
+Calculated 7366
+Got 7366
+D: S=1, bin=791
+D: S=1, bin=147
+D: S=2, bin=147
+D: S=3, bin=147
+D: S=4, bin=147
+D: D=5, adv to SYNC, VALS 147 147 147 147 147
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007301839
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 7f 73 7d 75 3b 20 34 35 39 67 73 
+Calculated f594
+Got 7367
+D: S=1, bin=144
+D: S=2, bin=144
+D: S=3, bin=144
+D: S=4, bin=144
+D: D=5, adv to SYNC, VALS 144 144 144 144 144
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007302839
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 34 36 30 6e 70 
+Calculated 706e
+Got 706e
+D: S=1, bin=855
+D: S=1, bin=419
+D: S=1, bin=183
+D: S=2, bin=508
+D: S=3, bin=175
+D: S=4, bin=184
+D: D=5, adv to SYNC, VALS 181 183 508 175 184
+
+--------Header--------
+Payload length: 4
+CRC presence:   1
+Coding rate:    1
+[31mHeader checksum invalid![0m
+
+D: S=1, bin=697
+D: S=1, bin=141
+D: S=1, bin=307
+D: S=2, bin=307
+D: S=3, bin=307
+D: S=4, bin=307
+D: D=5, adv to SYNC, VALS 307 307 307 307 307
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007304840
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 34 36 32 6c 70 
+Calculated 706c
+Got 706c
+D: S=1, bin=105
+D: S=2, bin=105
+D: S=3, bin=105
+D: S=4, bin=105
+D: D=5, adv to SYNC, VALS 105 105 105 105 105
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007305840
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 34 36 33 6d 70 
+Calculated 706d
+Got 706d
+D: S=1, bin=547
+D: S=1, bin=124
+D: S=2, bin=124
+D: S=3, bin=124
+D: S=4, bin=123
+D: D=5, adv to SYNC, VALS 933 124 124 124 123
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007306840
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 34 36 34 6a 70 
+Calculated 706a
+Got 706a
+D: S=1, bin=218
+D: S=1, bin=291
+D: S=2, bin=175
+D: S=1, bin=512
+D: S=1, bin=165
+D: S=1, bin=601
+D: S=1, bin=63
+D: S=2, bin=63
+D: S=3, bin=63
+D: S=4, bin=63
+D: D=5, adv to SYNC, VALS 63 63 63 63 63
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007307841
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 34 36 35 6b 70 
+Calculated 706b
+Got 706b
+D: S=1, bin=265
+D: S=1, bin=741
+D: S=1, bin=109
+D: S=2, bin=109
+D: S=3, bin=109
+D: S=4, bin=109
+D: D=5, adv to SYNC, VALS 109 109 109 109 109
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007308841
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 34 36 36 68 70 
+Calculated 7068
+Got 7068
+D: S=1, bin=117
+D: S=1, bin=187
+D: S=1, bin=302
+D: S=1, bin=467
+D: S=1, bin=434
+D: S=1, bin=131
+D: S=2, bin=131
+D: S=3, bin=131
+D: S=4, bin=131
+D: D=5, adv to SYNC, VALS 131 131 131 131 131
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007309841
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 34 36 37 69 70 
+Calculated 7069
+Got 7069
+D: S=1, bin=993
+D: S=1, bin=118
+D: S=2, bin=118
+D: S=3, bin=118
+D: S=4, bin=118
+D: D=5, adv to SYNC, VALS 118 118 118 118 118
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007310842
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 73 75 7c 3b 21 34 36 38 66 70 
+Calculated 385
+Got 7066
+D: S=1, bin=118
+D: S=1, bin=945
+D: S=1, bin=102
+D: S=2, bin=103
+D: S=3, bin=102
+D: S=4, bin=102
+D: D=5, adv to SYNC, VALS 102 102 103 102 102
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007311842
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 34 36 39 67 70 
+Calculated 7067
+Got 7067
+D: S=1, bin=130
+D: S=2, bin=130
+D: S=3, bin=130
+D: S=4, bin=157
+D: D=5, adv to SYNC, VALS 130 130 130 130 157
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007312843
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 34 37 30 6e 71 
+Calculated 716e
+Got 716e
+D: S=1, bin=806
+D: S=1, bin=124
+D: S=2, bin=124
+D: S=3, bin=124
+D: S=4, bin=124
+D: D=5, adv to SYNC, VALS 124 124 124 124 124
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007313843
+Raw Data 30 30 50 20 6e 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 34 37 31 6f 71 
+Calculated b034
+Got 716f
+D: S=1, bin=7
+D: S=1, bin=771
+D: S=1, bin=102
+D: S=1, bin=102
+D: S=2, bin=102
+D: S=3, bin=102
+D: S=1, bin=793
+D: S=1, bin=797
+D: S=1, bin=1018
+D: S=2, bin=1018
+D: S=3, bin=1018
+D: S=4, bin=1018
+D: D=5, adv to SYNC, VALS 1018 1018 1018 1018 1018
+D: S=1, bin=438
+D: S=1, bin=724
+D: S=2, bin=886
+D: S=1, bin=334
+D: S=1, bin=768
+D: S=2, bin=256
+D: S=1, bin=806
+D: S=1, bin=988
+D: S=1, bin=154
+D: S=1, bin=919
+D: S=2, bin=523
+D: S=3, bin=919
+D: S=4, bin=919
+D: D=5, adv to SYNC, VALS 919 919 523 919 919
+D: S=1, bin=617
+D: S=1, bin=304
+D: S=1, bin=628
+D: S=1, bin=770
+D: S=1, bin=769
+D: S=1, bin=800
+D: S=2, bin=801
+D: S=3, bin=800
+D: S=4, bin=800
+D: D=5, adv to SYNC, VALS 800 800 801 800 800
+D: S=1, bin=860
+D: S=1, bin=95
+D: S=1, bin=333
+D: S=1, bin=982
+D: S=1, bin=309
+D: S=1, bin=1022
+D: S=1, bin=0
+D: S=2, bin=0
+D: S=3, bin=0
+D: S=4, bin=0
+D: D=5, adv to SYNC, VALS 0 0 0 0 0
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007318845
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 34 37 36 68 71 
+Calculated 7168
+Got 7168
+D: S=1, bin=490
+D: S=1, bin=754
+D: S=1, bin=137
+D: S=2, bin=137
+D: S=3, bin=137
+D: S=4, bin=359
+D: D=5, adv to SYNC, VALS 137 137 137 137 359
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007319845
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 34 37 37 69 71 
+Calculated 7169
+Got 7169
+D: S=1, bin=551
+D: S=1, bin=786
+D: S=1, bin=130
+D: S=2, bin=129
+D: S=3, bin=130
+D: S=4, bin=129
+D: D=5, adv to SYNC, VALS 129 130 129 130 129
+D: S=1, bin=886
+D: S=1, bin=768
+D: S=1, bin=812
+D: S=1, bin=883
+D: S=2, bin=883
+D: S=3, bin=883
+D: S=4, bin=881
+D: D=5, adv to SYNC, VALS 883 883 883 883 881
+D: S=1, bin=32
+D: S=1, bin=536
+D: S=1, bin=627
+D: S=1, bin=543
+D: S=2, bin=565
+D: S=1, bin=770
+D: S=1, bin=654
+D: S=1, bin=194
+D: S=1, bin=922
+D: S=2, bin=922
+D: S=3, bin=925
+D: S=4, bin=922
+D: D=5, adv to SYNC, VALS 923 922 922 925 922
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007322846
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 34 38 30 6e 7e 
+Calculated 7e6e
+Got 7e6e
+D: S=1, bin=664
+D: S=1, bin=129
+D: S=2, bin=129
+D: S=3, bin=129
+D: S=4, bin=129
+D: D=5, adv to SYNC, VALS 129 129 129 129 129
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007323847
+Raw Data 30 30 3 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 34 38 31 6f 7e 
+Calculated f33c
+Got 7e6f
+D: S=1, bin=655
+D: S=1, bin=611
+D: S=1, bin=95
+D: S=2, bin=95
+D: S=3, bin=95
+D: S=4, bin=95
+D: D=5, adv to SYNC, VALS 95 95 95 95 95
+D: S=1, bin=861
+D: S=1, bin=723
+D: S=1, bin=492
+D: S=1, bin=255
+D: S=2, bin=769
+D: S=3, bin=896
+D: S=1, bin=869
+D: S=1, bin=916
+D: S=2, bin=916
+D: S=3, bin=916
+D: S=4, bin=916
+D: D=5, adv to SYNC, VALS 916 916 916 916 916
+D: S=1, bin=93
+D: S=1, bin=491
+D: S=1, bin=914
+D: S=2, bin=917
+D: S=3, bin=788
+D: S=4, bin=916
+D: D=5, adv to SYNC, VALS 116 914 917 788 916
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007326848
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 34 38 34 6a 7e 
+Calculated 7e6a
+Got 7e6a
+D: S=1, bin=505
+D: S=1, bin=102
+D: S=2, bin=100
+D: S=3, bin=102
+D: S=4, bin=721
+D: D=5, adv to SYNC, VALS 101 102 100 102 721
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007327848
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 34 38 35 6b 7e 
+Calculated 7e6b
+Got 7e6b
+D: S=1, bin=864
+D: S=1, bin=132
+D: S=2, bin=132
+D: S=3, bin=132
+D: S=4, bin=132
+D: D=5, adv to SYNC, VALS 132 132 132 132 132
+D: S=1, bin=861
+D: S=1, bin=994
+D: S=1, bin=570
+D: S=1, bin=915
+D: S=2, bin=915
+D: S=3, bin=915
+D: S=4, bin=915
+D: D=5, adv to SYNC, VALS 915 915 915 915 915
+D: S=1, bin=605
+D: S=1, bin=865
+D: S=1, bin=323
+D: S=2, bin=724
+D: S=1, bin=965
+D: S=1, bin=885
+D: S=2, bin=885
+D: S=3, bin=885
+D: S=4, bin=885
+D: D=5, adv to SYNC, VALS 885 885 885 885 885
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007330849
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 7f 73 7c 65 3a 20 34 38 38 66 7e 
+Calculated 7e53
+Got 7e66
+D: S=1, bin=145
+D: S=2, bin=145
+D: S=3, bin=145
+D: S=4, bin=145
+D: D=5, adv to SYNC, VALS 232 145 145 145 145
+D: S=1, bin=256
+D: S=1, bin=308
+D: S=1, bin=565
+D: S=1, bin=896
+D: S=1, bin=624
+D: S=1, bin=462
+D: S=1, bin=928
+D: S=2, bin=928
+D: S=3, bin=928
+D: S=4, bin=928
+D: D=5, adv to SYNC, VALS 831 928 928 928 928
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007332849
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 34 39 30 6e 7f 
+Calculated 7f6e
+Got 7f6e
+D: S=1, bin=143
+D: S=2, bin=143
+D: S=3, bin=141
+D: S=4, bin=143
+D: D=5, adv to SYNC, VALS 143 143 143 141 143
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007333850
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 34 39 31 6f 7f 
+Calculated 7f6f
+Got 7f6f
+D: S=1, bin=434
+D: S=1, bin=880
+D: S=1, bin=147
+D: S=2, bin=147
+D: S=3, bin=147
+D: S=4, bin=147
+D: D=5, adv to SYNC, VALS 15 147 147 147 147
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007334849
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 34 39 32 6c 7f 
+Calculated 7f6c
+Got 7f6c
+D: S=1, bin=564
+D: S=1, bin=152
+D: S=2, bin=152
+D: S=3, bin=152
+D: S=4, bin=152
+D: D=5, adv to SYNC, VALS 152 152 152 152 152
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007335850
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 34 39 33 ed 7f 
+Calculated 7f6d
+Got 7fed
+D: S=1, bin=89
+D: S=2, bin=91
+D: S=3, bin=186
+D: S=1, bin=90
+D: S=2, bin=90
+D: S=3, bin=89
+D: S=1, bin=857
+D: S=1, bin=985
+D: S=1, bin=26
+D: S=2, bin=26
+D: S=3, bin=26
+D: S=4, bin=26
+D: D=5, adv to SYNC, VALS 26 26 26 26 26
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007337850
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 ec 64 3a 20 34 39 35 6b 7f 
+Calculated 5dbb
+Got 7f6b
+D: S=1, bin=26
+D: S=1, bin=83
+D: S=1, bin=106
+D: S=2, bin=106
+D: S=3, bin=106
+D: S=4, bin=106
+D: D=5, adv to SYNC, VALS 106 106 106 106 106
+D: S=1, bin=606
+D: S=2, bin=861
+D: S=1, bin=921
+D: S=1, bin=724
+D: S=2, bin=889
+D: S=1, bin=95
+D: S=1, bin=128
+D: S=1, bin=247
+D: S=1, bin=959
+D: S=2, bin=959
+D: S=3, bin=958
+D: S=4, bin=959
+D: D=5, adv to SYNC, VALS 959 959 959 958 959
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007339851
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 34 39 37 69 7f 
+Calculated 7f69
+Got 7f69
+D: S=1, bin=276
+D: S=1, bin=86
+D: S=2, bin=47
+D: S=3, bin=86
+D: S=4, bin=86
+D: D=5, adv to SYNC, VALS 86 86 47 86 86
+D: S=1, bin=605
+D: S=2, bin=861
+D: S=1, bin=538
+D: S=1, bin=455
+D: S=2, bin=438
+D: S=1, bin=481
+D: S=1, bin=95
+D: S=1, bin=627
+D: S=1, bin=757
+D: S=1, bin=80
+D: S=1, bin=768
+D: S=2, bin=256
+D: S=3, bin=769
+D: S=4, bin=896
+D: D=5, adv to SYNC, VALS 770 768 256 769 896
+D: S=1, bin=944
+D: S=2, bin=24
+D: S=3, bin=24
+D: S=4, bin=209
+D: D=5, adv to SYNC, VALS 27 944 24 24 209
+D: S=1, bin=865
+D: S=1, bin=456
+D: S=1, bin=309
+D: S=1, bin=544
+D: S=1, bin=81
+D: S=1, bin=770
+D: S=1, bin=896
+D: S=1, bin=852
+D: S=2, bin=850
+D: S=3, bin=851
+D: S=4, bin=851
+D: D=5, adv to SYNC, VALS 850 852 850 851 851
+D: S=1, bin=482
+D: S=1, bin=768
+D: S=1, bin=830
+D: S=1, bin=802
+D: S=1, bin=658
+D: S=1, bin=8
+D: S=2, bin=8
+D: S=3, bin=8
+D: S=4, bin=8
+D: D=5, adv to SYNC, VALS 8 8 8 8 8
+D: S=1, bin=482
+D: S=1, bin=768
+D: S=1, bin=913
+D: S=2, bin=915
+D: S=3, bin=914
+D: S=4, bin=914
+D: D=5, adv to SYNC, VALS 914 913 915 914 914
+D: S=1, bin=862
+D: S=1, bin=724
+D: S=1, bin=95
+D: S=1, bin=109
+D: S=1, bin=767
+D: S=2, bin=766
+D: S=1, bin=769
+D: S=1, bin=889
+D: S=2, bin=889
+D: S=3, bin=889
+D: S=4, bin=889
+D: D=5, adv to SYNC, VALS 889 889 889 889 889
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007345852
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 35 30 33 4c 66 
+Calculated 664c
+Got 664c
+D: S=1, bin=900
+D: S=1, bin=632
+D: S=1, bin=40
+D: S=2, bin=41
+D: S=3, bin=40
+D: S=4, bin=41
+D: D=5, adv to SYNC, VALS 41 40 41 40 41
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007346854
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 35 30 34 4b 66 
+Calculated 664b
+Got 664b
+D: S=1, bin=670
+D: S=1, bin=85
+D: S=1, bin=222
+D: S=2, bin=222
+D: S=3, bin=222
+D: S=4, bin=222
+D: D=5, adv to SYNC, VALS 222 222 222 222 222
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007347853
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 35 30 35 4a 66 
+Calculated 664a
+Got 664a
+D: S=1, bin=614
+D: S=1, bin=96
+D: S=2, bin=96
+D: S=3, bin=96
+D: S=4, bin=96
+D: D=5, adv to SYNC, VALS 96 96 96 96 96
+D: S=1, bin=886
+D: S=1, bin=768
+D: S=1, bin=769
+D: S=1, bin=13
+D: S=1, bin=557
+D: S=1, bin=918
+D: S=2, bin=918
+D: S=3, bin=918
+D: S=1, bin=918
+D: S=2, bin=915
+D: S=1, bin=71
+D: S=2, bin=71
+D: S=1, bin=755
+D: S=2, bin=815
+D: S=1, bin=67
+D: S=1, bin=331
+D: S=1, bin=780
+D: S=1, bin=375
+D: S=1, bin=522
+D: S=1, bin=1008
+D: S=2, bin=123
+D: S=1, bin=5
+D: S=2, bin=5
+D: S=3, bin=662
+D: S=1, bin=663
+D: S=1, bin=275
+D: S=1, bin=106
+D: S=1, bin=297
+D: S=1, bin=809
+D: S=2, bin=809
+D: S=3, bin=809
+D: S=4, bin=809
+D: D=5, adv to SYNC, VALS 809 809 809 809 809
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007350854
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 35 30 38 47 66 
+Calculated 6647
+Got 6647
+D: S=1, bin=227
+D: S=1, bin=97
+D: S=1, bin=47
+D: S=1, bin=93
+D: S=2, bin=412
+D: S=3, bin=93
+D: S=4, bin=95
+D: D=5, adv to SYNC, VALS 93 93 412 93 95
+
+--------Header--------
+Payload length: 20
+CRC presence:   1
+Coding rate:    1
+Header checksum valid!
+
+Time: 1676007351855
+Raw Data 30 30 30 20 68 65 6c 6c 6f 20 77 6f 72 6c 64 3a 20 35 30 39 46 66 
+Calculated 6646
+Got 6646
+D: S=1, bin=250
+D: S=1, bin=129
+D: S=2, bin=129
+D: S=3, bin=129
+D: S=4, bin=309
+D: D=5, adv to SYNC, VALS 132 129 129 129 309
+D: S=1, bin=768
+D: S=1, bin=769
+D: S=1, bin=414
+D: S=1, bin=282
+D: S=1, bin=56
+D: S=1, bin=527
+D: S=1, bin=673
+D: S=1, bin=542
+D: S=1, bin=595
+D: S=1, bin=619
+D: S=1, bin=126
+D: S=1, bin=472
+D: S=1, bin=971
+D: S=1, bin=530
+D: S=1, bin=339
+D: S=1, bin=1013
+D: S=1, bin=58
+D: S=1, bin=739
+D: S=1, bin=411
+D: S=1, bin=801
+D: S=1, bin=193

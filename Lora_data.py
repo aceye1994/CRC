@@ -89,7 +89,7 @@ class Lora_data:
 			recover_symbol_list = lora_data_copies.recover_symbol_list
 			self.need_crc_set = lora_data_copies.need_crc_set
 		if self.getRecoverType() == 4:
-			print("Time exceed, Fail to recover")
+			# print("Time exceed, Fail to recover")
 			return []
 		initial_candidate_correction = "0x"
 		for i in range(0, self.data_symbol_size):

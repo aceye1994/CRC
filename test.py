@@ -183,6 +183,6 @@ files= ["log/r-11ah-1.txt", "log/r-11ah-2.txt", "log/r-11ah-3.txt"]
 # files = ["log/sdr-test-0208/A1.txt", "log/sdr-test-0208/A2.txt", "log/sdr-test-0208/A3.txt"]
 log = processLog(files)
 log.recoverAll()
-log.display()
+# log.display()
 
 
