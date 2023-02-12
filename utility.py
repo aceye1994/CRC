@@ -4,6 +4,7 @@ bit_dict = {}
 bit_list = []
 
 def construct_bit_string(symbol_factor):
+    bit_list.append("0".zfill(symbol_factor))
     a = "1"
     while(len(a) <= symbol_factor):
         single_bitstring = a.zfill(symbol_factor)

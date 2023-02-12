@@ -97,12 +97,15 @@ class processLog:
 		self.process()
 		recover_time_record = {}
 		for lora_pkt in self.lora_pkt_list:
-			if lora_pkt.num_copies >= 2:
+			if lora_pkt.num_copies >= 2 or lora_pkt.crcCheckAll():
 				# print("here")
 				# lora_pkt.display()
 				# print(lora_pkt.num_copies)
 				st = time.time()
-				lora_pkt.crcRecover()
+				if lora_pkt.num_copies == 1:
+					lora_pkt.recover_type = 0
+				else:
+					lora_pkt.crcRecover()
 				et = time.time()
 				elapsed_time = et - st
 				recover_type = lora_pkt.recover_type
@@ -149,7 +152,7 @@ class processLog:
 				succeed += 1
 			else:
 				failure += 1
-				if self.lora_pkt_list[i].recover_type < 4 and self.lora_pkt_list[i].recover_type > -1:
+				if self.lora_pkt_list[i].recover_type < 4 and self.lora_pkt_list[i].recover_type > 0:
 					print(i)
 					print(recover_msg_map)
 					print(self.lora_pkt_list[i].recover_type)

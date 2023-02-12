@@ -185,12 +185,16 @@ log = processLog(files)
 log.recoverAll()
 log.display()
 
-# origin_input_string = "0x3030302068656c6c6f20776f726c643a2039"
+# print(crc16("0x000000000c0000000000000000000000000000"))
+# origin_input_string = "0x3030302068656c6c6f20776f726c643a203832"
 # crc_code = crc16(origin_input_string)
 # print(crc_code)
-# corrupt_input_string_1 = "0x3030302068656c6c6f20776f726c643a2039"
-# corrupt_input_string_2 = "0x303030a0e8656c6c6f20776f726c643a2039"
-# lora_data_copies = Lora_data_copies([Lora_data(corrupt_input_string_1, "0x17cb"), Lora_data(corrupt_input_string_2, "0x14c8")])
+# corrupt_input_string_1 = "0x3030302064656c6c6f20776f726c643a203832"
+# print(bintohex(xor(hextobin("0x9b87"),hextobin("0x3832"))))
+# print(bintohex(xor(hextobin("0x9570"), hextobin("0x3832"))))
+# print(bintohex(xor(hextobin("0x9b87"), hextobin("0x9570"))))
+# corrupt_input_string_2 = "0x3030302068656c6c6f20776f726c643ab03132"
+# lora_data_copies = Lora_data_copies([Lora_data(corrupt_input_string_1, "0x9b87"), Lora_data(corrupt_input_string_2, "0x9b87")])
 # lora_data_copies.crcRecover()
 # print(lora_data_copies.getRecoverAns())
 

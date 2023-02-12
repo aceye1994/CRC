@@ -19,7 +19,7 @@ class Lora_data:
 		# print(self.crc_error_code)
 		bit_string = ""
 		data_bit_size = len(hextobin(self.data_word))
-		print(self.data_word)
+		# print(self.data_word)
 		# TODO: check whether data word will pad with 0 if its size is not a multiplier of SF
 		self.data_symbol_size = int(data_bit_size / SF)
 		binary_data_word = hextobin(self.data_word)
@@ -39,7 +39,7 @@ class Lora_data:
 		for i in range(0, list_size):
 			if (self.data_symbol_size != lora_copies[i].data_symbol_size):
 				raise Exception("Date copies are with inconsistent data len")
-		for i in range(0, self.data_symbol_size):
+		for i in range(0, self.data_symbol_size - 2):
 			symbol = self.symbol_list[i]
 			record = {}
 			record[symbol] = 1;
@@ -64,6 +64,7 @@ class Lora_data:
 			else:
 				self.need_crc_set.add(i)
 		# print(recover_symbol_list)
+		# print(self.need_crc_set)
 		return recover_symbol_list
 
 	def getRecoverType(self):
@@ -126,6 +127,7 @@ class Lora_data:
 				initial_candidate_correction += self.symbol_list[i][2:]
 		# print(initial_candidate_correction)
 		self.crc_error_code = get_crc_error_code(initial_candidate_correction, self.frame_check_seq)
+		print(self.crc_error_code)
 		if self.crc_error_code == '0x0':
 			recover_data_word = [initial_candidate_correction]
 			# print("CRC recover of this data word is: ")
@@ -144,14 +146,13 @@ class Lora_data:
 		# print("path: " + path_string)
 		if index == self.data_symbol_size:
 			# print(len(path_string))
-			# print(bintohex(path_string))
 			bit_string_crc = crc16(bintohex(path_string))
-			# print(bit_string_crc)
 			if bit_string_crc == self.crc_error_code:
 				result.append(path_string)
 			return
 		else:
 			if index in self.need_crc_set and index < self.data_symbol_size - 2:
+				# print(bit_list)
 				for symbol_bit_string in bit_list:
 					# print(symbol_bit_string)
 					path_string += symbol_bit_string

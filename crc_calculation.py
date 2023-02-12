@@ -88,7 +88,7 @@ def crc16(origin_string):
             newByte <<= 1
         # print(hex(crc))
     result = crc ^ data[len1 - 1] ^ (data[len1 - 2] << 8)
-    return hex(result & 0xffff)
+    return "0x" + hex(result & 0xffff)[2:].zfill(4)
 
 def crc_check(input_bitstring, check_value):
     """Calculate the CRC check of a string of bits using a chosen polynomial."""
@@ -113,7 +113,7 @@ def get_crc_error_code(input_bitstring, check_value):
     int_val2 = int(check_value, 16)
     xor_result = int_val1 ^ int_val2
     hex_result = hex(xor_result)
-    return hex_result
+    return "0x" + hex_result[2:].zfill(4)
 
 def construct_bit_string(input_bitstring, dist):
     input_bitstring = hextobin(input_bitstring)
