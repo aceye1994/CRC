@@ -8,8 +8,9 @@ CODEWORD = "Raw"
 CHECK = "checksum invalid"
 TIMESTAMP = "Time"
 FCS = "Got"
-DELTA = 10
+DELTA = 100
 GAP = 1000
+OFFSET = 156
 
 class processLog:
 
@@ -45,6 +46,7 @@ class processLog:
 		data_word_list = []
 		fcs_list = []
 		while i < len(lines):
+			# print(i)
 			payload_len = -1
 			line = lines[i].strip()
 			# print(line)
@@ -64,14 +66,19 @@ class processLog:
 				if timer == 0:
 					timer = cur_timer
 				else:
-					while cur_timer - timer > GAP + DELTA:
+					# while cur_timer - timer > GAP + DELTA:
+					# 	data_word_list.append("xxxx")
+					# 	fcs_list.append("xxxx")
+					# 	timer += GAP + DELTA
+					gaps = round((cur_timer - timer) / GAP)
+					for j in range(1, gaps):
+						# print(round)
 						data_word_list.append("xxxx")
 						fcs_list.append("xxxx")
-						timer += GAP + DELTA
 					timer = cur_timer
 			i += 1
-		# print(len(data_word_list))
-		# print(len(fcs_list))
+		print(len(data_word_list))
+		print(len(fcs_list))
 		# print(data_word_list)
 		# print(fcs_list)
 		self.data_word_list_copies.append(data_word_list)
@@ -120,15 +127,20 @@ class processLog:
 				else:
 					recover_time_record[recover_type] = (elapsed_time, 1)
 			else:
+				recover_type = -2
+				if lora_pkt.num_copies == 0:
+					recover_type = 5
+				else:
+					recover_type = 6
 				# print("there")
 				# lora_pkt.display()
 				# print(lora_pkt.num_copies)
-				if 5 in recover_time_record.keys():
-					type_tuple = recover_time_record[5]
+				if recover_type in recover_time_record.keys():
+					type_tuple = recover_time_record[recover_type]
 					frequence = type_tuple[1]
-					recover_time_record[5] = (9999, frequence + 1)
+					recover_time_record[recover_type] = (9999, frequence + 1)
 				else:
-					recover_time_record[5] = (9999, 1)
+					recover_time_record[recover_type] = (9999, 1)
 				# print("More than 2 copies corrupt and get nothing")
 			self.recover_lst.append(lora_pkt.getRecoverAns())
 		# print(self.recover_lst)
@@ -146,7 +158,7 @@ class processLog:
 			# print(self.lora_pkt_list[i].recover_type)
 			recover_msg_map = self.recover_lst[i]
 			# print(recover_msg_map)
-			msg = "hello world: " + str(i + 1)
+			msg = "hello world: " + str(i + OFFSET)
 			hex_msg =  "0x30303020" + msg.encode('utf-8').hex()
 			if self.checkRecoveryOne(recover_msg_map, hex_msg):
 				succeed += 1

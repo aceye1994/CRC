@@ -1,17 +1,17 @@
 import math
 
 # Assume 3 copies of Lora data
-# Spreading Factor
+# Spreading Factor 7,10
 SF = 8
-# num_data_word_symbol
-M = 20 - 2
+# num_data_word_symbol 20,40 bytes 
+M = 40 - 2
 # num_fcs_symbol
 m = 2 + 2
-# decode symbols
-t = 5
+# preamble
+t = 8
 # prob_symbol_transmit_correct
 p0 = 0.95
-# num_bits 
+# num_bits
 N = 2 ** SF
 # decode probability
 DECODE_PASS = p0**t
